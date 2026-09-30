@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCYlq-KmwPjc1DtsGmthFqSQ"/>
+ <id>yt:channel:Ylq-KmwPjc1DtsGmthFqSQ</id>
+ <yt:channelId>UCYlq-KmwPjc1DtsGmthFqSQ</yt:channelId>
+ <title>Figure</title>
+ <entry>
+  <id>yt:video:vid001</id>
+  <yt:videoId>vid001</yt:videoId>
+  <title>Helix: 8 Hours of Autonomous Laundry</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=vid001"/>
+  <author><name>Figure</name></author>
+  <published>{ISO:5}</published>
+  <updated>{ISO:5}</updated>
+  <media:group>
+   <media:title>Helix: 8 Hours of Autonomous Laundry</media:title>
+   <media:description>Figure 03 running Helix fully autonomously for 8 hours, folding towels and shirts.</media:description>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:vid000</id>
+  <yt:videoId>vid000</yt:videoId>
+  <title>Introducing Figure 03</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=vid000"/>
+  <author><name>Figure</name></author>
+  <published>{ISO:2000}</published>
+  <updated>{ISO:2000}</updated>
+  <media:group><media:description>Old launch video.</media:description></media:group>
+ </entry>
+</feed>

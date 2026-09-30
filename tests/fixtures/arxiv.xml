@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:arxiv="http://arxiv.org/schemas/atom">
+  <title>arXiv Query: cat:cs.RO</title>
+  <entry>
+    <id>http://arxiv.org/abs/2609.11111v1</id>
+    <published>{ISO:20}</published>
+    <updated>{ISO:20}</updated>
+    <title>Scaling Cross-Embodiment VLA Pretraining with
+      Heterogeneous Robot Data</title>
+    <summary>We present a generalist vision-language-action model trained by Physical Intelligence on 10k hours of robot data.</summary>
+    <author><name>Kevin Black</name></author>
+    <author><name>Sergey Levine</name></author>
+    <arxiv:comment>Project page: https://www.pi.website/research/xembody</arxiv:comment>
+    <category term="cs.RO"/><category term="cs.LG"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.22222v2</id>
+    <published>{ISO:22}</published>
+    <updated>{ISO:22}</updated>
+    <title>Whole-Body Humanoid Teleoperation with Diffusion Policies</title>
+    <summary>All experiments run on a single NVIDIA RTX 4090 GPU. We evaluate on a Unitree G1.</summary>
+    <author><name>Jane Doe</name></author>
+    <category term="cs.RO"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.33333v1</id>
+    <published>{ISO:23}</published>
+    <updated>{ISO:23}</updated>
+    <title>World Models for Dexterous Manipulation from Human Video</title>
+    <summary>We fine-tune GR00T on egocentric human videos and show improved dexterity.</summary>
+    <author><name>Alex Kim</name></author>
+    <category term="cs.RO"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.44444v1</id>
+    <published>{ISO:21}</published>
+    <updated>{ISO:21}</updated>
+    <title>Path Planning for Agricultural Drones</title>
+    <summary>A lightweight planner for orchard spraying drones.</summary>
+    <author><name>Sam Lee</name></author>
+    <category term="cs.RO"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.00001v1</id>
+    <published>{ISO:900}</published>
+    <updated>{ISO:900}</updated>
+    <title>Very Old Paper</title>
+    <summary>Physical Intelligence old.</summary>
+    <author><name>Old Author</name></author>
+    <category term="cs.RO"/>
+  </entry>
+</feed>

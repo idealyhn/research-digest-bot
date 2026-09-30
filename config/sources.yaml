@@ -1,0 +1,357 @@
+# ---------------------------------------------------------------------------
+# Research Digest Bot - source configuration
+#
+# Each source has:
+#   id        unique key (used for dedupe state - don't rename casually)
+#   org       organization name shown in Slack
+#   group     one of the digest sections defined under `groups`
+#   type      rss | youtube | arxiv | github_org | huggingface | webpage
+#   enabled   (optional, default true)
+#   include   (optional) keep only items whose title/summary match ANY of these
+#             case-insensitive regexes
+#   exclude   (optional) drop items matching ANY of these regexes
+#
+# The first time a source is seen, all current items are marked as "seen"
+# without posting (bootstrap), so day one doesn't flood the channel.
+# ---------------------------------------------------------------------------
+
+settings:
+  timezone: Asia/Seoul
+  post_at: "08:00"            # digest is held until this local time (see README)
+  max_age_days: 4             # ignore dated items older than this, even if unseen
+  post_when_empty: true       # post a short "nothing new" note on quiet days
+  language: English
+  llm:
+    model: claude-sonnet-5-5  # override with env ANTHROPIC_MODEL
+    max_items_for_summary: 60
+  # What you care about - used to rank items and pick notable arXiv papers
+  interest_profile: >
+    Humanoid robots, robot foundation models / vision-language-action (VLA)
+    models, whole-body control, dexterous manipulation, sim-to-real and
+    large-scale robot simulation, world models for robotics, robot learning
+    from human video, and embodied AI announcements from major labs.
+
+groups:
+  - key: humanoid
+    title: Humanoid Companies
+  - key: foundation
+    title: Robot Foundation Model Labs
+  - key: bigtech
+    title: Big Tech AI Research
+  - key: arxiv
+    title: New arXiv Papers
+  - key: code
+    title: New Code & Model Releases
+
+sources:
+  # ----------------------------- Humanoid companies -------------------------
+  - id: figure-news
+    org: Figure AI
+    group: humanoid
+    type: webpage
+    url: https://www.figure.ai/news
+    link_pattern: '^/news/[^/?#]+/?$'
+
+  - id: figure-youtube
+    org: Figure AI
+    group: humanoid
+    type: youtube
+    channel_id: UCYlq-KmwPjc1DtsGmthFqSQ
+
+  - id: tesla-optimus-youtube
+    org: Tesla Optimus
+    group: humanoid
+    type: youtube
+    channel_id: UC5WjFrtBdufl6CZojX3D8dQ
+    include: ['optimus', 'humanoid', 'robot']
+
+  - id: 1x-discover
+    org: 1X
+    group: humanoid
+    type: webpage
+    url: https://www.1x.tech/discover
+    link_pattern: '^/discover/[^/?#]+/?$'
+
+  - id: 1x-youtube
+    org: 1X
+    group: humanoid
+    type: youtube
+    channel_id: UCoHslVexR2q57wUoCRfdUsg
+
+  - id: bostondynamics-blog
+    org: Boston Dynamics
+    group: humanoid
+    type: webpage
+    url: https://bostondynamics.com/blog/
+    link_pattern: '^/blog/[^/?#]+/?$'
+
+  - id: bostondynamics-youtube
+    org: Boston Dynamics
+    group: humanoid
+    type: youtube
+    channel_id: UC7vVhkEfw4nOGp8TyDk7RcQ
+
+  - id: agility-youtube
+    org: Agility Robotics
+    group: humanoid
+    type: youtube
+    channel_id: UCN-StetwWuVYf-MU2_NVj4A
+
+  - id: unitree-youtube
+    org: Unitree
+    group: humanoid
+    type: youtube
+    channel_id: UCsMbp4V8oxzHCMdOUP-3oWw
+
+  - id: apptronik-news
+    org: Apptronik
+    group: humanoid
+    type: webpage
+    url: https://apptronik.com/news
+    link_pattern: '^/news/[^/?#]+/?$'
+
+  # ----------------------- Robot foundation model labs ----------------------
+  - id: pi-blog
+    org: Physical Intelligence
+    group: foundation
+    type: webpage
+    url: https://www.pi.website/blog
+    link_pattern: '^/blog/[^/?#]+/?$'
+
+  - id: skild-blog
+    org: Skild AI
+    group: foundation
+    type: webpage
+    url: https://www.skild.ai/blogs
+    link_pattern: '^/blogs/[^/?#]+/?$'
+
+  - id: tri-news
+    org: Toyota Research Institute
+    group: foundation
+    type: webpage
+    url: https://www.tri.global/news
+    link_pattern: '^/news/[^/?#]+/?$'
+
+  - id: nvidia-gear
+    org: NVIDIA GEAR Lab
+    group: foundation
+    type: webpage
+    url: https://research.nvidia.com/labs/gear/
+    link_pattern: '^/labs/gear/[^/?#]+/?$'
+
+  # --------------------------- Big tech AI research --------------------------
+  - id: nvidia-newsroom-robotics
+    org: NVIDIA
+    group: bigtech
+    type: rss
+    url: https://nvidianews.nvidia.com/cats/robotics.xml
+
+  - id: nvidia-blog
+    org: NVIDIA
+    group: bigtech
+    type: rss
+    url: https://feeds.feedburner.com/nvidiablog
+    include: ['robot', 'humanoid', 'physical ai', 'isaac', 'gr00t', 'cosmos',
+              'omniverse', 'research', 'embodied', 'autonomous']
+
+  - id: nvidia-developer-blog
+    org: NVIDIA
+    group: bigtech
+    type: rss
+    url: https://developer.nvidia.com/blog/feed
+    include: ['robot', 'humanoid', 'physical ai', 'isaac', 'gr00t', 'cosmos',
+              'jetson thor', 'sim-to-real', 'manipulation', 'embodied']
+
+  - id: nvidia-youtube
+    org: NVIDIA
+    group: bigtech
+    type: youtube
+    channel_id: UCHuiy8bXnmK5nisYHUd1J5g
+    include: ['robot', 'humanoid', 'physical ai', 'isaac', 'gr00t', 'cosmos',
+              'keynote', 'gtc']
+
+  - id: deepmind-blog
+    org: Google DeepMind
+    group: bigtech
+    type: rss
+    url: https://deepmind.google/blog/rss.xml
+
+  - id: deepmind-youtube
+    org: Google DeepMind
+    group: bigtech
+    type: youtube
+    channel_id: UCP7jMXSY2xbc3KCAE0MHQ-A
+
+  - id: google-research-blog
+    org: Google Research
+    group: bigtech
+    type: rss
+    url: https://research.google/blog/rss/
+    include: ['robot', 'embodied', 'manipulation', 'world model', 'agent',
+              'vision-language', 'reinforcement']
+
+  - id: meta-ai-blog
+    org: Meta AI (FAIR)
+    group: bigtech
+    type: webpage
+    url: https://ai.meta.com/blog/
+    link_pattern: '^/blog/[^/?#]+/?$'
+
+  - id: openai-news
+    org: OpenAI
+    group: bigtech
+    type: rss
+    url: https://openai.com/news/rss.xml
+    exclude: ['customer stor', 'case study', 'webinar']
+
+  # ------------------------------- arXiv papers ------------------------------
+  - id: arxiv-robotics
+    org: arXiv
+    group: arxiv
+    type: arxiv
+    # cs.RO plus robot-related papers in cs.LG / cs.CV / cs.AI
+    query: 'cat:cs.RO OR ((cat:cs.LG OR cat:cs.CV OR cat:cs.AI) AND (abs:robot OR abs:robots OR abs:robotic OR abs:humanoid OR abs:embodied))'
+    max_results: 400
+    lookback_hours: 120       # arXiv announces with 1-3 day lag; dedupe prevents repeats
+    max_age_days: 6
+    llm_pick: 6               # also let the LLM pick N notable papers from the rest
+    check_affiliations: true  # confirm "weak" mentions via the arXiv HTML author block
+    # strong: phrase/domain that almost always means the org's own work
+    # weak:   mention that needs confirming (could be "trained on NVIDIA GPUs")
+    # affiliation: what to look for in the author/affiliation block (default: org name)
+    # authors: arXiv author names (case-insensitive exact match) - edit freely
+    watch:
+      NVIDIA:
+        strong: ['research.nvidia.com', 'nvlabs.github.io', 'nvidia gear', 'gr00t n1']
+        weak: ['nvidia', 'gr00t', 'cosmos world', 'isaac lab']
+        affiliation: ['nvidia']
+        authors: ['Linxi Fan', 'Yuke Zhu', 'Ajay Mandlekar', 'Jan Kautz']
+      Google DeepMind:
+        strong: ['deepmind.google', 'gemini robotics', 'google deepmind robotics']
+        weak: ['deepmind', 'google research']
+        affiliation: ['deepmind', 'google']
+      Meta AI (FAIR):
+        strong: ['ai.meta.com', 'fair at meta', 'meta fair']
+        weak: ['meta ai', 'v-jepa']
+        affiliation: ['meta', 'fair']
+      OpenAI:
+        weak: ['openai']
+        affiliation: ['openai']
+      Figure AI:
+        strong: ['figure.ai', 'figure ai']
+        affiliation: ['figure ai']
+      Tesla Optimus:
+        strong: ['tesla optimus']
+        affiliation: ['tesla']
+      1X:
+        strong: ['1x technologies', '1x.tech']
+        affiliation: ['1x technologies']
+      Boston Dynamics:
+        strong: ['boston dynamics']
+        weak: ['atlas humanoid', 'spot robot']
+        affiliation: ['boston dynamics', 'rai institute']
+      Agility Robotics:
+        strong: ['agility robotics']
+        weak: ['digit humanoid']
+        affiliation: ['agility robotics']
+      Unitree:
+        weak: ['unitree']
+        affiliation: ['unitree']
+      Physical Intelligence:
+        strong: ['physical intelligence', 'pi.website', 'physicalintelligence.company']
+        weak: ['π0', 'π0.5', 'pi0', 'pi_0', 'openpi']
+        affiliation: ['physical intelligence']
+        authors: ['Sergey Levine', 'Chelsea Finn', 'Karol Hausman', 'Brian Ichter']
+      Skild AI:
+        strong: ['skild']
+        affiliation: ['skild']
+        authors: ['Deepak Pathak', 'Abhinav Gupta']
+      Toyota Research Institute:
+        strong: ['toyota research institute', 'tri.global']
+        weak: ['large behavior model']
+        affiliation: ['toyota research']
+        authors: ['Russ Tedrake', 'Benjamin Burchfiel']
+
+  # ----------------------------- Code & model releases ----------------------
+  - id: gh-nvidia
+    org: NVIDIA
+    group: code
+    type: github_org
+    org_name: NVIDIA
+    include: ['robot', 'gr00t', 'isaac', 'cosmos', 'humanoid', 'vla', 'sim',
+              'embodied', 'manipulation', 'physical']
+
+  - id: gh-nvlabs
+    org: NVIDIA Research
+    group: code
+    type: github_org
+    org_name: NVlabs
+
+  - id: gh-isaac-sim
+    org: NVIDIA Isaac
+    group: code
+    type: github_org
+    org_name: isaac-sim
+
+  - id: gh-deepmind
+    org: Google DeepMind
+    group: code
+    type: github_org
+    org_name: google-deepmind
+
+  - id: gh-meta
+    org: Meta AI (FAIR)
+    group: code
+    type: github_org
+    org_name: facebookresearch
+
+  - id: gh-physical-intelligence
+    org: Physical Intelligence
+    group: code
+    type: github_org
+    org_name: Physical-Intelligence
+
+  - id: gh-unitree
+    org: Unitree
+    group: code
+    type: github_org
+    org_name: unitreerobotics
+
+  - id: gh-tri
+    org: Toyota Research Institute
+    group: code
+    type: github_org
+    org_name: TRI-ML
+
+  - id: gh-releases-gr00t
+    org: NVIDIA
+    group: code
+    type: rss
+    url: https://github.com/NVIDIA/Isaac-GR00T/releases.atom
+
+  - id: gh-releases-openpi
+    org: Physical Intelligence
+    group: code
+    type: rss
+    url: https://github.com/Physical-Intelligence/openpi/releases.atom
+
+  - id: gh-releases-lerobot
+    org: Hugging Face LeRobot
+    group: code
+    type: rss
+    url: https://github.com/huggingface/lerobot/releases.atom
+
+  - id: hf-nvidia
+    org: NVIDIA
+    group: code
+    type: huggingface
+    author: nvidia
+    kinds: [models, datasets]
+    include: ['gr00t', 'cosmos', 'isaac', 'robot', 'humanoid', 'vla', 'physicalai']
+
+  - id: hf-lerobot
+    org: Hugging Face LeRobot
+    group: code
+    type: huggingface
+    author: lerobot
+    kinds: [models]

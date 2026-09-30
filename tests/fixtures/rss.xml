@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<channel>
+ <title>NVIDIA Newsroom - Robotics</title>
+ <link>https://nvidianews.nvidia.com</link>
+ <item>
+  <title>NVIDIA Releases Isaac GR00T N2 Open Humanoid Foundation Model</title>
+  <link>https://nvidianews.nvidia.com/news/isaac-gr00t-n2?utm_source=rss</link>
+  <pubDate>{RFC:3}</pubDate>
+  <description><![CDATA[<p>GR00T N2 adds <b>whole-body</b> control and a new dual-system architecture.</p>]]></description>
+ </item>
+ <item>
+  <title>NVIDIA to Present at Investor Conference</title>
+  <link>https://nvidianews.nvidia.com/news/investor-conference</link>
+  <pubDate>{RFC:4}</pubDate>
+  <description>Webcast details.</description>
+ </item>
+</channel>
+</rss>
