@@ -127,6 +127,31 @@ python -m pytest -q                                      # 테스트
 
 추가한 뒤 `python -m digest --dry-run --no-llm --source <id> --backfill -v`로 항목이 잡히는지 먼저 확인하세요.
 
+### GitHub Actions 요청을 막는 사이트: Google News 대체 경로
+일부 사이트(현재 Physical Intelligence, Meta AI 블로그)는 브라우저에서는 잘 열리지만 GitHub Actions 서버의
+요청은 거부합니다. 이런 소스에는 `fallback`을 지정하면, 원래 경로가 실패한 날 Google News 검색 RSS로
+대신 수집합니다. 이 경우 다이제스트에는 `post (via Google News)`로 표시되고, 링크를 누르면 원문으로 이동합니다.
+원문 본문을 가져오지 못하므로 요약은 제목 위주로 작성됩니다.
+
+```yaml
+- id: meta-ai-blog
+  type: webpage
+  url: https://ai.meta.com/blog/
+  link_pattern: '^/blog/[^/?#]+/?$'
+  fallback:
+    type: gnews                      # 단독 소스 type으로도 사용 가능
+    query: 'site:ai.meta.com/blog'   # Google News 검색 문법
+    publisher_host: ai.meta.com      # 이 사이트에서 나온 결과만 사용
+```
+
+같은 글이 사이트 경로와 Google News 경로로 각각 들어와도 제목 기준으로 한 번만 보냅니다.
+Google News RSS는 개인용 피드 리더 용도로 제공되므로, 연구실 전체가 보는 채널로 옮길 때는
+이 대체 경로를 끄는 것을 검토하세요(해당 소스의 `fallback` 삭제).
+
+### 실행 결과 확인
+매 실행마다 소스별 수집 개수, 오류, 대체 경로 사용 여부가 `state/seen.json`의 `cache.last_report`에 저장되어
+저장소에 커밋됩니다. Actions 로그를 열지 않아도 어떤 소스가 왜 실패했는지 확인할 수 있습니다.
+
 `id`는 중복 제거 기록의 키이므로 한 번 정한 뒤에는 바꾸지 마세요.
 새로 추가한 소스는 첫 실행 때 자동으로 부트스트랩되어, 기존 글이 한꺼번에 쏟아지지 않습니다.
 

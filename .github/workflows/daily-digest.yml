@@ -63,7 +63,7 @@ jobs:
           git commit -m "chore(state): digest $(date -u +%Y-%m-%d)"
           git pull --rebase --autostash && git push
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v6
         if: always()
         with:
           name: digest-run-${{ github.run_id }}

@@ -34,6 +34,16 @@ class Item:
             return str(self.extra["key"])
         return normalize_url(self.url)
 
+    @property
+    def title_key(self) -> str:
+        """Secondary dedupe key so the same post seen via two channels
+        (site vs. Google News fallback) isn't posted twice."""
+        if self.kind not in ("blog", "news", "release"):  # papers/repos/models have stable ids
+            return ""
+        t = re.sub(r"\s+[|–—-]\s+[^|–—-]{2,50}$", "", self.title)   # drop " - Site Name"
+        t = re.sub(r"[^a-z0-9]+", "", t.lower())
+        return f"t:{t}" if len(t) >= 16 else ""
+
     def text_for_matching(self) -> str:
         return f"{self.title}\n{self.snippet}"
 

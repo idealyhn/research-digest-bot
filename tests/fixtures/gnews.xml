@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rss xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+<channel>
+<title>"site:pi.website" - Google News</title>
+<link>https://news.google.com/search?q=site:pi.website&amp;hl=en-US&amp;gl=US&amp;ceid=US:en</link>
+<item>
+ <title>π0.8: Long-Horizon Mobile Manipulation &amp;amp; Memory - Physical Intelligence</title>
+ <link>https://news.google.com/rss/articles/CBMiAAA111?oc=5</link>
+ <guid isPermaLink="false">CBMiAAA111</guid>
+ <pubDate>{RFC:6}</pubDate>
+ <description>&lt;a href="https://news.google.com/rss/articles/CBMiAAA111?oc=5"&gt;π0.8&lt;/a&gt;</description>
+ <source url="https://www.pi.website">Physical Intelligence</source>
+</item>
+<item>
+ <title>VLAs with Long and Short-Term Memory - Physical Intelligence</title>
+ <link>https://news.google.com/rss/articles/CBMiBBB222?oc=5</link>
+ <guid isPermaLink="false">CBMiBBB222</guid>
+ <pubDate>{RFC:8}</pubDate>
+ <source url="https://www.pi.website">Physical Intelligence</source>
+</item>
+<item>
+ <title>Robot startup raises money - Some Blog</title>
+ <link>https://news.google.com/rss/articles/CBMiCCC333?oc=5</link>
+ <guid isPermaLink="false">CBMiCCC333</guid>
+ <pubDate>{RFC:3}</pubDate>
+ <source url="https://someblog.example.com">Some Blog</source>
+</item>
+</channel>
+</rss>

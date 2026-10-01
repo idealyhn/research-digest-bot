@@ -16,7 +16,8 @@ MAX_SECTION_CHARS = 2900 # Slack hard limit is 3000 per text object
 MAX_MESSAGE_CHARS = 12000  # Slack truncates ~40k; keep each message readable
 DEFAULT_MAX_PER_GROUP = 12
 KIND_LABEL = {"blog": "post", "video": "video", "paper": "paper", "repo": "new repo",
-              "release": "release", "model": "HF model", "dataset": "HF dataset"}
+              "release": "release", "model": "HF model", "dataset": "HF dataset",
+              "news": "post (via Google News)"}
 
 
 def esc(text: str) -> str:

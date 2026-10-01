@@ -16,7 +16,7 @@ import os
 import tempfile
 from datetime import datetime, timezone
 
-MAX_KEYS_PER_SOURCE = 3000
+MAX_KEYS_PER_SOURCE = 10000
 
 
 class State:

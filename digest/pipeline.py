@@ -91,20 +91,23 @@ def run(config_path: str, state_path: str, *, dry_run=False, no_llm=False, only=
         sid = src["id"]
         first_time = not state.is_bootstrapped(sid)
         ctx = CollectContext(session=session, bootstrap=first_time and not backfill,
-                             is_seen=lambda it, sid=sid: state.is_seen(sid, it.key))
+                             is_seen=lambda it, sid=sid: _seen(state, sid, it))
         try:
             items = collect(src, ctx)
         except Exception as exc:
             log.warning("[%s] failed: %s", sid, exc)
             errors.append(f"{src['org']} ({sid})")
-            stats[sid] = {"error": str(exc)[:200]}
+            stats[sid] = {"error": str(exc)[:300]}
             continue
 
-        new = [it for it in items if not state.is_seen(sid, it.key)]
+        new = [it for it in items if not _seen(state, sid, it)]
         stats[sid] = {"fetched": len(items), "unseen": len(new)}
+        if ctx.warnings:
+            stats[sid]["warning"] = "; ".join(ctx.warnings)[:300]
+            log.info("[%s] %s", sid, stats[sid]["warning"])
         if first_time and not backfill:
             for it in items:
-                state.mark_seen(sid, it.key)
+                _mark(state, sid, it)
             state.mark_bootstrapped(sid)
             bootstrapped.append(sid)
             log.info("[%s] bootstrap: remembered %d existing items (not posted)", sid, len(items))
@@ -190,12 +193,32 @@ def run(config_path: str, state_path: str, *, dry_run=False, no_llm=False, only=
     # only remember items once they've been delivered (or on an explicit dry-run save)
     if not dry_run or save_state_in_dry_run:
         for it in to_mark:
-            state.mark_seen(it.source_id, it.key)
+            _mark(state, it.source_id, it)
         state.set_cache("last_run", now.isoformat())
+        # per-source health, committed with the state so failures can be
+        # diagnosed from the repo without opening the Actions logs
+        state.set_cache("last_report", {
+            "run": now.replace(microsecond=0).isoformat(),
+            "items_posted": len(final),
+            "errors": {sid: s["error"] for sid, s in stats.items() if "error" in s},
+            "warnings": {sid: s["warning"] for sid, s in stats.items() if "warning" in s},
+            "counts": {sid: [s.get("fetched", 0), s.get("unseen", 0)]
+                       for sid, s in stats.items() if "error" not in s},
+        })
         state.save()
     elif bootstrapped and save_state_in_dry_run is False:
         log.info("dry run: bootstrap state not saved (use --save-state to keep it)")
     return result
+
+
+def _seen(state: State, sid: str, it: Item) -> bool:
+    return state.is_seen(sid, it.key) or bool(it.title_key and state.is_seen(sid, it.title_key))
+
+
+def _mark(state: State, sid: str, it: Item) -> None:
+    state.mark_seen(sid, it.key)
+    if it.title_key:
+        state.mark_seen(sid, it.title_key)
 
 
 def _item_json(it: Item) -> dict:

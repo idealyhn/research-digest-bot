@@ -107,16 +107,22 @@ sources:
     org: Apptronik
     group: humanoid
     type: webpage
-    url: https://apptronik.com/news
-    link_pattern: '^/news/[^/?#]+/?$'
+    url: https://apptronik.com/company/press-releases   # /news now redirects to a 404
+    link_pattern: '^/news-collection/[^/?#]+/?$'
 
   # ----------------------- Robot foundation model labs ----------------------
+  # The site refuses requests from GitHub Actions -> Google News fallback.
+  # Research write-ups live under /research/, announcements under /blog/.
   - id: pi-blog
     org: Physical Intelligence
     group: foundation
     type: webpage
     url: https://www.pi.website/blog
-    link_pattern: '^/blog/[^/?#]+/?$'
+    link_pattern: '^/(blog|research)/[^/?#]+/?$'
+    fallback:
+      type: gnews
+      query: 'site:pi.website'
+      publisher_host: pi.website
 
   - id: skild-blog
     org: Skild AI
@@ -125,12 +131,17 @@ sources:
     url: https://www.skild.ai/blogs
     link_pattern: '^/blogs/[^/?#]+/?$'
 
+  # Site RSS covers both news and new research publications.
   - id: tri-news
     org: Toyota Research Institute
     group: foundation
-    type: webpage
-    url: https://www.tri.global/news
-    link_pattern: '^/news/[^/?#]+/?$'
+    type: rss
+    url: https://www.tri.global/rss.xml
+    exclude: ['internship', 'careers?', 'job opening']
+    fallback:
+      type: gnews
+      query: 'site:tri.global'
+      publisher_host: tri.global
 
   - id: nvidia-gear
     org: NVIDIA GEAR Lab
@@ -190,12 +201,17 @@ sources:
     include: ['robot', 'embodied', 'manipulation', 'world model', 'agent',
               'vision-language', 'reinforcement']
 
+  # ai.meta.com refuses requests from GitHub Actions -> Google News fallback.
   - id: meta-ai-blog
     org: Meta AI (FAIR)
     group: bigtech
     type: webpage
     url: https://ai.meta.com/blog/
     link_pattern: '^/blog/[^/?#]+/?$'
+    fallback:
+      type: gnews
+      query: 'site:ai.meta.com/blog'
+      publisher_host: ai.meta.com
 
   - id: openai-news
     org: OpenAI

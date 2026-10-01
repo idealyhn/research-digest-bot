@@ -148,8 +148,14 @@ def test_repo_config_is_valid():
     from pathlib import Path
 
     cfg = pipeline.load_config(str(Path(__file__).resolve().parents[1] / "config" / "sources.yaml"))
-    types = {s["type"] for s in cfg["sources"]}
-    assert types <= {"rss", "youtube", "arxiv", "github_org", "huggingface", "webpage"}
+    from digest.collectors import REGISTRY
+
+    types = {s["type"] for s in cfg["sources"]} | {s["fallback"]["type"] for s in cfg["sources"] if "fallback" in s}
+    assert types <= set(REGISTRY)
     for s in cfg["sources"]:
+        if s["type"] == "webpage":
+            assert "link_pattern" in s, s["id"]
+        if s.get("fallback", {}).get("type") == "gnews":
+            assert s["fallback"].get("query"), s["id"]
         for pat in s.get("include", []) + s.get("exclude", []) + ([s["link_pattern"]] if "link_pattern" in s else []):
             __import__("re").compile(pat)
