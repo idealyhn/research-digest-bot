@@ -62,7 +62,7 @@ def test_bootstrap_then_only_new_items_are_posted(tmp_path, monkeypatch):
     text = json.dumps(posted[0])
     assert "Helix 2.6: Zero-Shot 30-Home Generalization" in text     # real title from article page
     assert "| Figure" not in text                                   # site suffix stripped
-    assert "Sources that failed today: Broken Co (broken)" in text
+    assert "Sources failing repeatedly: Broken Co (broken, 2 runs)" in text
 
     # run 3: nothing new -> "nothing new" note (post_when_empty) and no repeats
     r3 = pipeline.run(cfg, state)

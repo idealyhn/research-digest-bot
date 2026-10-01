@@ -148,6 +148,16 @@ python -m pytest -q                                      # 테스트
 Google News RSS는 개인용 피드 리더 용도로 제공되므로, 연구실 전체가 보는 채널로 옮길 때는
 이 대체 경로를 끄는 것을 검토하세요(해당 소스의 `fallback` 삭제).
 
+### YouTube 채널: 선택적 Data API 키
+YouTube의 채널 RSS(`feeds/videos.xml`)는 2025년 말부터 몇 시간씩 404를 내는 장애가 반복되고 있습니다.
+피드가 다시 살아나면 최근 영상이 그대로 남아 있어서 누락되는 영상은 없지만, 하루 늦게 받을 수 있습니다.
+바로 받고 싶다면 무료 YouTube Data API 키를 등록하세요. RSS가 실패한 날에만 API를 사용합니다
+(채널당 하루 1 단위, 무료 한도는 하루 10,000 단위).
+
+1. <https://console.cloud.google.com>에서 프로젝트를 만들고 **APIs & Services → Library**에서 *YouTube Data API v3*를 **Enable**
+2. **Credentials → Create credentials → API key**로 키 발급. *Restrict key*에서 *YouTube Data API v3*로 제한하는 것을 권장
+3. GitHub Repository secret에 `YOUTUBE_API_KEY`로 등록
+
 ### 실행 결과 확인
 매 실행마다 소스별 수집 개수, 오류, 대체 경로 사용 여부가 `state/seen.json`의 `cache.last_report`에 저장되어
 저장소에 커밋됩니다. Actions 로그를 열지 않아도 어떤 소스가 왜 실패했는지 확인할 수 있습니다.
@@ -182,7 +192,7 @@ watchlist에 들지 않은 논문 중에서는 Claude가 `interest_profile` 기�
 - **X(트위터)**: API 비용 때문에 기본으로 제외했습니다. Tesla Optimus처럼 X에 먼저 올라오는 소식은
   YouTube 업로드나 공식 블로그를 통해 잡습니다.
 - **JavaScript로 렌더링되는 사이트**: 목록 페이지에서 링크를 찾지 못하면 `sitemap.xml`으로 자동 전환합니다.
-  둘 다 실패하면 다이제스트 하단의 "Sources that failed today"에 표시되니, 그때 `link_pattern`이나 `url`을 고치면 됩니다.
+  둘 다 실패하면 실행 기록(`state/seen.json`의 `cache.last_report`)에 오류가 남고, **2회 연속** 실패하면 다이제스트 하단의 "Sources failing repeatedly"에 표시됩니다. 그때 `link_pattern`이나 `url`을 고치면 됩니다.
 - **GitHub cron 지연**: GitHub의 예약 실행은 수 분에서 수십 분 늦게 시작될 수 있습니다.
   그래서 07:40에 시작해 08:00까지 기다렸다가 게시합니다. 08:00 이후에 시작되면 수집이 끝나는 즉시 게시합니다.
 - **60일 비활성**: 공개 저장소는 60일 동안 활동이 없으면 예약 워크플로가 비활성화될 수 있습니다.

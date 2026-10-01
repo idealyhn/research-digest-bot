@@ -46,6 +46,18 @@ class State:
         seen = self._src(source_id)["seen"]
         seen.setdefault(key, _now())
 
+    def record_failure(self, source_id: str) -> int:
+        """Bump and return the consecutive-failure count for a source."""
+        src = self._src(source_id)
+        src["fail_streak"] = int(src.get("fail_streak", 0)) + 1
+        src.setdefault("failing_since", _now())
+        return src["fail_streak"]
+
+    def record_success(self, source_id: str) -> None:
+        src = self._src(source_id)
+        src.pop("fail_streak", None)
+        src.pop("failing_since", None)
+
     # -- misc ---------------------------------------------------------------
     def get_cache(self, key: str, default=None):
         return self.data["cache"].get(key, default)

@@ -20,6 +20,7 @@ settings:
   post_at: "08:00"            # digest is held until this local time (see README)
   max_age_days: 4             # ignore dated items older than this, even if unseen
   post_when_empty: true       # post a short "nothing new" note on quiet days
+  report_failures_after_runs: 2   # list a source in the Slack footer only after N failed runs in a row
   language: English
   llm:
     model: claude-sonnet-5-5  # override with env ANTHROPIC_MODEL

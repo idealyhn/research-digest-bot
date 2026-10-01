@@ -72,6 +72,6 @@ class FakeSession:
 
 @pytest.fixture(autouse=True)
 def no_api_keys(monkeypatch):
-    for k in ("ANTHROPIC_API_KEY", "SLACK_WEBHOOK_URL", "SLACK_BOT_TOKEN", "GITHUB_TOKEN"):
+    for k in ("ANTHROPIC_API_KEY", "SLACK_WEBHOOK_URL", "SLACK_BOT_TOKEN", "GITHUB_TOKEN", "YOUTUBE_API_KEY"):
         monkeypatch.delenv(k, raising=False)
     monkeypatch.setattr("time.sleep", lambda s: None)

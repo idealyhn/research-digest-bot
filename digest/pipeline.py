@@ -83,7 +83,9 @@ def run(config_path: str, state_path: str, *, dry_run=False, no_llm=False, only=
 
     fresh: list[Item] = []
     to_mark: list[Item] = []
-    errors: list[str] = []
+    errors: list[str] = []          # every failure this run (logs, exit code)
+    reported: list[str] = []        # failures shown in Slack (repeated ones only)
+    report_after = int(settings.get("report_failures_after_runs", 2))
     bootstrapped: list[str] = []
     stats = {}
 
@@ -98,7 +100,13 @@ def run(config_path: str, state_path: str, *, dry_run=False, no_llm=False, only=
             log.warning("[%s] failed: %s", sid, exc)
             errors.append(f"{src['org']} ({sid})")
             stats[sid] = {"error": str(exc)[:300]}
+            streak = state.record_failure(sid)
+            # a one-off failure catches up on the next run (feeds keep recent
+            # items), so only surface sources that keep failing
+            if streak >= report_after:
+                reported.append(f"{src['org']} ({sid}, {streak} runs)")
             continue
+        state.record_success(sid)
 
         new = [it for it in items if not _seen(state, sid, it)]
         stats[sid] = {"fetched": len(items), "unseen": len(new)}
@@ -167,7 +175,7 @@ def run(config_path: str, state_path: str, *, dry_run=False, no_llm=False, only=
         g.sort(key=lambda it: (-it.importance, -(it.published or now).timestamp()))
 
     messages = slack.build_messages(
-        cfg["groups"], grouped, highlights, datetime.now(tz), len(sources), errors,
+        cfg["groups"], grouped, highlights, datetime.now(tz), len(sources), reported,
         title=settings.get("title", "Robotics & AI Research Digest"),
         max_per_group=int(settings.get("max_items_per_group", slack.DEFAULT_MAX_PER_GROUP)),
     )

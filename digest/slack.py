@@ -100,7 +100,7 @@ def build_messages(groups: list[dict], grouped: dict[str, list[Item]], highlight
     foot = []
     if errors:
         foot.append({"type": "context", "elements": [{"type": "mrkdwn",
-            "text": ("Sources that failed today: " + ", ".join(esc(e) for e in errors))[:MAX_SECTION_CHARS]}]})
+            "text": ("Sources failing repeatedly: " + ", ".join(esc(e) for e in errors))[:MAX_SECTION_CHARS]}]})
 
     # split into several messages if needed (block count or total size)
     def size(block):

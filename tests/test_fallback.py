@@ -76,7 +76,7 @@ def test_pipeline_fallback_dedupe_and_report(tmp_path, monkeypatch):
     text = json.dumps(posted[-1], ensure_ascii=False)
     assert "π0.8: Long-Horizon Mobile Manipulation &amp; Memory" in text
     assert "via Google News" in text
-    assert "Sources that failed today" not in text           # fallback worked -> not a failure
+    assert "Sources failing" not in text           # fallback worked -> not a failure
 
     report = json.loads(state_path.read_text())["cache"]["last_report"]
     assert "403" in report["warnings"]["pi-blog"] and report["errors"] == {}
