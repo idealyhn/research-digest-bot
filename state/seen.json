@@ -18,6 +18,10 @@
      15,
      0
     ],
+    "arxiv-robotics": [
+     398,
+     115
+    ],
     "bostondynamics-blog": [
      12,
      0
@@ -44,7 +48,7 @@
     ],
     "gh-deepmind": [
      74,
-     2
+     0
     ],
     "gh-isaac-sim": [
      12,
@@ -55,12 +59,12 @@
      0
     ],
     "gh-nvidia": [
-     72,
-     8
+     69,
+     12
     ],
     "gh-nvlabs": [
      63,
-     2
+     0
     ],
     "gh-physical-intelligence": [
      6,
@@ -88,7 +92,7 @@
     ],
     "google-research-blog": [
      100,
-     1
+     0
     ],
     "hf-lerobot": [
      40,
@@ -96,15 +100,15 @@
     ],
     "hf-nvidia": [
      80,
-     1
+     0
     ],
     "meta-ai-blog": [
      100,
-     2
+     1
     ],
     "nvidia-blog": [
      18,
-     2
+     0
     ],
     "nvidia-developer-blog": [
      100,
@@ -120,11 +124,11 @@
     ],
     "nvidia-youtube": [
      15,
-     1
+     0
     ],
     "openai-news": [
      1245,
-     2
+     0
     ],
     "pi-blog": [
      25,
@@ -136,29 +140,27 @@
     ],
     "tesla-optimus-youtube": [
      15,
-     1
+     0
     ],
     "tri-news": [
      100,
-     1
+     2
     ],
     "unitree-youtube": [
      15,
      0
     ]
    },
-   "errors": {
-    "arxiv-robotics": "HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.RO+OR+%28%28cat%3Acs.LG+OR+cat%3Acs.CV+OR+cat%3Acs.AI%29+AND+%28abs%3Arobot+OR+abs%3Arobots+OR+abs%3Arobotic+OR+abs%3Ahumanoid+OR+abs%3Aembodied%29%29&sortBy=submittedDate&sortOrde"
-   },
-   "items_posted": 6,
-   "run": "2026-10-02T22:45:26+00:00",
+   "errors": {},
+   "items_posted": 3,
+   "run": "2026-10-03T23:30:05+00:00",
    "warnings": {
     "meta-ai-blog": "primary failed (400 Client Error: Bad Request for url: https://ai.meta.com/blog/); used gnews fallback",
     "pi-blog": "primary failed (HTTPSConnectionPool(host='www.pi.website', port=443): Max retries exceeded with url: /blog (Caused by ResponseError('too many 429 error responses'))); used gnews fallback",
     "tri-news": "primary failed (403 Client Error: Forbidden for url: https://www.tri.global/rss.xml); used gnews fallback"
    }
   },
-  "last_run": "2026-10-02T22:45:26.444662+00:00"
+  "last_run": "2026-10-03T23:30:05.354153+00:00"
  },
  "sources": {
   "1x-discover": {
@@ -239,8 +241,6 @@
   },
   "arxiv-robotics": {
    "bootstrapped": "2026-09-30T22:46:03+00:00",
-   "fail_streak": 1,
-   "failing_since": "2026-10-02T22:48:22+00:00",
    "seen": {
     "arxiv:2609.32236": "2026-09-30T22:46:03+00:00",
     "arxiv:2609.32239": "2026-09-30T22:46:03+00:00",
@@ -795,7 +795,122 @@
     "arxiv:2609.40297": "2026-10-01T05:51:05+00:00",
     "arxiv:2609.40306": "2026-10-01T05:51:05+00:00",
     "arxiv:2609.40341": "2026-10-01T05:51:05+00:00",
-    "arxiv:2609.40353": "2026-10-01T05:51:05+00:00"
+    "arxiv:2609.40353": "2026-10-01T05:51:05+00:00",
+    "arxiv:2610.00317": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.00319": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.00330": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.00355": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.00360": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.00368": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.00404": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.00438": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.00487": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.00524": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.00533": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.00542": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.00575": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.00601": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.00604": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.00613": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.00638": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.00676": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.00718": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.00727": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.00729": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.00731": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.00781": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.00801": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.00821": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.00822": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.00823": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.00854": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.00855": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.00859": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.00864": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.00878": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.00897": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.00899": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.00904": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.00913": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.00921": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.00926": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.00936": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.00981": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.00982": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.00992": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01004": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01019": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01039": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01048": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01056": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01067": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01072": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01083": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01092": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01093": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01102": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01105": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01162": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01171": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01178": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01185": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01206": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01210": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01219": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01224": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01258": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01260": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01283": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01288": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01301": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01310": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01319": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01351": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01397": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01477": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01505": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01510": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01559": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01569": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01573": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01589": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01612": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01644": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01668": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01682": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01698": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01726": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01741": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01742": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01744": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01746": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01758": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01794": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01820": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01826": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01834": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01849": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01856": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01863": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01906": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01910": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01927": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01939": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01943": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01959": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01972": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.01985": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.02012": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.02054": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.02089": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.02110": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.02120": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.02161": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.02170": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.02185": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.02196": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.02198": "2026-10-03T23:30:47+00:00",
+    "arxiv:2610.02204": "2026-10-03T23:30:47+00:00"
    }
   },
   "bostondynamics-blog": {
@@ -1195,6 +1310,7 @@
     "gh:nvidia/ai-factory-operations-agent": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/aicr": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/aistore": "2026-09-30T17:33:00+00:00",
+    "gh:nvidia/barney": "2026-10-03T23:30:47+00:00",
     "gh:nvidia/blossom-action": "2026-10-02T23:00:01+00:00",
     "gh:nvidia/broadcast-skills": "2026-10-02T23:00:01+00:00",
     "gh:nvidia/cccl": "2026-09-30T17:33:00+00:00",
@@ -1213,8 +1329,10 @@
     "gh:nvidia/cudnn-frontend": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/cuml": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/cuopt": "2026-09-30T17:33:00+00:00",
+    "gh:nvidia/cuopt-examples": "2026-10-03T23:30:47+00:00",
     "gh:nvidia/cuphoton": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/cuspa": "2026-09-30T17:33:00+00:00",
+    "gh:nvidia/cutile-python": "2026-10-03T23:30:47+00:00",
     "gh:nvidia/cuvs": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/daqiri": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/deepops": "2026-09-30T17:33:00+00:00",
@@ -1223,8 +1341,11 @@
     "gh:nvidia/din-deploy": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/display-config-server": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/doca-platform": "2026-10-01T05:51:05+00:00",
+    "gh:nvidia/docs-builder": "2026-10-03T23:30:47+00:00",
     "gh:nvidia/dream-team": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/earth2studio": "2026-09-30T17:33:00+00:00",
+    "gh:nvidia/edk2": "2026-10-03T23:30:47+00:00",
+    "gh:nvidia/edk2-platforms": "2026-10-03T23:30:47+00:00",
     "gh:nvidia/elements": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/exemplar-performance": "2026-10-02T23:00:01+00:00",
     "gh:nvidia/flashdreams": "2026-09-30T23:00:01+00:00",
@@ -1249,6 +1370,7 @@
     "gh:nvidia/multi-storage-client": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/nccl": "2026-10-01T05:51:05+00:00",
     "gh:nvidia/nccl-extensions": "2026-10-01T05:51:05+00:00",
+    "gh:nvidia/ncore": "2026-10-03T23:30:47+00:00",
     "gh:nvidia/nemo-fabric": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/nemo-relay": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/nemo-relay-plugins": "2026-09-30T17:33:00+00:00",
@@ -1260,6 +1382,7 @@
     "gh:nvidia/numba-cuda": "2026-10-01T23:00:01+00:00",
     "gh:nvidia/numba-cuda-mlir": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/numbast": "2026-09-30T23:00:01+00:00",
+    "gh:nvidia/nv-kernels": "2026-10-03T23:30:47+00:00",
     "gh:nvidia/nvalchemi-toolkit": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/nvalchemi-toolkit-ops": "2026-10-02T23:00:01+00:00",
     "gh:nvidia/nvcf": "2026-09-30T17:33:00+00:00",
@@ -1271,12 +1394,15 @@
     "gh:nvidia/nvidia-mnccd": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/nvidia-resiliency-ext": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/nvsentinel": "2026-09-30T17:33:00+00:00",
+    "gh:nvidia/nvshmem": "2026-10-03T23:30:47+00:00",
+    "gh:nvidia/nvtrust": "2026-10-03T23:30:47+00:00",
     "gh:nvidia/oncrpc-ping": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/openshell": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/osmo": "2026-09-30T23:00:01+00:00",
     "gh:nvidia/personal-ai-router": "2026-10-01T23:00:01+00:00",
     "gh:nvidia/physicsnemo": "2026-09-30T23:00:01+00:00",
     "gh:nvidia/pingpong": "2026-09-30T17:33:00+00:00",
+    "gh:nvidia/pytorch-windows-ci": "2026-10-03T23:30:47+00:00",
     "gh:nvidia/raft": "2026-10-01T05:51:05+00:00",
     "gh:nvidia/sdbusplus": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/skillevaluator": "2026-09-30T17:33:00+00:00",
@@ -1293,6 +1419,7 @@
     "gh:nvidia/tensor-ir": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/tensorrt-llm": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/tensorrt-model-connect": "2026-09-30T23:00:01+00:00",
+    "gh:nvidia/tilegym": "2026-10-03T23:30:47+00:00",
     "gh:nvidia/torch-harmonics": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/transformerengine": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/vela": "2026-09-30T17:33:00+00:00",
@@ -1794,6 +1921,7 @@
     "gnews:extendinghealthcareaccesstounderservedcommunitieswithai": "2026-10-01T05:50:27+00:00",
     "gnews:facebookaiscoteachingprogramtoincreasepathwaysintoaifordiversecandidates": "2026-10-01T05:50:27+00:00",
     "gnews:fairprogressandlearningsacrosssociallyresponsibleairesearch": "2026-10-01T05:50:27+00:00",
+    "gnews:frombrainwavestowordsbrain2qwertyoffersanewpathtocommunicationwithoutsurgery": "2026-10-03T23:30:47+00:00",
     "gnews:generateanentireappfromapromptusingtogetheraisllamacoder": "2026-10-01T05:50:27+00:00",
     "gnews:generatingchitchatincludinglaughsyawnsumsandothernonverbalcuesfromrawaudio": "2026-10-01T05:50:27+00:00",
     "gnews:habitat20traininghomeassistantrobotswithfastersimulationandnewbenchmarks": "2026-10-01T05:50:27+00:00",
@@ -1896,6 +2024,7 @@
     "t:extendinghealthcareaccesstounderservedcommunitieswithai": "2026-10-01T05:50:27+00:00",
     "t:facebookaiscoteachingprogramtoincreasepathwaysintoaifordiversecandidates": "2026-10-01T05:50:27+00:00",
     "t:fairprogressandlearningsacrosssociallyresponsibleairesearch": "2026-10-01T05:50:27+00:00",
+    "t:frombrainwavestowordsbrain2qwertyoffersanewpathtocommunicationwithoutsurgery": "2026-10-03T23:30:47+00:00",
     "t:generateanentireappfromapromptusingtogetheraisllamacoder": "2026-10-01T05:50:27+00:00",
     "t:generatingchitchatincludinglaughsyawnsumsandothernonverbalcuesfromrawaudio": "2026-10-01T05:50:27+00:00",
     "t:habitat20traininghomeassistantrobotswithfastersimulationandnewbenchmarks": "2026-10-01T05:50:27+00:00",
@@ -3564,6 +3693,7 @@
     "gnews:michaelsherman": "2026-10-01T05:50:24+00:00",
     "gnews:motortrendjournalistalexleansereportsonhisdayatthetrackintrisselfdriftingtoyotasupra": "2026-10-01T05:50:24+00:00",
     "gnews:nowhiringtriadrecruitingautomateddrivingsoftwareengineersintokyo": "2026-10-01T05:50:24+00:00",
+    "gnews:operationsteams": "2026-10-03T23:30:47+00:00",
     "gnews:phillipzackler": "2026-10-01T05:50:24+00:00",
     "gnews:researchersatnorthwesternuniversityandtridiscoveredanewmaterialformorecosteffectivegreenhydrogenproduction": "2026-10-01T05:50:24+00:00",
     "gnews:roboticsuserexperience": "2026-10-01T05:50:24+00:00",
@@ -3587,6 +3717,7 @@
     "gnews:toyotaresearchinstituteopensitsdoorsforthefirsttimeforanuncommonlookathowtechnologycanhelpsolvesocietysbiggestproblems": "2026-10-02T23:00:01+00:00",
     "gnews:toyotaresearchinstitutepushesvehiclescapabilitiestoadvanceactivesafety": "2026-10-01T05:50:24+00:00",
     "gnews:toyotaresearchinstitutereachesnewtechnicalmilestonesinrobotics": "2026-10-01T05:50:24+00:00",
+    "gnews:toyotaresearchinstituterollsoutp4automateddrivingtestvehicleatces": "2026-10-03T23:30:47+00:00",
     "gnews:toyotaresearchinstituteshowcaseslatestroboticsresearchaimedatamplifyinghumanabilityinthehome": "2026-10-01T05:50:24+00:00",
     "gnews:toyotaresearchinstituteunveilsbreakthroughinteachingrobotsnewbehaviors": "2026-10-01T05:50:24+00:00",
     "gnews:toyotaresearchinstituteunveilsnewgenerativeaitechniqueforvehicledesign": "2026-10-01T05:50:24+00:00",
@@ -3649,6 +3780,7 @@
     "t:toyotaresearchinstituteopensitsdoorsforthefirsttimeforanuncommonlookathowtechnologycanhelpsolvesocietysbiggestproblems": "2026-10-02T23:00:01+00:00",
     "t:toyotaresearchinstitutepushesvehiclescapabilitiestoadvanceactivesafety": "2026-10-01T05:50:24+00:00",
     "t:toyotaresearchinstitutereachesnewtechnicalmilestonesinrobotics": "2026-10-01T05:50:24+00:00",
+    "t:toyotaresearchinstituterollsoutp4automateddrivingtestvehicleatces": "2026-10-03T23:30:47+00:00",
     "t:toyotaresearchinstituteshowcaseslatestroboticsresearchaimedatamplifyinghumanabilityinthehome": "2026-10-01T05:50:24+00:00",
     "t:toyotaresearchinstituteunveilsbreakthroughinteachingrobotsnewbehaviors": "2026-10-01T05:50:24+00:00",
     "t:toyotaresearchinstituteunveilsnewgenerativeaitechniqueforvehicledesign": "2026-10-01T05:50:24+00:00",
