@@ -19,8 +19,8 @@
      0
     ],
     "arxiv-robotics": [
-     398,
-     115
+     236,
+     0
     ],
     "bostondynamics-blog": [
      12,
@@ -56,11 +56,11 @@
     ],
     "gh-meta": [
      69,
-     0
+     1
     ],
     "gh-nvidia": [
      69,
-     12
+     6
     ],
     "gh-nvlabs": [
      63,
@@ -104,7 +104,7 @@
     ],
     "meta-ai-blog": [
      100,
-     1
+     2
     ],
     "nvidia-blog": [
      18,
@@ -131,8 +131,8 @@
      0
     ],
     "pi-blog": [
-     25,
-     0
+     26,
+     1
     ],
     "skild-blog": [
      12,
@@ -152,15 +152,15 @@
     ]
    },
    "errors": {},
-   "items_posted": 3,
-   "run": "2026-10-03T23:30:05+00:00",
+   "items_posted": 1,
+   "run": "2026-10-04T22:44:35+00:00",
    "warnings": {
     "meta-ai-blog": "primary failed (400 Client Error: Bad Request for url: https://ai.meta.com/blog/); used gnews fallback",
     "pi-blog": "primary failed (HTTPSConnectionPool(host='www.pi.website', port=443): Max retries exceeded with url: /blog (Caused by ResponseError('too many 429 error responses'))); used gnews fallback",
     "tri-news": "primary failed (403 Client Error: Forbidden for url: https://www.tri.global/rss.xml); used gnews fallback"
    }
   },
-  "last_run": "2026-10-03T23:30:05.354153+00:00"
+  "last_run": "2026-10-04T22:44:35.330720+00:00"
  },
  "sources": {
   "1x-discover": {
@@ -1285,6 +1285,7 @@
     "gh:facebookresearch/salimory": "2026-09-30T17:33:00+00:00",
     "gh:facebookresearch/schlepp": "2026-09-30T17:33:00+00:00",
     "gh:facebookresearch/sharp_linear-minimax_constants_for_causal_smoothing": "2026-09-30T17:33:00+00:00",
+    "gh:facebookresearch/show3d": "2026-10-04T23:00:01+00:00",
     "gh:facebookresearch/sparse-delta-memory": "2026-09-30T17:33:00+00:00",
     "gh:facebookresearch/spdl": "2026-09-30T17:33:00+00:00",
     "gh:facebookresearch/sphere-encoder": "2026-09-30T17:33:00+00:00",
@@ -1310,6 +1311,8 @@
     "gh:nvidia/ai-factory-operations-agent": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/aicr": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/aistore": "2026-09-30T17:33:00+00:00",
+    "gh:nvidia/auto-ontology": "2026-10-04T23:00:01+00:00",
+    "gh:nvidia/auto-ontology-eval": "2026-10-04T23:00:01+00:00",
     "gh:nvidia/barney": "2026-10-03T23:30:47+00:00",
     "gh:nvidia/blossom-action": "2026-10-02T23:00:01+00:00",
     "gh:nvidia/broadcast-skills": "2026-10-02T23:00:01+00:00",
@@ -1321,6 +1324,7 @@
     "gh:nvidia/cuda-python": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/cuda-quantum": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/cuda-rust": "2026-09-30T23:00:01+00:00",
+    "gh:nvidia/cudaq-algorithms": "2026-10-04T23:00:01+00:00",
     "gh:nvidia/cudecomp": "2026-09-30T23:00:01+00:00",
     "gh:nvidia/cudf": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/cudf-spark-benchmarks": "2026-10-01T05:51:05+00:00",
@@ -1366,6 +1370,7 @@
     "gh:nvidia/matx": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/megatron-energon": "2026-10-01T05:51:05+00:00",
     "gh:nvidia/megatron-lm": "2026-09-30T17:33:00+00:00",
+    "gh:nvidia/mig-parted": "2026-10-04T23:00:01+00:00",
     "gh:nvidia/model-optimizer": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/multi-storage-client": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/nccl": "2026-10-01T05:51:05+00:00",
@@ -1404,9 +1409,11 @@
     "gh:nvidia/pingpong": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/pytorch-windows-ci": "2026-10-03T23:30:47+00:00",
     "gh:nvidia/raft": "2026-10-01T05:51:05+00:00",
+    "gh:nvidia/recsys-examples": "2026-10-04T23:00:01+00:00",
     "gh:nvidia/sdbusplus": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/skillevaluator": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/skills": "2026-09-30T17:33:00+00:00",
+    "gh:nvidia/skillspector": "2026-10-04T23:00:01+00:00",
     "gh:nvidia/spdm": "2026-09-30T23:00:01+00:00",
     "gh:nvidia/sports-intelligence-playbooks": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/srt-slurm": "2026-09-30T23:00:01+00:00",
@@ -1913,6 +1920,7 @@
     "gnews:dinoandpawsadvancingthestateoftheartincomputervision": "2026-10-01T05:50:27+00:00",
     "gnews:dinov2stateoftheartcomputervisionmodelswithselfsupervisedlearning": "2026-10-01T05:50:27+00:00",
     "gnews:dinov3selfsupervisedlearningforvisionatunprecedentedscale": "2026-10-01T05:50:27+00:00",
+    "gnews:dynataskanewparadigmofaibenchmarkingisnowavailablefortheaicommunity": "2026-10-04T23:00:01+00:00",
     "gnews:egomimicgeorgiatechphdstudentusesprojectariaresearchglassestohelptrainhumanoidrobots": "2026-10-01T05:50:27+00:00",
     "gnews:embodiedaitowardeffectivecollaborationbetweenhumansandsociallyintelligentrobots": "2026-10-01T05:50:27+00:00",
     "gnews:endtoendobjectdetectionwithtransformers": "2026-10-01T05:50:27+00:00",
@@ -1934,6 +1942,7 @@
     "gnews:howmapsbuiltwithfacebookaicanhelpwithcovid19vaccinedelivery": "2026-10-01T05:50:27+00:00",
     "gnews:howmetamoviegencouldusherinanewaienablederaforcontentcreators": "2026-10-01T05:50:27+00:00",
     "gnews:howmetasaimodelsarepoweringthefirstwaveofgenesismissionprojects": "2026-10-01T05:50:27+00:00",
+    "gnews:howonekenyanstartupisworkingtosolvelocalchallengeswithllama": "2026-10-04T23:00:01+00:00",
     "gnews:howtofinetunefocusoneffectivedatasets": "2026-10-01T05:50:27+00:00",
     "gnews:howvirgoisusingdinov2toanalyzeendoscopyvideosforprecisionmedicine": "2026-10-01T05:50:27+00:00",
     "gnews:imagebindholisticailearningacrosssixmodalities": "2026-10-01T05:50:27+00:00",
@@ -2016,6 +2025,7 @@
     "t:dinoandpawsadvancingthestateoftheartincomputervision": "2026-10-01T05:50:27+00:00",
     "t:dinov2stateoftheartcomputervisionmodelswithselfsupervisedlearning": "2026-10-01T05:50:27+00:00",
     "t:dinov3selfsupervisedlearningforvisionatunprecedentedscale": "2026-10-01T05:50:27+00:00",
+    "t:dynataskanewparadigmofaibenchmarkingisnowavailablefortheaicommunity": "2026-10-04T23:00:01+00:00",
     "t:egomimicgeorgiatechphdstudentusesprojectariaresearchglassestohelptrainhumanoidrobots": "2026-10-01T05:50:27+00:00",
     "t:embodiedaitowardeffectivecollaborationbetweenhumansandsociallyintelligentrobots": "2026-10-01T05:50:27+00:00",
     "t:endtoendobjectdetectionwithtransformers": "2026-10-01T05:50:27+00:00",
@@ -2037,6 +2047,7 @@
     "t:howmapsbuiltwithfacebookaicanhelpwithcovid19vaccinedelivery": "2026-10-01T05:50:27+00:00",
     "t:howmetamoviegencouldusherinanewaienablederaforcontentcreators": "2026-10-01T05:50:27+00:00",
     "t:howmetasaimodelsarepoweringthefirstwaveofgenesismissionprojects": "2026-10-01T05:50:27+00:00",
+    "t:howonekenyanstartupisworkingtosolvelocalchallengeswithllama": "2026-10-04T23:00:01+00:00",
     "t:howtofinetunefocusoneffectivedatasets": "2026-10-01T05:50:27+00:00",
     "t:howvirgoisusingdinov2toanalyzeendoscopyvideosforprecisionmedicine": "2026-10-01T05:50:27+00:00",
     "t:imagebindholisticailearningacrosssixmodalities": "2026-10-01T05:50:27+00:00",
@@ -3570,6 +3581,7 @@
     "gnews:precisemanipulationwithefficientonlinerl": "2026-10-01T05:50:23+00:00",
     "gnews:realtimeactionchunkingwithlargemodels": "2026-10-01T05:50:23+00:00",
     "gnews:realtimeexecutionofactionchunkingflowpolicies": "2026-10-01T05:50:23+00:00",
+    "gnews:rltokenbootstrappingonlinerlwithvisionlanguageactionmodels": "2026-10-04T23:00:01+00:00",
     "gnews:teachingrobotstolistenandthinkharder": "2026-10-01T05:50:23+00:00",
     "gnews:thephysicalintelligencelayer": "2026-10-01T05:50:23+00:00",
     "gnews:vlasthattrainfastrunfastandgeneralizebetter": "2026-10-01T05:50:23+00:00",
@@ -3592,6 +3604,7 @@
     "t:precisemanipulationwithefficientonlinerl": "2026-10-01T05:50:23+00:00",
     "t:realtimeactionchunkingwithlargemodels": "2026-10-01T05:50:23+00:00",
     "t:realtimeexecutionofactionchunkingflowpolicies": "2026-10-01T05:50:23+00:00",
+    "t:rltokenbootstrappingonlinerlwithvisionlanguageactionmodels": "2026-10-04T23:00:01+00:00",
     "t:teachingrobotstolistenandthinkharder": "2026-10-01T05:50:23+00:00",
     "t:thephysicalintelligencelayer": "2026-10-01T05:50:23+00:00",
     "t:vlasthattrainfastrunfastandgeneralizebetter": "2026-10-01T05:50:23+00:00",
@@ -3644,6 +3657,7 @@
     "gnews:aipoweredrobotbybostondynamicsandtoyotaresearchinstitutetakesakeysteptowardsgeneralpurposehumanoids": "2026-10-01T05:50:24+00:00",
     "gnews:andrewbeaulieu": "2026-10-01T05:50:24+00:00",
     "gnews:bostondynamicsandtoyotaresearchinstituteannouncepartnershiptoadvanceroboticsresearch": "2026-10-01T05:50:24+00:00",
+    "gnews:carbonneutralstrategy": "2026-10-04T23:00:01+00:00",
     "gnews:carbonneutralstrategyprojects": "2026-10-01T05:50:24+00:00",
     "gnews:careers": "2026-10-01T05:50:24+00:00",
     "gnews:ccpaprivacyform": "2026-10-01T05:50:24+00:00",
@@ -3714,6 +3728,7 @@
     "gnews:toyotaresearchinstitutebehavioralsciencecanunlockmorecarbonreductionsfromelectricvehicles": "2026-10-01T05:50:24+00:00",
     "gnews:toyotaresearchinstitutecommits36millioninfundingoverthenextfouryearsforacceleratedmaterialsdesignanddiscoverywithuniversitypartners": "2026-10-01T05:50:24+00:00",
     "gnews:toyotaresearchinstitutelaunchesnextphaseofcollaborativeresearchwithdiverserosterofworldclassacademicinstitutions": "2026-10-01T05:50:24+00:00",
+    "gnews:toyotaresearchinstitutelaunchesresearchintounderstandingandpredictinghumanbehaviorfordecisionmaking": "2026-10-04T23:00:01+00:00",
     "gnews:toyotaresearchinstituteopensitsdoorsforthefirsttimeforanuncommonlookathowtechnologycanhelpsolvesocietysbiggestproblems": "2026-10-02T23:00:01+00:00",
     "gnews:toyotaresearchinstitutepushesvehiclescapabilitiestoadvanceactivesafety": "2026-10-01T05:50:24+00:00",
     "gnews:toyotaresearchinstitutereachesnewtechnicalmilestonesinrobotics": "2026-10-01T05:50:24+00:00",
@@ -3745,6 +3760,7 @@
     "t:advancingcollaborativeresearchintroducingurp30": "2026-10-01T05:50:24+00:00",
     "t:aipoweredrobotbybostondynamicsandtoyotaresearchinstitutetakesakeysteptowardsgeneralpurposehumanoids": "2026-10-01T05:50:24+00:00",
     "t:bostondynamicsandtoyotaresearchinstituteannouncepartnershiptoadvanceroboticsresearch": "2026-10-01T05:50:24+00:00",
+    "t:carbonneutralstrategy": "2026-10-04T23:00:01+00:00",
     "t:carbonneutralstrategyprojects": "2026-10-01T05:50:24+00:00",
     "t:computationalautonomyformaterialsdiscoverycamd": "2026-10-01T05:50:24+00:00",
     "t:danielschweigert": "2026-10-01T05:50:24+00:00",
@@ -3777,6 +3793,7 @@
     "t:toyotaresearchinstitutebehavioralsciencecanunlockmorecarbonreductionsfromelectricvehicles": "2026-10-01T05:50:24+00:00",
     "t:toyotaresearchinstitutecommits36millioninfundingoverthenextfouryearsforacceleratedmaterialsdesignanddiscoverywithuniversitypartners": "2026-10-01T05:50:24+00:00",
     "t:toyotaresearchinstitutelaunchesnextphaseofcollaborativeresearchwithdiverserosterofworldclassacademicinstitutions": "2026-10-01T05:50:24+00:00",
+    "t:toyotaresearchinstitutelaunchesresearchintounderstandingandpredictinghumanbehaviorfordecisionmaking": "2026-10-04T23:00:01+00:00",
     "t:toyotaresearchinstituteopensitsdoorsforthefirsttimeforanuncommonlookathowtechnologycanhelpsolvesocietysbiggestproblems": "2026-10-02T23:00:01+00:00",
     "t:toyotaresearchinstitutepushesvehiclescapabilitiestoadvanceactivesafety": "2026-10-01T05:50:24+00:00",
     "t:toyotaresearchinstitutereachesnewtechnicalmilestonesinrobotics": "2026-10-01T05:50:24+00:00",
