@@ -19,12 +19,12 @@
      0
     ],
     "arxiv-robotics": [
-     181,
-     89
+     262,
+     194
     ],
     "bostondynamics-blog": [
      12,
-     2
+     0
     ],
     "bostondynamics-youtube": [
      15,
@@ -32,7 +32,7 @@
     ],
     "deepmind-blog": [
      100,
-     0
+     1
     ],
     "deepmind-youtube": [
      15,
@@ -48,19 +48,19 @@
     ],
     "gh-deepmind": [
      74,
-     5
+     0
     ],
     "gh-isaac-sim": [
      12,
      0
     ],
     "gh-meta": [
-     68,
-     3
+     70,
+     5
     ],
     "gh-nvidia": [
-     64,
-     7
+     73,
+     4
     ],
     "gh-nvlabs": [
      63,
@@ -68,7 +68,7 @@
     ],
     "gh-physical-intelligence": [
      7,
-     1
+     0
     ],
     "gh-releases-gr00t": [
      5,
@@ -100,11 +100,11 @@
     ],
     "hf-nvidia": [
      80,
-     1
+     0
     ],
     "meta-ai-blog": [
      100,
-     5
+     0
     ],
     "nvidia-blog": [
      18,
@@ -112,7 +112,7 @@
     ],
     "nvidia-developer-blog": [
      100,
-     0
+     3
     ],
     "nvidia-gear": [
      2,
@@ -124,11 +124,11 @@
     ],
     "nvidia-youtube": [
      15,
-     0
+     2
     ],
     "openai-news": [
-     1247,
-     2
+     1250,
+     3
     ],
     "pi-blog": [
      26,
@@ -144,7 +144,7 @@
     ],
     "tri-news": [
      100,
-     0
+     1
     ],
     "unitree-youtube": [
      15,
@@ -153,14 +153,14 @@
    },
    "errors": {},
    "items_posted": 14,
-   "run": "2026-10-05T22:44:48+00:00",
+   "run": "2026-10-06T22:45:09+00:00",
    "warnings": {
     "meta-ai-blog": "primary failed (400 Client Error: Bad Request for url: https://ai.meta.com/blog/); used gnews fallback",
     "pi-blog": "primary failed (HTTPSConnectionPool(host='www.pi.website', port=443): Max retries exceeded with url: /blog (Caused by ResponseError('too many 429 error responses'))); used gnews fallback",
     "tri-news": "primary failed (403 Client Error: Forbidden for url: https://www.tri.global/rss.xml); used gnews fallback"
    }
   },
-  "last_run": "2026-10-05T22:44:48.817368+00:00"
+  "last_run": "2026-10-06T22:45:09.201353+00:00"
  },
  "sources": {
   "1x-discover": {
@@ -972,6 +972,7 @@
     "arxiv:2610.03079": "2026-10-05T23:00:01+00:00",
     "arxiv:2610.03119": "2026-10-05T23:00:01+00:00",
     "arxiv:2610.03132": "2026-10-05T23:00:01+00:00",
+    "arxiv:2610.03187": "2026-10-06T23:00:01+00:00",
     "arxiv:2610.03196": "2026-10-05T23:00:01+00:00",
     "arxiv:2610.03248": "2026-10-05T23:00:01+00:00",
     "arxiv:2610.03249": "2026-10-05T23:00:01+00:00",
@@ -999,7 +1000,200 @@
     "arxiv:2610.03622": "2026-10-05T23:00:01+00:00",
     "arxiv:2610.03664": "2026-10-05T23:00:01+00:00",
     "arxiv:2610.03710": "2026-10-05T23:00:01+00:00",
-    "arxiv:2610.03717": "2026-10-05T23:00:01+00:00"
+    "arxiv:2610.03717": "2026-10-05T23:00:01+00:00",
+    "arxiv:2610.03828": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.03861": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.03873": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.03898": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.03924": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.03931": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.03997": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04009": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04013": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04022": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04054": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04085": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04088": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04144": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04187": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04199": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04211": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04220": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04231": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04238": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04240": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04250": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04255": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04266": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04297": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04301": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04342": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04356": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04363": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04364": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04366": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04372": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04391": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04402": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04406": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04432": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04438": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04494": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04529": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04536": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04540": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04545": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04551": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04552": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04565": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04566": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04607": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04609": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04612": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04616": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04659": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04662": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04681": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04701": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04726": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04727": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04736": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04741": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04744": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04764": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04765": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04767": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04771": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04775": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04785": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04805": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04883": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04896": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04910": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04913": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04916": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04924": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04929": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04933": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04937": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04949": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04966": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.04988": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05011": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05013": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05024": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05025": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05026": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05062": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05081": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05087": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05122": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05151": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05166": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05180": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05230": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05249": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05258": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05273": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05324": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05331": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05349": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05350": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05359": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05407": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05414": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05418": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05455": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05483": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05491": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05492": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05505": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05531": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05542": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05546": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05571": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05583": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05604": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05607": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05610": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05637": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05639": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05642": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05664": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05674": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05677": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05678": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05692": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05695": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05719": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05733": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05734": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05745": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05747": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05755": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05757": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05765": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05771": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05792": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05796": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05818": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05819": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05839": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05855": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05878": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05882": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05939": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05964": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05969": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05971": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05994": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05996": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.05997": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06002": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06010": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06046": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06078": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06089": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06090": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06103": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06104": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06121": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06122": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06129": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06137": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06153": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06171": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06184": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06198": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06215": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06232": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06235": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06250": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06260": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06271": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06280": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06290": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06306": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06327": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06331": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06349": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06376": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06400": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06427": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06469": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06487": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06510": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06511": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06598": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06617": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06641": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06643": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06777": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06805": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06809": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06814": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06843": "2026-10-06T23:00:01+00:00",
+    "arxiv:2610.06850": "2026-10-06T23:00:01+00:00"
    }
   },
   "bostondynamics-blog": {
@@ -1067,6 +1261,7 @@
     "https://deepmind.google/blog/decoupled-diloco": "2026-09-30T17:33:00+00:00",
     "https://deepmind.google/blog/deepening-our-partnership-with-the-uk-ai-security-institute": "2026-09-30T17:33:00+00:00",
     "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation": "2026-09-30T17:33:00+00:00",
+    "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model": "2026-10-06T23:00:01+00:00",
     "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi": "2026-09-30T17:33:00+00:00",
     "https://deepmind.google/blog/engineering-more-resilient-crops-for-a-warming-climate": "2026-09-30T17:33:00+00:00",
     "https://deepmind.google/blog/facts-benchmark-suite-systematically-evaluating-the-factuality-of-large-language-models": "2026-09-30T17:33:00+00:00",
@@ -1146,7 +1341,8 @@
     "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones": "2026-09-30T17:33:00+00:00",
     "https://deepmind.google/blog/were-expanding-our-presence-in-singapore-to-advance-ai-in-the-asia-pacific-region": "2026-09-30T17:33:00+00:00",
     "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control": "2026-09-30T17:33:00+00:00",
-    "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks": "2026-09-30T17:33:00+00:00"
+    "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks": "2026-09-30T17:33:00+00:00",
+    "t:embeddinggemma2anopenlightweightmultimodalembeddingmodel": "2026-10-06T23:00:01+00:00"
    }
   },
   "deepmind-youtube": {
@@ -1335,6 +1531,7 @@
     "gh:facebookresearch/dcperf": "2026-09-30T17:33:00+00:00",
     "gh:facebookresearch/detectron2": "2026-09-30T17:33:00+00:00",
     "gh:facebookresearch/digiworld": "2026-09-30T17:33:00+00:00",
+    "gh:facebookresearch/dinov2": "2026-10-06T23:00:01+00:00",
     "gh:facebookresearch/drtk": "2026-09-30T17:33:00+00:00",
     "gh:facebookresearch/e2e-swe": "2026-09-30T17:33:00+00:00",
     "gh:facebookresearch/emores-tts": "2026-09-30T17:33:00+00:00",
@@ -1357,6 +1554,8 @@
     "gh:facebookresearch/meta-agents-research-environments": "2026-09-30T23:00:01+00:00",
     "gh:facebookresearch/midtraining-distillation": "2026-09-30T17:33:00+00:00",
     "gh:facebookresearch/mjepa": "2026-09-30T17:33:00+00:00",
+    "gh:facebookresearch/mmf": "2026-10-06T23:00:01+00:00",
+    "gh:facebookresearch/modality-maturity-index": "2026-10-06T23:00:01+00:00",
     "gh:facebookresearch/moe_vie": "2026-09-30T17:33:00+00:00",
     "gh:facebookresearch/momentum": "2026-09-30T17:33:00+00:00",
     "gh:facebookresearch/mosaic": "2026-09-30T17:33:00+00:00",
@@ -1365,6 +1564,7 @@
     "gh:facebookresearch/multimodal": "2026-09-30T17:33:00+00:00",
     "gh:facebookresearch/mvdust3r": "2026-09-30T17:33:00+00:00",
     "gh:facebookresearch/neuroai": "2026-09-30T17:33:00+00:00",
+    "gh:facebookresearch/nymeria_dataset": "2026-10-06T23:00:01+00:00",
     "gh:facebookresearch/ocean": "2026-09-30T17:33:00+00:00",
     "gh:facebookresearch/openapps": "2026-09-30T17:33:00+00:00",
     "gh:facebookresearch/param": "2026-09-30T17:33:00+00:00",
@@ -1384,6 +1584,7 @@
     "gh:facebookresearch/s-ember": "2026-09-30T17:33:00+00:00",
     "gh:facebookresearch/salimory": "2026-09-30T17:33:00+00:00",
     "gh:facebookresearch/schlepp": "2026-09-30T17:33:00+00:00",
+    "gh:facebookresearch/secpriv-skill": "2026-10-06T23:00:01+00:00",
     "gh:facebookresearch/sharp_linear-minimax_constants_for_causal_smoothing": "2026-09-30T17:33:00+00:00",
     "gh:facebookresearch/show3d": "2026-10-04T23:00:01+00:00",
     "gh:facebookresearch/sparse-delta-memory": "2026-09-30T17:33:00+00:00",
@@ -1422,11 +1623,13 @@
     "gh:nvidia/cloudai": "2026-09-30T23:00:01+00:00",
     "gh:nvidia/cluster-readiness-engine": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/context-aware-rag": "2026-10-01T05:51:05+00:00",
+    "gh:nvidia/cosmos": "2026-10-06T23:00:01+00:00",
     "gh:nvidia/cucascade": "2026-10-02T23:00:01+00:00",
     "gh:nvidia/cuda-python": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/cuda-quantum": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/cuda-rust": "2026-09-30T23:00:01+00:00",
     "gh:nvidia/cudaq-algorithms": "2026-10-04T23:00:01+00:00",
+    "gh:nvidia/cudaq-qec": "2026-10-06T23:00:01+00:00",
     "gh:nvidia/cudecomp": "2026-09-30T23:00:01+00:00",
     "gh:nvidia/cudf": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/cudf-spark": "2026-10-05T23:00:01+00:00",
@@ -1468,6 +1671,7 @@
     "gh:nvidia/k8s-launch-kit": "2026-10-01T05:51:05+00:00",
     "gh:nvidia/k8s-nim-operator": "2026-10-02T23:00:01+00:00",
     "gh:nvidia/k8s-test-infra": "2026-09-30T17:33:00+00:00",
+    "gh:nvidia/kumo-ts": "2026-10-06T23:00:01+00:00",
     "gh:nvidia/local-ai-inference-recipes": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/lstp-config": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/matx": "2026-09-30T17:33:00+00:00",
@@ -1514,6 +1718,7 @@
     "gh:nvidia/physicsnemo": "2026-09-30T23:00:01+00:00",
     "gh:nvidia/physicsnemo-serve": "2026-10-05T23:00:01+00:00",
     "gh:nvidia/pingpong": "2026-09-30T17:33:00+00:00",
+    "gh:nvidia/product-security": "2026-10-06T23:00:01+00:00",
     "gh:nvidia/pytorch-windows-ci": "2026-10-03T23:30:47+00:00",
     "gh:nvidia/raft": "2026-10-01T05:51:05+00:00",
     "gh:nvidia/recsys-examples": "2026-10-04T23:00:01+00:00",
@@ -1780,6 +1985,7 @@
     "https://research.google/blog/differentially-private-machine-learning-at-scale-with-jax-privacy": "2026-09-30T17:33:00+00:00",
     "https://research.google/blog/ds-star-a-state-of-the-art-versatile-data-science-agent": "2026-09-30T17:33:00+00:00",
     "https://research.google/blog/dynamic-surface-codes-open-new-avenues-for-quantum-error-correction": "2026-09-30T17:33:00+00:00",
+    "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health": "2026-10-06T23:00:01+00:00",
     "https://research.google/blog/empirical-research-assistance-era-from-nature-publication-to-catalyzing-computational-discovery": "2026-09-30T17:33:00+00:00",
     "https://research.google/blog/empty-shelves-or-lost-keys-recall-is-the-bottleneck-for-parametric-factuality": "2026-09-30T17:33:00+00:00",
     "https://research.google/blog/evaluating-alignment-of-behavioral-dispositions-in-llms": "2026-09-30T17:33:00+00:00",
@@ -1860,7 +2066,8 @@
     "https://research.google/blog/waxal-a-large-scale-open-resource-for-african-language-speech-technology": "2026-09-30T17:33:00+00:00",
     "https://research.google/blog/where-wild-things-roam-identifying-wildlife-with-speciesnet": "2026-09-30T17:33:00+00:00",
     "t:openandemergentproblemsinagenticprivacyandsecurityacontextualangle": "2026-10-05T23:00:01+00:00",
-    "t:towardprovablyprivatelearningfromfederateddata": "2026-10-02T23:00:01+00:00"
+    "t:towardprovablyprivatelearningfromfederateddata": "2026-10-02T23:00:01+00:00",
+    "t:unlockingearthaisplanetarygeospatialfoundationmodelsforglobalpublichealth": "2026-10-06T23:00:01+00:00"
    }
   },
   "hf-lerobot": {
@@ -2248,13 +2455,15 @@
     "https://blogs.nvidia.com/blog/open-protein-dataset": "2026-09-30T17:33:00+00:00",
     "https://blogs.nvidia.com/blog/physical-ai-halos-safety": "2026-09-30T17:33:00+00:00",
     "https://blogs.nvidia.com/blog/productive-durable-fungible-ai-factories": "2026-10-01T23:00:01+00:00",
+    "https://blogs.nvidia.com/blog/telecom-operators-open-models": "2026-10-06T23:00:01+00:00",
     "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2": "2026-09-30T17:33:00+00:00",
     "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference": "2026-09-30T17:33:00+00:00",
     "t:fallinto25newgamesongeforcenowthisoctober": "2026-10-01T23:00:01+00:00",
     "t:fromscantotreatmentplanaihelpsclosebreastcancersdeadliestgaps": "2026-10-05T23:00:01+00:00",
     "t:hownvidiagpushelpaccelerateopenaisgpt6astraultrafast": "2026-10-02T23:00:01+00:00",
     "t:nvidiadgxspark64gbgivesdevelopersmorewaystobuildandscalelocalai": "2026-10-02T23:00:01+00:00",
-    "t:productivedurablefungiblehownvidiaaifactoriesmaximizereturnoninvestment": "2026-10-01T23:00:01+00:00"
+    "t:productivedurablefungiblehownvidiaaifactoriesmaximizereturnoninvestment": "2026-10-01T23:00:01+00:00",
+    "t:whytelecomoperatorsarebuildingtheiraistrategyonopenmodels": "2026-10-06T23:00:01+00:00"
    }
   },
   "nvidia-developer-blog": {
@@ -2265,6 +2474,7 @@
     "https://developer.nvidia.com/blog/add-runtime-controls-to-ai-agents-with-nvidia-openshell": "2026-09-30T17:33:00+00:00",
     "https://developer.nvidia.com/blog/advancing-semiconductor-innovation-across-materials-engineering-and-manufacturing": "2026-09-30T17:33:00+00:00",
     "https://developer.nvidia.com/blog/ai-native-by-design-lessons-learned-from-building-nvidia-tensorrt-model-connect": "2026-09-30T17:33:00+00:00",
+    "https://developer.nvidia.com/blog/aicr-v1-0-open-stable-and-verifiable-gpu-cluster-configuration": "2026-10-06T23:00:01+00:00",
     "https://developer.nvidia.com/blog/benchmarking-llm-inference-at-scale-with-aiperf": "2026-09-30T17:33:00+00:00",
     "https://developer.nvidia.com/blog/beyond-vlas-how-world-action-models-reshape-robot-manipulation": "2026-09-30T17:33:00+00:00",
     "https://developer.nvidia.com/blog/build-a-multi-camera-3d-tracking-application-with-nvidia-deepstream-9-1-skills": "2026-09-30T17:33:00+00:00",
@@ -2275,6 +2485,7 @@
     "https://developer.nvidia.com/blog/building-federated-multimodal-ai-workflows-with-nvidia-flare": "2026-09-30T17:33:00+00:00",
     "https://developer.nvidia.com/blog/co-designing-ai-model-attention-for-fast-interactive-long-context-inference": "2026-09-30T17:33:00+00:00",
     "https://developer.nvidia.com/blog/co-designing-ai-models-using-speculative-decoding-for-faster-llm-inference": "2026-09-30T17:33:00+00:00",
+    "https://developer.nvidia.com/blog/control-how-your-gpu-shares-work-with-green-contexts": "2026-10-06T23:00:01+00:00",
     "https://developer.nvidia.com/blog/cuda-python-1-0-stable-apis-one-foundation-full-platform-access": "2026-09-30T17:33:00+00:00",
     "https://developer.nvidia.com/blog/cuda-toolkit-13-4-adds-windows-on-arm-support-and-greater-control-over-shared-gpus": "2026-09-30T17:33:00+00:00",
     "https://developer.nvidia.com/blog/debugging-ray-tracing-applications-using-nvidia-optix-toolkit": "2026-09-30T17:33:00+00:00",
@@ -2284,6 +2495,7 @@
     "https://developer.nvidia.com/blog/developing-healthcare-robotics-with-gpu-native-medical-physics-simulation": "2026-09-30T17:33:00+00:00",
     "https://developer.nvidia.com/blog/developing-nemotron-3-5-lightning-nvfp4-with-qad-using-nvidia-model-optimizer": "2026-09-30T17:33:00+00:00",
     "https://developer.nvidia.com/blog/developing-nvidia-holoscan-applications-with-cli-skills-and-ai-coding-agents": "2026-09-30T17:33:00+00:00",
+    "https://developer.nvidia.com/blog/doca-gpunetio-gda-ki-unified-gpu-networking": "2026-10-06T23:00:01+00:00",
     "https://developer.nvidia.com/blog/efficient-moe-training-for-biological-foundation-models": "2026-09-30T17:33:00+00:00",
     "https://developer.nvidia.com/blog/enabling-private-high-performance-production-ai-inference-with-nvidia-confidential-computing": "2026-09-30T17:33:00+00:00",
     "https://developer.nvidia.com/blog/evaluating-ai-agent-skill-performance-with-nvidia-skillevaluator": "2026-09-30T17:33:00+00:00",
@@ -2365,9 +2577,12 @@
     "https://developer.nvidia.com/blog/whats-new-for-game-developers-dlss-5-with-3d-guided-neural-rendering-nvidia-ace-updates-and-new-rtx-kit-capabilities": "2026-09-30T17:33:00+00:00",
     "https://developer.nvidia.com/blog/when-to-use-encode-prefill-decode-disaggregation-to-accelerate-multimodal-model-serving": "2026-09-30T17:33:00+00:00",
     "https://developer.nvidia.com/blog/where-security-fits-in-an-ai-agent-stack": "2026-09-30T17:33:00+00:00",
+    "t:aicrv10openstableandverifiablegpuclusterconfiguration": "2026-10-06T23:00:01+00:00",
     "t:buildapplicationsonnvidiabluefieldfasterwithnvidiadocaagentskills": "2026-10-01T23:00:01+00:00",
     "t:buildlocalaiappswithcandnvidiatensorrtrtxsamples": "2026-10-01T23:00:01+00:00",
-    "t:finetuningnvidianemotronforsaudiarabicdialectswithapathtootherlanguages": "2026-10-01T05:51:05+00:00"
+    "t:controlhowyourgpusharesworkwithgreencontexts": "2026-10-06T23:00:01+00:00",
+    "t:finetuningnvidianemotronforsaudiarabicdialectswithapathtootherlanguages": "2026-10-01T05:51:05+00:00",
+    "t:howdocagpunetiounifiesgpuinitiatednetworkingacrossthenvidiasoftwarestack": "2026-10-06T23:00:01+00:00"
    }
   },
   "nvidia-gear": {
@@ -2413,9 +2628,11 @@
     "https://www.youtube.com/shorts/fZ10JtLAoOc": "2026-09-30T17:33:00+00:00",
     "https://www.youtube.com/shorts/hirhw-LZL6M": "2026-09-30T17:33:00+00:00",
     "https://www.youtube.com/shorts/pHQcVJrHveA": "2026-09-30T17:33:00+00:00",
+    "https://www.youtube.com/shorts/v0d-7DOxUNU": "2026-10-06T23:00:01+00:00",
     "https://www.youtube.com/shorts/vFXpC3GOe0E": "2026-09-30T17:33:00+00:00",
     "https://www.youtube.com/shorts/wgd9C8JYZEM": "2026-09-30T17:33:00+00:00",
     "https://www.youtube.com/watch?v=4O1Gl4_xk3w": "2026-09-30T17:33:00+00:00",
+    "https://www.youtube.com/watch?v=4XZzjY4X13A": "2026-10-06T23:00:01+00:00",
     "https://www.youtube.com/watch?v=KT89PEe9d7U": "2026-09-30T17:33:00+00:00",
     "https://www.youtube.com/watch?v=RuXF7ck32b8": "2026-09-30T17:33:00+00:00",
     "https://www.youtube.com/watch?v=UxOQ2qyY6Qo": "2026-10-02T23:00:01+00:00",
@@ -2518,6 +2735,7 @@
     "https://openai.com/index/adebayo-ogunlesi-joins-openais-board-of-directors": "2026-09-30T17:33:00+00:00",
     "https://openai.com/index/advanced-account-security": "2026-09-30T17:33:00+00:00",
     "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action": "2026-09-30T17:33:00+00:00",
+    "https://openai.com/index/advancing-computer-use-with-ironclad": "2026-10-06T23:00:01+00:00",
     "https://openai.com/index/advancing-content-provenance": "2026-09-30T17:33:00+00:00",
     "https://openai.com/index/advancing-independent-research-ai-alignment": "2026-09-30T17:33:00+00:00",
     "https://openai.com/index/advancing-red-teaming-with-people-and-ai": "2026-09-30T17:33:00+00:00",
@@ -2567,6 +2785,7 @@
     "https://openai.com/index/astra-for-law": "2026-09-30T17:33:00+00:00",
     "https://openai.com/index/asu": "2026-09-30T17:33:00+00:00",
     "https://openai.com/index/asymmetric-actor-critic-for-image-based-robot-learning": "2026-09-30T17:33:00+00:00",
+    "https://openai.com/index/atlassian-partnership": "2026-10-06T23:00:01+00:00",
     "https://openai.com/index/attacking-machine-learning-with-adversarial-examples": "2026-09-30T17:33:00+00:00",
     "https://openai.com/index/atv-big-air-tour": "2026-09-30T17:33:00+00:00",
     "https://openai.com/index/australian-payments-plus": "2026-09-30T17:33:00+00:00",
@@ -3493,6 +3712,7 @@
     "https://openai.com/index/semi-supervised-knowledge-transfer-for-deep-learning-from-private-training-data": "2026-09-30T17:33:00+00:00",
     "https://openai.com/index/separating-signal-from-noise-coding-evaluations": "2026-09-30T17:33:00+00:00",
     "https://openai.com/index/servicenow-powers-actionable-enterprise-ai-with-openai": "2026-09-30T17:33:00+00:00",
+    "https://openai.com/index/sharing-ai-progress-in-mathematics": "2026-10-06T23:00:01+00:00",
     "https://openai.com/index/sharing-the-latest-model-spec": "2026-09-30T17:33:00+00:00",
     "https://openai.com/index/shipping-sora-for-android-with-codex": "2026-09-30T17:33:00+00:00",
     "https://openai.com/index/sim-to-real-transfer-of-robotic-control-with-dynamics-randomization": "2026-09-30T17:33:00+00:00",
@@ -3676,11 +3896,14 @@
     "https://openai.com/index/zico-kolter-joins-openais-board-of-directors": "2026-09-30T17:33:00+00:00",
     "https://openai.com/openai-o1-contributions": "2026-09-30T17:33:00+00:00",
     "https://openai.com/signals/research/2026q1-update": "2026-09-30T17:33:00+00:00",
+    "t:advancingcomputerusewithironclad": "2026-10-06T23:00:01+00:00",
     "t:amodelguideforthegpt6family": "2026-10-02T23:00:01+00:00",
+    "t:atlassianandopenaiexpandpartnershiptoturnenterpriseknowledgeintoaction": "2026-10-06T23:00:01+00:00",
     "t:buildingadvertisingforthewaypeopleuseai": "2026-10-05T23:00:01+00:00",
     "t:chathamscalesitscapitalmarketsexpertisewithopenai": "2026-10-02T23:00:01+00:00",
     "t:howalbertsonscompaniesisreimaginingretailfromtheinsideout": "2026-10-01T23:00:01+00:00",
     "t:ourapproachtoeutextprovenancerules": "2026-10-05T23:00:01+00:00",
+    "t:sharingaiprogressinmathematics": "2026-10-06T23:00:01+00:00",
     "t:thedenfreesup1015hoursaweektogrowwithchatgptwork": "2026-10-01T23:00:01+00:00",
     "t:theeternalcomplement": "2026-10-01T23:00:01+00:00"
    }
@@ -3868,6 +4091,7 @@
     "gnews:toyotatoofferridesinsaelevel4automatedvehiclesonpublicroadsinjapannextsummer": "2026-10-01T05:50:24+00:00",
     "gnews:triannouncesallstarleadershipteamforartificialintelligenceandroboticsresearch": "2026-10-01T05:50:24+00:00",
     "gnews:tribringsartificialintelligencetothehuntfornewmaterials": "2026-10-01T05:50:24+00:00",
+    "gnews:triceodrgillprattappointedtoyotamotorcorporationtmcfellow": "2026-10-06T23:00:01+00:00",
     "gnews:tricontributestotoyotasnewlqconceptvehicle": "2026-10-01T05:50:24+00:00",
     "gnews:triinternshipprogram": "2026-10-01T05:50:24+00:00",
     "gnews:triintroducesnextgenerationautomateddrivingresearchvehicleatces": "2026-10-01T05:50:24+00:00",
@@ -3933,6 +4157,7 @@
     "t:toyotatoofferridesinsaelevel4automatedvehiclesonpublicroadsinjapannextsummer": "2026-10-01T05:50:24+00:00",
     "t:triannouncesallstarleadershipteamforartificialintelligenceandroboticsresearch": "2026-10-01T05:50:24+00:00",
     "t:tribringsartificialintelligencetothehuntfornewmaterials": "2026-10-01T05:50:24+00:00",
+    "t:triceodrgillprattappointedtoyotamotorcorporationtmcfellow": "2026-10-06T23:00:01+00:00",
     "t:tricontributestotoyotasnewlqconceptvehicle": "2026-10-01T05:50:24+00:00",
     "t:triinternshipprogram": "2026-10-01T05:50:24+00:00",
     "t:triintroducesnextgenerationautomateddrivingresearchvehicleatces": "2026-10-01T05:50:24+00:00",
