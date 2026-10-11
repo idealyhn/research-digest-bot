@@ -6,12 +6,20 @@
      11,
      0
     ],
+    "1x-youtube": [
+     15,
+     0
+    ],
+    "agility-youtube": [
+     15,
+     0
+    ],
     "apptronik-news": [
      15,
      0
     ],
     "arxiv-robotics": [
-     346,
+     220,
      0
     ],
     "bostondynamics-blog": [
@@ -26,25 +34,33 @@
      100,
      0
     ],
+    "deepmind-youtube": [
+     15,
+     0
+    ],
     "figure-news": [
      21,
      0
     ],
+    "figure-youtube": [
+     15,
+     0
+    ],
     "gh-deepmind": [
      74,
-     0
+     1
     ],
     "gh-isaac-sim": [
      12,
      0
     ],
     "gh-meta": [
-     70,
-     4
+     68,
+     0
     ],
     "gh-nvidia": [
-     68,
-     7
+     71,
+     5
     ],
     "gh-nvlabs": [
      62,
@@ -84,11 +100,11 @@
     ],
     "hf-nvidia": [
      80,
-     3
+     0
     ],
     "meta-ai-blog": [
      100,
-     0
+     3
     ],
     "nvidia-blog": [
      18,
@@ -108,7 +124,7 @@
     ],
     "nvidia-youtube": [
      15,
-     1
+     2
     ],
     "openai-news": [
      1287,
@@ -128,25 +144,23 @@
     ],
     "tri-news": [
      100,
-     1
+     0
+    ],
+    "unitree-youtube": [
+     15,
+     0
     ]
    },
-   "errors": {
-    "1x-youtube": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCoHslVexR2q57wUoCRfdUsg",
-    "agility-youtube": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCN-StetwWuVYf-MU2_NVj4A",
-    "deepmind-youtube": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCP7jMXSY2xbc3KCAE0MHQ-A",
-    "figure-youtube": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCYlq-KmwPjc1DtsGmthFqSQ",
-    "unitree-youtube": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsMbp4V8oxzHCMdOUP-3oWw"
-   },
-   "items_posted": 6,
-   "run": "2026-10-10T22:45:38+00:00",
+   "errors": {},
+   "items_posted": 2,
+   "run": "2026-10-11T22:46:13+00:00",
    "warnings": {
     "meta-ai-blog": "primary failed (400 Client Error: Bad Request for url: https://ai.meta.com/blog/); used gnews fallback",
     "pi-blog": "primary failed (HTTPSConnectionPool(host='www.pi.website', port=443): Max retries exceeded with url: /blog (Caused by ResponseError('too many 429 error responses'))); used gnews fallback",
     "tri-news": "primary failed (403 Client Error: Forbidden for url: https://www.tri.global/rss.xml); used gnews fallback"
    }
   },
-  "last_run": "2026-10-10T22:45:38.517751+00:00"
+  "last_run": "2026-10-11T22:46:13.266325+00:00"
  },
  "sources": {
   "1x-discover": {
@@ -167,8 +181,6 @@
   },
   "1x-youtube": {
    "bootstrapped": "2026-09-30T17:30:49+00:00",
-   "fail_streak": 1,
-   "failing_since": "2026-10-10T22:45:49+00:00",
    "seen": {
     "https://www.youtube.com/watch?v=Dp6sqx9BGZs": "2026-09-30T17:33:00+00:00",
     "https://www.youtube.com/watch?v=JUz-hyP5PMg": "2026-09-30T17:33:00+00:00",
@@ -189,8 +201,6 @@
   },
   "agility-youtube": {
    "bootstrapped": "2026-09-30T17:30:49+00:00",
-   "fail_streak": 1,
-   "failing_since": "2026-10-10T22:45:54+00:00",
    "seen": {
     "https://www.youtube.com/shorts/2S_8irZnz3Q": "2026-09-30T17:33:00+00:00",
     "https://www.youtube.com/shorts/FKkg7_-U5TE": "2026-09-30T17:33:00+00:00",
@@ -1727,8 +1737,6 @@
   },
   "deepmind-youtube": {
    "bootstrapped": "2026-09-30T17:31:01+00:00",
-   "fail_streak": 1,
-   "failing_since": "2026-10-10T22:46:17+00:00",
    "seen": {
     "https://www.youtube.com/shorts/OEmEfobzodE": "2026-09-30T17:33:00+00:00",
     "https://www.youtube.com/shorts/ya04CpsRJH0": "2026-09-30T17:33:00+00:00",
@@ -1776,8 +1784,6 @@
   },
   "figure-youtube": {
    "bootstrapped": "2026-09-30T17:30:49+00:00",
-   "fail_streak": 1,
-   "failing_since": "2026-10-10T22:45:43+00:00",
    "seen": {
     "https://www.youtube.com/watch?v=HuYXf_3TNW8": "2026-09-30T17:33:00+00:00",
     "https://www.youtube.com/watch?v=JeeJJ42TKQU": "2026-09-30T17:33:00+00:00",
@@ -1831,6 +1837,7 @@
     "gh:google-deepmind/envlogger": "2026-09-30T17:33:00+00:00",
     "gh:google-deepmind/ferminet": "2026-10-07T23:00:01+00:00",
     "gh:google-deepmind/formal-conjectures": "2026-09-30T17:33:00+00:00",
+    "gh:google-deepmind/fusion_surrogates": "2026-10-11T23:00:01+00:00",
     "gh:google-deepmind/gdm_robotics": "2026-10-05T23:00:01+00:00",
     "gh:google-deepmind/gemini-robotics-sdk": "2026-09-30T17:33:00+00:00",
     "gh:google-deepmind/gemma": "2026-09-30T17:33:00+00:00",
@@ -2039,6 +2046,7 @@
     "gh:nvidia/cudf-spark-tools": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/cudnn-frontend": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/cuembed": "2026-10-09T23:00:01+00:00",
+    "gh:nvidia/cuequivariance": "2026-10-11T23:00:01+00:00",
     "gh:nvidia/cuml": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/cuopt": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/cuopt-examples": "2026-10-03T23:30:47+00:00",
@@ -2064,6 +2072,8 @@
     "gh:nvidia/fleet-intelligence-client": "2026-10-01T23:00:01+00:00",
     "gh:nvidia/garak": "2026-10-09T23:00:01+00:00",
     "gh:nvidia/gdbscripts": "2026-09-30T17:33:00+00:00",
+    "gh:nvidia/gfmbench-api": "2026-10-11T23:00:01+00:00",
+    "gh:nvidia/go-nvlib": "2026-10-11T23:00:01+00:00",
     "gh:nvidia/gpu-driver-container": "2026-10-01T05:51:05+00:00",
     "gh:nvidia/gpu-operator": "2026-10-01T23:00:01+00:00",
     "gh:nvidia/holodeck": "2026-10-10T23:00:01+00:00",
@@ -2101,6 +2111,7 @@
     "gh:nvidia/nemoclaw": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/nemoclaw-community": "2026-10-07T23:00:01+00:00",
     "gh:nvidia/nodewright": "2026-09-30T17:33:00+00:00",
+    "gh:nvidia/nsightsystemsplugins": "2026-10-11T23:00:01+00:00",
     "gh:nvidia/nsmd": "2026-10-01T05:51:05+00:00",
     "gh:nvidia/numba-cuda": "2026-10-01T23:00:01+00:00",
     "gh:nvidia/numba-cuda-mlir": "2026-09-30T17:33:00+00:00",
@@ -2157,6 +2168,7 @@
     "gh:nvidia/torch-harmonics": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/transformerengine": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/vela": "2026-09-30T17:33:00+00:00",
+    "gh:nvidia/vgpu-device-manager": "2026-10-11T23:00:01+00:00",
     "gh:nvidia/viskores-graph": "2026-10-01T23:00:01+00:00",
     "gh:nvidia/visrtx": "2026-10-07T23:00:01+00:00",
     "gh:nvidia/warp": "2026-09-30T17:33:00+00:00",
@@ -2654,6 +2666,7 @@
     "gnews:anewuniqueaidatasetforanimatingamateurdrawings": "2026-10-01T23:00:01+00:00",
     "gnews:announcingthecommercialrelicensingandexpansionofdinov2plustheintroductionoffacet": "2026-10-01T05:50:27+00:00",
     "gnews:announcingtheinauguralllamastartupprogramcohort": "2026-10-01T05:50:27+00:00",
+    "gnews:aromausingmachinelearningforcoderecommendation": "2026-10-11T23:00:01+00:00",
     "gnews:asocialstudybuddygetsaconversationalliftfrommetallama": "2026-10-01T05:50:27+00:00",
     "gnews:astateoftheartopensourcechatbot": "2026-10-01T05:50:27+00:00",
     "gnews:audiovisualselfsupervisedrepresentationlearning": "2026-10-01T05:50:27+00:00",
@@ -2731,6 +2744,7 @@
     "gnews:opensourcingsubmititalightweighttoolforslurmclustercomputation": "2026-10-01T05:50:27+00:00",
     "gnews:ournextgenerationmetatrainingandinferenceaccelerator": "2026-10-01T05:50:27+00:00",
     "gnews:ouropensourcellamamodelsarehelpingtospureconomicgrowthintheus": "2026-10-01T05:50:27+00:00",
+    "gnews:poweredbyaioculusinsight": "2026-10-11T23:00:01+00:00",
     "gnews:privatepredictionmethodsasystematicstudy": "2026-10-05T23:00:01+00:00",
     "gnews:pytorchdrivesnextgenintelligentfarmingmachines": "2026-10-05T23:00:01+00:00",
     "gnews:raftsailingllamatowardsbetterdomainspecificrag": "2026-10-01T05:50:27+00:00",
@@ -2748,6 +2762,7 @@
     "gnews:thellama4herdthebeginningofaneweraofnativelymultimodalaiinnovation": "2026-10-07T23:00:01+00:00",
     "gnews:theshifttogeneralizedaitobetteridentifyviolatingcontent": "2026-10-01T05:50:27+00:00",
     "gnews:theuniversitiesspaceresearchassociationappliessegmentanythingmodelforrespondingtofloodemergencies": "2026-10-01T05:50:27+00:00",
+    "gnews:turingawardpresentedtoyannlecungeoffreyhintonandyoshuabengio": "2026-10-11T23:00:01+00:00",
     "gnews:understandingandmitigatingdimensionalcollapseincontrastivelearningmethods": "2026-10-01T05:50:27+00:00",
     "gnews:usingaitocompressaudiofilesforquickandeasysharing": "2026-10-01T05:50:27+00:00",
     "gnews:usingreinforcementlearningtopersonalizeaiacceleratedmriscans": "2026-10-01T05:50:27+00:00",
@@ -2766,6 +2781,7 @@
     "t:anewuniqueaidatasetforanimatingamateurdrawings": "2026-10-01T23:00:01+00:00",
     "t:announcingthecommercialrelicensingandexpansionofdinov2plustheintroductionoffacet": "2026-10-01T05:50:27+00:00",
     "t:announcingtheinauguralllamastartupprogramcohort": "2026-10-01T05:50:27+00:00",
+    "t:aromausingmachinelearningforcoderecommendation": "2026-10-11T23:00:01+00:00",
     "t:asocialstudybuddygetsaconversationalliftfrommetallama": "2026-10-01T05:50:27+00:00",
     "t:astateoftheartopensourcechatbot": "2026-10-01T05:50:27+00:00",
     "t:audiovisualselfsupervisedrepresentationlearning": "2026-10-01T05:50:27+00:00",
@@ -2843,6 +2859,7 @@
     "t:opensourcingsubmititalightweighttoolforslurmclustercomputation": "2026-10-01T05:50:27+00:00",
     "t:ournextgenerationmetatrainingandinferenceaccelerator": "2026-10-01T05:50:27+00:00",
     "t:ouropensourcellamamodelsarehelpingtospureconomicgrowthintheus": "2026-10-01T05:50:27+00:00",
+    "t:poweredbyaioculusinsight": "2026-10-11T23:00:01+00:00",
     "t:privatepredictionmethodsasystematicstudy": "2026-10-05T23:00:01+00:00",
     "t:pytorchdrivesnextgenintelligentfarmingmachines": "2026-10-05T23:00:01+00:00",
     "t:raftsailingllamatowardsbetterdomainspecificrag": "2026-10-01T05:50:27+00:00",
@@ -2860,6 +2877,7 @@
     "t:thellama4herdthebeginningofaneweraofnativelymultimodalaiinnovation": "2026-10-07T23:00:01+00:00",
     "t:theshifttogeneralizedaitobetteridentifyviolatingcontent": "2026-10-01T05:50:27+00:00",
     "t:theuniversitiesspaceresearchassociationappliessegmentanythingmodelforrespondingtofloodemergencies": "2026-10-01T05:50:27+00:00",
+    "t:turingawardpresentedtoyannlecungeoffreyhintonandyoshuabengio": "2026-10-11T23:00:01+00:00",
     "t:understandingandmitigatingdimensionalcollapseincontrastivelearningmethods": "2026-10-01T05:50:27+00:00",
     "t:usingaitocompressaudiofilesforquickandeasysharing": "2026-10-01T05:50:27+00:00",
     "t:usingreinforcementlearningtopersonalizeaiacceleratedmriscans": "2026-10-01T05:50:27+00:00",
@@ -3080,6 +3098,7 @@
     "https://www.youtube.com/shorts/58MTEgSmLB4": "2026-10-10T23:00:01+00:00",
     "https://www.youtube.com/shorts/AIH_9dOpAmU": "2026-09-30T17:33:00+00:00",
     "https://www.youtube.com/shorts/CC380G7fyH0": "2026-09-30T17:33:00+00:00",
+    "https://www.youtube.com/shorts/UGjOg3VRC7s": "2026-10-11T23:00:01+00:00",
     "https://www.youtube.com/shorts/UPmU8AG_548": "2026-09-30T23:00:01+00:00",
     "https://www.youtube.com/shorts/XxHfJRnUG24": "2026-10-07T23:00:01+00:00",
     "https://www.youtube.com/shorts/a6qM4YHSKRQ": "2026-09-30T17:33:00+00:00",
@@ -3097,6 +3116,7 @@
     "https://www.youtube.com/watch?v=UxOQ2qyY6Qo": "2026-10-02T23:00:01+00:00",
     "https://www.youtube.com/watch?v=cr61seCie_c": "2026-09-30T17:33:00+00:00",
     "https://www.youtube.com/watch?v=mFv4VRoFj-k": "2026-09-30T17:33:00+00:00",
+    "https://www.youtube.com/watch?v=nM21x3FFlPE": "2026-10-11T23:00:01+00:00",
     "https://www.youtube.com/watch?v=vmAIpEHrCok": "2026-09-30T23:00:01+00:00",
     "https://www.youtube.com/watch?v=xAgq8ByWK0M": "2026-09-30T17:33:00+00:00",
     "https://www.youtube.com/watch?v=z1t-bp9UC3E": "2026-10-01T23:00:01+00:00"
@@ -4715,8 +4735,6 @@
   },
   "unitree-youtube": {
    "bootstrapped": "2026-09-30T17:30:49+00:00",
-   "fail_streak": 1,
-   "failing_since": "2026-10-10T22:45:59+00:00",
    "seen": {
     "https://www.youtube.com/watch?v=B-a8TB8ttII": "2026-09-30T17:33:00+00:00",
     "https://www.youtube.com/watch?v=GHySQMMrIa4": "2026-09-30T17:33:00+00:00",
