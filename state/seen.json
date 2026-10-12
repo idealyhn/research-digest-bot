@@ -19,8 +19,8 @@
      0
     ],
     "arxiv-robotics": [
-     220,
-     0
+     192,
+     94
     ],
     "bostondynamics-blog": [
      12,
@@ -48,19 +48,19 @@
     ],
     "gh-deepmind": [
      74,
-     1
+     0
     ],
     "gh-isaac-sim": [
      12,
      0
     ],
     "gh-meta": [
-     68,
-     0
+     67,
+     2
     ],
     "gh-nvidia": [
-     71,
-     5
+     72,
+     3
     ],
     "gh-nvlabs": [
      62,
@@ -100,19 +100,19 @@
     ],
     "hf-nvidia": [
      80,
-     0
+     1
     ],
     "meta-ai-blog": [
      100,
-     3
+     0
     ],
     "nvidia-blog": [
      18,
-     0
+     1
     ],
     "nvidia-developer-blog": [
      100,
-     0
+     1
     ],
     "nvidia-gear": [
      2,
@@ -152,15 +152,15 @@
     ]
    },
    "errors": {},
-   "items_posted": 2,
-   "run": "2026-10-11T22:46:13+00:00",
+   "items_posted": 3,
+   "run": "2026-10-12T22:46:58+00:00",
    "warnings": {
     "meta-ai-blog": "primary failed (400 Client Error: Bad Request for url: https://ai.meta.com/blog/); used gnews fallback",
     "pi-blog": "primary failed (HTTPSConnectionPool(host='www.pi.website', port=443): Max retries exceeded with url: /blog (Caused by ResponseError('too many 429 error responses'))); used gnews fallback",
     "tri-news": "primary failed (403 Client Error: Forbidden for url: https://www.tri.global/rss.xml); used gnews fallback"
    }
   },
-  "last_run": "2026-10-11T22:46:13.266325+00:00"
+  "last_run": "2026-10-12T22:46:58.262879+00:00"
  },
  "sources": {
   "1x-discover": {
@@ -1583,7 +1583,101 @@
     "arxiv:2610.12465": "2026-10-09T23:00:01+00:00",
     "arxiv:2610.12467": "2026-10-09T23:00:01+00:00",
     "arxiv:2610.12468": "2026-10-09T23:00:01+00:00",
-    "arxiv:2610.12470": "2026-10-09T23:00:01+00:00"
+    "arxiv:2610.12470": "2026-10-09T23:00:01+00:00",
+    "arxiv:2610.12549": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.12558": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.12561": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.12567": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.12575": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.12609": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.12631": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.12636": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.12637": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.12642": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.12670": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.12684": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.12696": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.12706": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.12710": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.12733": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.12734": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.12747": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.12761": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.12772": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.12774": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.12780": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.12790": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.12793": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.12818": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.12826": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.12832": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.12848": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.12861": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.12877": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.12881": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.12886": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.12895": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.12910": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.12914": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.12936": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.12957": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.12972": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.12999": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13007": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13021": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13024": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13040": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13049": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13077": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13079": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13087": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13092": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13093": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13117": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13118": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13119": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13158": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13164": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13190": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13195": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13212": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13225": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13262": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13300": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13309": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13345": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13354": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13373": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13376": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13403": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13409": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13453": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13479": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13516": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13522": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13534": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13557": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13572": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13578": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13628": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13643": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13665": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13688": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13732": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13740": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13772": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13788": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13816": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13829": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13838": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13849": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13856": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13862": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13872": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13891": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13929": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13943": "2026-10-12T23:00:01+00:00",
+    "arxiv:2610.13945": "2026-10-12T23:00:01+00:00"
    }
   },
   "bostondynamics-blog": {
@@ -1920,6 +2014,7 @@
     "gh:facebookresearch/airs-bench": "2026-10-10T23:00:01+00:00",
     "gh:facebookresearch/atlas-lean": "2026-09-30T17:33:00+00:00",
     "gh:facebookresearch/autoform-bot": "2026-09-30T17:33:00+00:00",
+    "gh:facebookresearch/autoformbench": "2026-10-12T23:00:01+00:00",
     "gh:facebookresearch/autopartgen": "2026-09-30T17:33:00+00:00",
     "gh:facebookresearch/balance": "2026-09-30T17:33:00+00:00",
     "gh:facebookresearch/best-n-selection-video-reasoning": "2026-10-07T23:00:01+00:00",
@@ -1963,6 +2058,7 @@
     "gh:facebookresearch/multimodal": "2026-09-30T17:33:00+00:00",
     "gh:facebookresearch/mvdust3r": "2026-09-30T17:33:00+00:00",
     "gh:facebookresearch/neuroai": "2026-09-30T17:33:00+00:00",
+    "gh:facebookresearch/nevergrad": "2026-10-12T23:00:01+00:00",
     "gh:facebookresearch/nymeria_dataset": "2026-10-06T23:00:01+00:00",
     "gh:facebookresearch/ocean": "2026-09-30T17:33:00+00:00",
     "gh:facebookresearch/openapps": "2026-09-30T17:33:00+00:00",
@@ -2020,6 +2116,7 @@
     "gh:nvidia/ai-factory-operations-agent": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/aicr": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/aistore": "2026-09-30T17:33:00+00:00",
+    "gh:nvidia/apex": "2026-10-12T23:00:01+00:00",
     "gh:nvidia/auto-ontology": "2026-10-04T23:00:01+00:00",
     "gh:nvidia/auto-ontology-eval": "2026-10-04T23:00:01+00:00",
     "gh:nvidia/barney": "2026-10-03T23:30:47+00:00",
@@ -2067,6 +2164,7 @@
     "gh:nvidia/edk2": "2026-10-03T23:30:47+00:00",
     "gh:nvidia/edk2-platforms": "2026-10-03T23:30:47+00:00",
     "gh:nvidia/elements": "2026-09-30T17:33:00+00:00",
+    "gh:nvidia/enterprise-ras": "2026-10-12T23:00:01+00:00",
     "gh:nvidia/exemplar-performance": "2026-10-02T23:00:01+00:00",
     "gh:nvidia/flashdreams": "2026-09-30T23:00:01+00:00",
     "gh:nvidia/fleet-intelligence-client": "2026-10-01T23:00:01+00:00",
@@ -2167,6 +2265,7 @@
     "gh:nvidia/tilegym": "2026-10-03T23:30:47+00:00",
     "gh:nvidia/torch-harmonics": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/transformerengine": "2026-09-30T17:33:00+00:00",
+    "gh:nvidia/trustworthy-ai": "2026-10-12T23:00:01+00:00",
     "gh:nvidia/vela": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/vgpu-device-manager": "2026-10-11T23:00:01+00:00",
     "gh:nvidia/viskores-graph": "2026-10-01T23:00:01+00:00",
@@ -2641,6 +2740,7 @@
     "hf:models:nvidia/nvidia-nemotronlabs-voicechat-11b": "2026-09-30T17:33:00+00:00",
     "hf:models:nvidia/pixeldit2-imagenet": "2026-10-02T23:00:01+00:00",
     "hf:models:nvidia/pixelumm": "2026-10-01T23:00:01+00:00",
+    "hf:models:nvidia/qwen-image-nvfp4": "2026-10-12T23:00:01+00:00",
     "hf:models:nvidia/qwen3.8-2.4t-a95b-nvfp4": "2026-09-30T17:33:00+00:00",
     "hf:models:nvidia/qwen3.8-27b-nvfp4": "2026-09-30T17:33:00+00:00",
     "hf:models:nvidia/qwen3.8-flash-next-nvfp4": "2026-09-30T17:33:00+00:00",
@@ -2910,6 +3010,7 @@
     "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync": "2026-10-02T23:00:01+00:00",
     "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event": "2026-10-07T23:00:01+00:00",
     "https://blogs.nvidia.com/blog/nvidia-life-sakeena-fiza": "2026-09-30T17:33:00+00:00",
+    "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories": "2026-10-12T23:00:01+00:00",
     "https://blogs.nvidia.com/blog/open-protein-dataset": "2026-09-30T17:33:00+00:00",
     "https://blogs.nvidia.com/blog/physical-ai-halos-safety": "2026-09-30T17:33:00+00:00",
     "https://blogs.nvidia.com/blog/productive-durable-fungible-ai-factories": "2026-10-01T23:00:01+00:00",
@@ -2922,6 +3023,7 @@
     "t:intotheomniversehowdevelopersturnideasintosimulationswithfrontieraiagents": "2026-10-09T23:00:01+00:00",
     "t:nvidiadgxspark64gbgivesdevelopersmorewaystobuildandscalelocalai": "2026-10-02T23:00:01+00:00",
     "t:nvidiamicrosoftkickoffanewbeginningforwindowspcswithrtxsparkandaiagents": "2026-10-07T23:00:01+00:00",
+    "t:ocpglobalsummitamidecosystemadoptionnvidiaopensverarubinarchitecturetohelpscaleaifactoriesworldwide": "2026-10-12T23:00:01+00:00",
     "t:productivedurablefungiblehownvidiaaifactoriesmaximizereturnoninvestment": "2026-10-01T23:00:01+00:00",
     "t:rallyupgearsofwaredaylaunchesongeforcenow": "2026-10-08T23:00:01+00:00",
     "t:whytelecomoperatorsarebuildingtheiraistrategyonopenmodels": "2026-10-06T23:00:01+00:00"
@@ -3016,6 +3118,7 @@
     "https://developer.nvidia.com/blog/nvidia-video-codec-sdk-13-1-zero-copy-transcode-av1-b-frames-and-frame-accurate-seek": "2026-09-30T17:33:00+00:00",
     "https://developer.nvidia.com/blog/post-train-nvidia-cosmos-3-edge-for-on-device-robot-control": "2026-09-30T17:33:00+00:00",
     "https://developer.nvidia.com/blog/qa-how-capcom-brought-path-tracing-to-re-engine-across-pragmata-and-resident-evil-requiem": "2026-09-30T17:33:00+00:00",
+    "https://developer.nvidia.com/blog/replayssm-rethinking-state-storage-for-faster-hybrid-model-decoding": "2026-10-12T23:00:01+00:00",
     "https://developer.nvidia.com/blog/restore-llm-inference-capacity-in-seconds-with-shadow-engine-recovery-in-nvidia-dynamo": "2026-09-30T17:33:00+00:00",
     "https://developer.nvidia.com/blog/route-ai-agent-workloads-across-models-with-nvidia-nemo-switchyard": "2026-09-30T17:33:00+00:00",
     "https://developer.nvidia.com/blog/run-high-performance-core-math-at-scale-with-nvidia-nvmath-python": "2026-09-30T17:33:00+00:00",
@@ -3054,6 +3157,7 @@
     "t:fasterscientificimageanalysiswithnvidiacuphoton": "2026-10-07T23:00:01+00:00",
     "t:finetuningnvidianemotronforsaudiarabicdialectswithapathtootherlanguages": "2026-10-01T05:51:05+00:00",
     "t:howdocagpunetiounifiesgpuinitiatednetworkingacrossthenvidiasoftwarestack": "2026-10-06T23:00:01+00:00",
+    "t:replayssmrethinkingstatestorageforfasterhybridmodeldecoding": "2026-10-12T23:00:01+00:00",
     "t:scalebitwisedeterministicpretrainingwithnvidiamegatroncore": "2026-10-08T23:00:01+00:00",
     "t:scalingdecisionoptimizationto100millionvariablesandbeyondwithmpdlpinnvidiacuopt": "2026-10-07T23:00:01+00:00",
     "t:themachinesthatmakethemachines": "2026-10-07T23:00:01+00:00",
@@ -3096,6 +3200,7 @@
    "seen": {
     "https://www.youtube.com/shorts/4VGqc9Xzx0M": "2026-10-01T23:00:01+00:00",
     "https://www.youtube.com/shorts/58MTEgSmLB4": "2026-10-10T23:00:01+00:00",
+    "https://www.youtube.com/shorts/7yjzv6Ize4U": "2026-10-12T23:00:01+00:00",
     "https://www.youtube.com/shorts/AIH_9dOpAmU": "2026-09-30T17:33:00+00:00",
     "https://www.youtube.com/shorts/CC380G7fyH0": "2026-09-30T17:33:00+00:00",
     "https://www.youtube.com/shorts/UGjOg3VRC7s": "2026-10-11T23:00:01+00:00",
@@ -3109,6 +3214,7 @@
     "https://www.youtube.com/shorts/v0d-7DOxUNU": "2026-10-06T23:00:01+00:00",
     "https://www.youtube.com/shorts/vFXpC3GOe0E": "2026-09-30T17:33:00+00:00",
     "https://www.youtube.com/shorts/wgd9C8JYZEM": "2026-09-30T17:33:00+00:00",
+    "https://www.youtube.com/shorts/ygMpRRrk6Q8": "2026-10-12T23:00:01+00:00",
     "https://www.youtube.com/watch?v=4O1Gl4_xk3w": "2026-09-30T17:33:00+00:00",
     "https://www.youtube.com/watch?v=4XZzjY4X13A": "2026-10-06T23:00:01+00:00",
     "https://www.youtube.com/watch?v=KT89PEe9d7U": "2026-09-30T17:33:00+00:00",
