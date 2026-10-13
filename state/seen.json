@@ -6,65 +6,45 @@
      11,
      0
     ],
-    "1x-youtube": [
-     15,
-     0
-    ],
-    "agility-youtube": [
-     15,
-     0
-    ],
     "apptronik-news": [
      15,
      0
     ],
     "arxiv-robotics": [
-     192,
-     94
+     72,
+     0
     ],
     "bostondynamics-blog": [
      12,
      0
     ],
-    "bostondynamics-youtube": [
-     15,
-     0
-    ],
     "deepmind-blog": [
      100,
-     0
-    ],
-    "deepmind-youtube": [
-     15,
-     0
+     3
     ],
     "figure-news": [
      21,
      0
     ],
-    "figure-youtube": [
-     15,
-     0
-    ],
     "gh-deepmind": [
-     74,
-     0
+     73,
+     1
     ],
     "gh-isaac-sim": [
      12,
      0
     ],
     "gh-meta": [
-     67,
-     2
+     68,
+     1
     ],
     "gh-nvidia": [
      72,
-     3
+     2
     ],
     "gh-nvlabs": [
      62,
-     0
+     1
     ],
     "gh-physical-intelligence": [
      7,
@@ -100,7 +80,7 @@
     ],
     "hf-nvidia": [
      80,
-     1
+     2
     ],
     "meta-ai-blog": [
      100,
@@ -108,11 +88,11 @@
     ],
     "nvidia-blog": [
      18,
-     1
+     2
     ],
     "nvidia-developer-blog": [
      100,
-     1
+     2
     ],
     "nvidia-gear": [
      2,
@@ -122,45 +102,41 @@
      19,
      0
     ],
-    "nvidia-youtube": [
-     15,
-     2
-    ],
     "openai-news": [
-     1287,
-     0
+     1288,
+     1
     ],
     "pi-blog": [
-     26,
-     0
+     15,
+     15
     ],
     "skild-blog": [
      12,
      0
     ],
-    "tesla-optimus-youtube": [
-     15,
-     0
-    ],
     "tri-news": [
      100,
-     0
-    ],
-    "unitree-youtube": [
-     15,
-     0
+     1
     ]
    },
-   "errors": {},
-   "items_posted": 3,
-   "run": "2026-10-12T22:46:58+00:00",
+   "errors": {
+    "1x-youtube": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCoHslVexR2q57wUoCRfdUsg",
+    "agility-youtube": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCN-StetwWuVYf-MU2_NVj4A",
+    "bostondynamics-youtube": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC7vVhkEfw4nOGp8TyDk7RcQ",
+    "deepmind-youtube": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCP7jMXSY2xbc3KCAE0MHQ-A",
+    "figure-youtube": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCYlq-KmwPjc1DtsGmthFqSQ",
+    "nvidia-youtube": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g",
+    "tesla-optimus-youtube": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC5WjFrtBdufl6CZojX3D8dQ",
+    "unitree-youtube": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsMbp4V8oxzHCMdOUP-3oWw"
+   },
+   "items_posted": 10,
+   "run": "2026-10-13T22:43:41+00:00",
    "warnings": {
     "meta-ai-blog": "primary failed (400 Client Error: Bad Request for url: https://ai.meta.com/blog/); used gnews fallback",
-    "pi-blog": "primary failed (HTTPSConnectionPool(host='www.pi.website', port=443): Max retries exceeded with url: /blog (Caused by ResponseError('too many 429 error responses'))); used gnews fallback",
     "tri-news": "primary failed (403 Client Error: Forbidden for url: https://www.tri.global/rss.xml); used gnews fallback"
    }
   },
-  "last_run": "2026-10-12T22:46:58.262879+00:00"
+  "last_run": "2026-10-13T22:43:41.265388+00:00"
  },
  "sources": {
   "1x-discover": {
@@ -181,6 +157,8 @@
   },
   "1x-youtube": {
    "bootstrapped": "2026-09-30T17:30:49+00:00",
+   "fail_streak": 1,
+   "failing_since": "2026-10-13T22:43:57+00:00",
    "seen": {
     "https://www.youtube.com/watch?v=Dp6sqx9BGZs": "2026-09-30T17:33:00+00:00",
     "https://www.youtube.com/watch?v=JUz-hyP5PMg": "2026-09-30T17:33:00+00:00",
@@ -201,6 +179,8 @@
   },
   "agility-youtube": {
    "bootstrapped": "2026-09-30T17:30:49+00:00",
+   "fail_streak": 1,
+   "failing_since": "2026-10-13T22:44:08+00:00",
    "seen": {
     "https://www.youtube.com/shorts/2S_8irZnz3Q": "2026-09-30T17:33:00+00:00",
     "https://www.youtube.com/shorts/FKkg7_-U5TE": "2026-09-30T17:33:00+00:00",
@@ -1702,6 +1682,8 @@
   },
   "bostondynamics-youtube": {
    "bootstrapped": "2026-09-30T17:30:49+00:00",
+   "fail_streak": 1,
+   "failing_since": "2026-10-13T22:44:03+00:00",
    "seen": {
     "https://www.youtube.com/shorts/A0VdM2S3vL4": "2026-09-30T17:33:00+00:00",
     "https://www.youtube.com/shorts/GvByvkp6k5s": "2026-09-30T17:33:00+00:00",
@@ -1744,6 +1726,7 @@
     "https://deepmind.google/blog/d4rt-teaching-ai-to-see-the-world-in-four-dimensions": "2026-09-30T17:33:00+00:00",
     "https://deepmind.google/blog/decoupled-diloco": "2026-09-30T17:33:00+00:00",
     "https://deepmind.google/blog/deepening-our-partnership-with-the-uk-ai-security-institute": "2026-09-30T17:33:00+00:00",
+    "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely": "2026-10-13T23:00:01+00:00",
     "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation": "2026-09-30T17:33:00+00:00",
     "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model": "2026-10-06T23:00:01+00:00",
     "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi": "2026-09-30T17:33:00+00:00",
@@ -1760,6 +1743,7 @@
     "https://deepmind.google/blog/gemini-3-5-frontier-intelligence-with-action": "2026-09-30T17:33:00+00:00",
     "https://deepmind.google/blog/gemini-3-deep-think-advancing-science-research-and-engineering": "2026-09-30T17:33:00+00:00",
     "https://deepmind.google/blog/gemini-3-flash-frontier-intelligence-built-for-speed": "2026-09-30T17:33:00+00:00",
+    "https://deepmind.google/blog/gemini-4-argon-for-robotics": "2026-10-13T23:00:01+00:00",
     "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence": "2026-09-30T23:00:01+00:00",
     "https://deepmind.google/blog/gemini-for-science-ai-experiments-and-tools-for-a-new-era-of-discovery": "2026-09-30T17:33:00+00:00",
     "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control": "2026-09-30T17:33:00+00:00",
@@ -1784,6 +1768,7 @@
     "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber": "2026-09-30T17:33:00+00:00",
     "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking": "2026-09-30T17:33:00+00:00",
     "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar": "2026-09-30T17:33:00+00:00",
+    "https://deepmind.google/blog/introducing-gemini-4-argon": "2026-10-13T23:00:01+00:00",
     "https://deepmind.google/blog/introducing-gemini-omni": "2026-09-30T17:33:00+00:00",
     "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model": "2026-09-30T17:33:00+00:00",
     "https://deepmind.google/blog/introducing-google-antigravity": "2026-09-30T17:33:00+00:00",
@@ -1826,11 +1811,16 @@
     "https://deepmind.google/blog/were-expanding-our-presence-in-singapore-to-advance-ai-in-the-asia-pacific-region": "2026-09-30T17:33:00+00:00",
     "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control": "2026-09-30T17:33:00+00:00",
     "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks": "2026-09-30T17:33:00+00:00",
-    "t:embeddinggemma2anopenlightweightmultimodalembeddingmodel": "2026-10-06T23:00:01+00:00"
+    "t:developinggemini4argonresponsiblyandsafely": "2026-10-13T23:00:01+00:00",
+    "t:embeddinggemma2anopenlightweightmultimodalembeddingmodel": "2026-10-06T23:00:01+00:00",
+    "t:gemini4argonbuilttosolveyourhardestproblems": "2026-10-13T23:00:01+00:00",
+    "t:gemini4argonforrobotics": "2026-10-13T23:00:01+00:00"
    }
   },
   "deepmind-youtube": {
    "bootstrapped": "2026-09-30T17:31:01+00:00",
+   "fail_streak": 1,
+   "failing_since": "2026-10-13T22:44:26+00:00",
    "seen": {
     "https://www.youtube.com/shorts/OEmEfobzodE": "2026-09-30T17:33:00+00:00",
     "https://www.youtube.com/shorts/ya04CpsRJH0": "2026-09-30T17:33:00+00:00",
@@ -1878,6 +1868,8 @@
   },
   "figure-youtube": {
    "bootstrapped": "2026-09-30T17:30:49+00:00",
+   "fail_streak": 1,
+   "failing_since": "2026-10-13T22:43:46+00:00",
    "seen": {
     "https://www.youtube.com/watch?v=HuYXf_3TNW8": "2026-09-30T17:33:00+00:00",
     "https://www.youtube.com/watch?v=JeeJJ42TKQU": "2026-09-30T17:33:00+00:00",
@@ -1916,6 +1908,7 @@
     "gh:google-deepmind/clrs": "2026-09-30T17:33:00+00:00",
     "gh:google-deepmind/codemender": "2026-09-30T17:33:00+00:00",
     "gh:google-deepmind/concordia": "2026-09-30T17:33:00+00:00",
+    "gh:google-deepmind/cryptids": "2026-10-13T23:00:01+00:00",
     "gh:google-deepmind/datadiver": "2026-09-30T17:33:00+00:00",
     "gh:google-deepmind/ddgc": "2026-09-30T17:33:00+00:00",
     "gh:google-deepmind/dialog": "2026-09-30T17:33:00+00:00",
@@ -2046,6 +2039,7 @@
     "gh:facebookresearch/logbook": "2026-10-05T23:00:01+00:00",
     "gh:facebookresearch/luxremix-dataset": "2026-09-30T17:33:00+00:00",
     "gh:facebookresearch/meta-agents-research-environments": "2026-09-30T23:00:01+00:00",
+    "gh:facebookresearch/mhr": "2026-10-13T23:00:01+00:00",
     "gh:facebookresearch/midtraining-distillation": "2026-09-30T17:33:00+00:00",
     "gh:facebookresearch/mjepa": "2026-09-30T17:33:00+00:00",
     "gh:facebookresearch/mmf": "2026-10-06T23:00:01+00:00",
@@ -2123,8 +2117,10 @@
     "gh:nvidia/blossom-action": "2026-10-02T23:00:01+00:00",
     "gh:nvidia/broadcast-skills": "2026-10-02T23:00:01+00:00",
     "gh:nvidia/cccl": "2026-09-30T17:33:00+00:00",
+    "gh:nvidia/cloud-native-docs": "2026-10-13T23:00:01+00:00",
     "gh:nvidia/cloudai": "2026-09-30T23:00:01+00:00",
     "gh:nvidia/cluster-readiness-engine": "2026-09-30T17:33:00+00:00",
+    "gh:nvidia/compileiq": "2026-10-13T23:00:01+00:00",
     "gh:nvidia/context-aware-rag": "2026-10-01T05:51:05+00:00",
     "gh:nvidia/cosmos": "2026-10-06T23:00:01+00:00",
     "gh:nvidia/cosmos-framework": "2026-10-10T23:00:01+00:00",
@@ -2305,6 +2301,7 @@
     "gh:nvlabs/falcor2": "2026-09-30T17:33:00+00:00",
     "gh:nvlabs/falcor2-data": "2026-09-30T17:33:00+00:00",
     "gh:nvlabs/fast-foundationstereo": "2026-09-30T17:33:00+00:00",
+    "gh:nvlabs/flip": "2026-10-13T23:00:01+00:00",
     "gh:nvlabs/g2lf": "2026-09-30T17:33:00+00:00",
     "gh:nvlabs/gateddeltanet-2": "2026-09-30T17:33:00+00:00",
     "gh:nvlabs/gbrl": "2026-09-30T17:33:00+00:00",
@@ -2716,6 +2713,8 @@
     "hf:models:nvidia/foundationpose": "2026-09-30T17:33:00+00:00",
     "hf:models:nvidia/glm-5.3-flash-nvfp4": "2026-09-30T17:33:00+00:00",
     "hf:models:nvidia/glm-5.3-nvfp4": "2026-09-30T17:33:00+00:00",
+    "hf:models:nvidia/gr00t-n1.7-appletoplate-cosine40k-checkpoint-15000": "2026-10-13T23:00:01+00:00",
+    "hf:models:nvidia/interp-dit-crps-era5": "2026-10-13T23:00:01+00:00",
     "hf:models:nvidia/kimi-k3-nvfp4": "2026-09-30T17:33:00+00:00",
     "hf:models:nvidia/kumo-relational": "2026-09-30T17:33:00+00:00",
     "hf:models:nvidia/kumo-tabular": "2026-09-30T17:33:00+00:00",
@@ -2999,6 +2998,7 @@
     "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents": "2026-10-09T23:00:01+00:00",
     "https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling": "2026-09-30T17:33:00+00:00",
     "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem": "2026-09-30T17:33:00+00:00",
+    "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing": "2026-10-13T23:00:01+00:00",
     "https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production": "2026-09-30T17:33:00+00:00",
     "https://blogs.nvidia.com/blog/geforce-now-thursday-aniimo": "2026-09-30T17:33:00+00:00",
     "https://blogs.nvidia.com/blog/geforce-now-thursday-control-resonant": "2026-09-30T17:33:00+00:00",
@@ -3008,6 +3008,7 @@
     "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics": "2026-09-30T17:33:00+00:00",
     "https://blogs.nvidia.com/blog/jensen-huang-dreamforce": "2026-09-30T17:33:00+00:00",
     "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync": "2026-10-02T23:00:01+00:00",
+    "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates": "2026-10-13T23:00:01+00:00",
     "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event": "2026-10-07T23:00:01+00:00",
     "https://blogs.nvidia.com/blog/nvidia-life-sakeena-fiza": "2026-09-30T17:33:00+00:00",
     "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories": "2026-10-12T23:00:01+00:00",
@@ -3017,10 +3018,12 @@
     "https://blogs.nvidia.com/blog/telecom-operators-open-models": "2026-10-06T23:00:01+00:00",
     "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2": "2026-09-30T17:33:00+00:00",
     "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference": "2026-09-30T17:33:00+00:00",
+    "t:allsystemsgoglobalpcappecosystemreadyfornvidiartxspark": "2026-10-13T23:00:01+00:00",
     "t:fallinto25newgamesongeforcenowthisoctober": "2026-10-01T23:00:01+00:00",
     "t:fromscantotreatmentplanaihelpsclosebreastcancersdeadliestgaps": "2026-10-05T23:00:01+00:00",
     "t:hownvidiagpushelpaccelerateopenaisgpt6astraultrafast": "2026-10-02T23:00:01+00:00",
     "t:intotheomniversehowdevelopersturnideasintosimulationswithfrontieraiagents": "2026-10-09T23:00:01+00:00",
+    "t:nvidiaannouncesnewinvestmentsinfrancesstartups": "2026-10-13T23:00:01+00:00",
     "t:nvidiadgxspark64gbgivesdevelopersmorewaystobuildandscalelocalai": "2026-10-02T23:00:01+00:00",
     "t:nvidiamicrosoftkickoffanewbeginningforwindowspcswithrtxsparkandaiagents": "2026-10-07T23:00:01+00:00",
     "t:ocpglobalsummitamidecosystemadoptionnvidiaopensverarubinarchitecturetohelpscaleaifactoriesworldwide": "2026-10-12T23:00:01+00:00",
@@ -3113,6 +3116,7 @@
     "https://developer.nvidia.com/blog/nvidia-nvlink-the-scale-up-network-for-ai-factories": "2026-09-30T17:33:00+00:00",
     "https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring": "2026-09-30T17:33:00+00:00",
     "https://developer.nvidia.com/blog/nvidia-pair-virtual-inference-router-expands-available-compute-on-your-local-network": "2026-09-30T17:33:00+00:00",
+    "https://developer.nvidia.com/blog/nvidia-runai-is-now-open-source-as-part-of-nvidia-dsx-ai-factory-platform": "2026-10-13T23:00:01+00:00",
     "https://developer.nvidia.com/blog/nvidia-vera-rubin-and-blackwell-set-a-new-standard-for-agentic-ai-performance-per-watt": "2026-09-30T17:33:00+00:00",
     "https://developer.nvidia.com/blog/nvidia-vera-storage-benchmarks-faster-encryption-compression-integrity-checking-and-recovery-for-ai-native-storage": "2026-09-30T17:33:00+00:00",
     "https://developer.nvidia.com/blog/nvidia-video-codec-sdk-13-1-zero-copy-transcode-av1-b-frames-and-frame-accurate-seek": "2026-09-30T17:33:00+00:00",
@@ -3120,6 +3124,7 @@
     "https://developer.nvidia.com/blog/qa-how-capcom-brought-path-tracing-to-re-engine-across-pragmata-and-resident-evil-requiem": "2026-09-30T17:33:00+00:00",
     "https://developer.nvidia.com/blog/replayssm-rethinking-state-storage-for-faster-hybrid-model-decoding": "2026-10-12T23:00:01+00:00",
     "https://developer.nvidia.com/blog/restore-llm-inference-capacity-in-seconds-with-shadow-engine-recovery-in-nvidia-dynamo": "2026-09-30T17:33:00+00:00",
+    "https://developer.nvidia.com/blog/rewrite-apache-spark-udfs-gpu-acceleration-ai-agents": "2026-10-13T23:00:01+00:00",
     "https://developer.nvidia.com/blog/route-ai-agent-workloads-across-models-with-nvidia-nemo-switchyard": "2026-09-30T17:33:00+00:00",
     "https://developer.nvidia.com/blog/run-high-performance-core-math-at-scale-with-nvidia-nvmath-python": "2026-09-30T17:33:00+00:00",
     "https://developer.nvidia.com/blog/run-local-agentic-ai-workflows-with-metas-muse-glimmer-on-nvidia": "2026-09-30T17:33:00+00:00",
@@ -3157,6 +3162,8 @@
     "t:fasterscientificimageanalysiswithnvidiacuphoton": "2026-10-07T23:00:01+00:00",
     "t:finetuningnvidianemotronforsaudiarabicdialectswithapathtootherlanguages": "2026-10-01T05:51:05+00:00",
     "t:howdocagpunetiounifiesgpuinitiatednetworkingacrossthenvidiasoftwarestack": "2026-10-06T23:00:01+00:00",
+    "t:howtorewriteapachesparkudfsforgpuaccelerationwithaiagents": "2026-10-13T23:00:01+00:00",
+    "t:nvidiarunaiisnowopensourceaspartofnvidiadsxaifactoryplatform": "2026-10-13T23:00:01+00:00",
     "t:replayssmrethinkingstatestorageforfasterhybridmodeldecoding": "2026-10-12T23:00:01+00:00",
     "t:scalebitwisedeterministicpretrainingwithnvidiamegatroncore": "2026-10-08T23:00:01+00:00",
     "t:scalingdecisionoptimizationto100millionvariablesandbeyondwithmpdlpinnvidiacuopt": "2026-10-07T23:00:01+00:00",
@@ -3197,6 +3204,8 @@
   },
   "nvidia-youtube": {
    "bootstrapped": "2026-09-30T17:31:00+00:00",
+   "fail_streak": 1,
+   "failing_since": "2026-10-13T22:44:21+00:00",
    "seen": {
     "https://www.youtube.com/shorts/4VGqc9Xzx0M": "2026-10-01T23:00:01+00:00",
     "https://www.youtube.com/shorts/58MTEgSmLB4": "2026-10-10T23:00:01+00:00",
@@ -3807,6 +3816,7 @@
     "https://openai.com/index/hierarchical-text-conditional-image-generation-with-clip-latents": "2026-09-30T17:33:00+00:00",
     "https://openai.com/index/higgsfield": "2026-09-30T17:33:00+00:00",
     "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra": "2026-09-30T17:33:00+00:00",
+    "https://openai.com/index/higgsfield-longer-videos-voice": "2026-10-13T23:00:01+00:00",
     "https://openai.com/index/hindsight-experience-replay": "2026-09-30T17:33:00+00:00",
     "https://openai.com/index/holiday-extras": "2026-09-30T17:33:00+00:00",
     "https://openai.com/index/horizon-1000": "2026-09-30T17:33:00+00:00",
@@ -4538,6 +4548,7 @@
     "t:gpt5ourbestmodelforwork": "2026-10-09T23:00:01+00:00",
     "t:gpt6andintelligentuiforeveryone": "2026-10-07T23:00:01+00:00",
     "t:helpingteenslearnplanandshapethefutureofai": "2026-10-07T23:00:01+00:00",
+    "t:higgsfieldtakesaivideofrom1minutetoover10": "2026-10-13T23:00:01+00:00",
     "t:howalbertsonscompaniesisreimaginingretailfromtheinsideout": "2026-10-01T23:00:01+00:00",
     "t:howjumptradingisscalingquantresearchwithchatgpt": "2026-10-07T23:00:01+00:00",
     "t:howopenaiuseschatgptatlasatwork": "2026-10-09T23:00:01+00:00",
@@ -4595,6 +4606,21 @@
     "gnews:thephysicalintelligencelayer": "2026-10-01T05:50:23+00:00",
     "gnews:vlasthattrainfastrunfastandgeneralizebetter": "2026-10-01T05:50:23+00:00",
     "gnews:vlaswithlongandshorttermmemory": "2026-10-01T05:50:23+00:00",
+    "https://www.pi.website/blog/api-beta": "2026-10-13T23:00:01+00:00",
+    "https://www.pi.website/blog/olympics": "2026-10-13T23:00:01+00:00",
+    "https://www.pi.website/blog/openpi": "2026-10-13T23:00:01+00:00",
+    "https://www.pi.website/blog/partner": "2026-10-13T23:00:01+00:00",
+    "https://www.pi.website/blog/pi0": "2026-10-13T23:00:01+00:00",
+    "https://www.pi.website/blog/pi05": "2026-10-13T23:00:01+00:00",
+    "https://www.pi.website/blog/pi07": "2026-10-13T23:00:01+00:00",
+    "https://www.pi.website/blog/pistar06": "2026-10-13T23:00:01+00:00",
+    "https://www.pi.website/research/fast": "2026-10-13T23:00:01+00:00",
+    "https://www.pi.website/research/hirobot": "2026-10-13T23:00:01+00:00",
+    "https://www.pi.website/research/human_to_robot": "2026-10-13T23:00:01+00:00",
+    "https://www.pi.website/research/knowledge_insulation": "2026-10-13T23:00:01+00:00",
+    "https://www.pi.website/research/memory": "2026-10-13T23:00:01+00:00",
+    "https://www.pi.website/research/real_time_chunking": "2026-10-13T23:00:01+00:00",
+    "https://www.pi.website/research/rlt": "2026-10-13T23:00:01+00:00",
     "t:05avisionlanguageactionmodelwithopenworldgeneralization": "2026-10-01T05:50:23+00:00",
     "t:06avlathatlearnsfromexperience": "2026-10-01T05:50:23+00:00",
     "t:07asteerablegeneralistroboticfoundationmodelwithemergentcapabilities": "2026-10-01T05:50:23+00:00",
@@ -4604,6 +4630,7 @@
     "t:avlawithopenworldgeneralization": "2026-10-01T05:50:23+00:00",
     "t:emergenceofhumantorobottransferinvisionlanguageactionmodels": "2026-10-01T05:50:23+00:00",
     "t:fastefficientrobotactiontokenization": "2026-10-01T05:50:23+00:00",
+    "t:frontiermodelsforeveryrobotannouncingourapibeta": "2026-10-13T23:00:01+00:00",
     "t:hirobotopenendedinstructionfollowingwithhierarchicalvisionlanguageactionmodels": "2026-10-01T05:50:23+00:00",
     "t:knowledgeinsulatingvisionlanguageactionmodelstrainfastrunfastgeneralizebetter": "2026-10-01T05:50:23+00:00",
     "t:memmultiscaleembodiedmemoryforvisionlanguageactionmodels": "2026-10-01T05:50:23+00:00",
@@ -4639,6 +4666,8 @@
   },
   "tesla-optimus-youtube": {
    "bootstrapped": "2026-09-30T17:30:49+00:00",
+   "fail_streak": 1,
+   "failing_since": "2026-10-13T22:43:52+00:00",
    "seen": {
     "https://www.youtube.com/shorts/3SsXy3Mp_iM": "2026-10-02T23:00:01+00:00",
     "https://www.youtube.com/shorts/8gvyWy-hCM8": "2026-09-30T17:33:00+00:00",
@@ -4699,6 +4728,7 @@
     "gnews:drrowanmcallister": "2026-10-01T05:50:24+00:00",
     "gnews:drrumeniliev": "2026-10-01T05:50:24+00:00",
     "gnews:drryaneustice": "2026-10-01T05:50:24+00:00",
+    "gnews:drryaneusticepresentsaiguardingthehumantoyotasguardianapproachtoautomateddrivingatum": "2026-10-13T23:00:01+00:00",
     "gnews:drsantoshsuram": "2026-10-01T05:50:24+00:00",
     "gnews:drscottcarter": "2026-10-01T05:50:24+00:00",
     "gnews:drweikeye": "2026-10-01T05:50:24+00:00",
@@ -4782,6 +4812,7 @@
     "t:driversbuypluginhybridsandforgetthepluginpart": "2026-10-01T05:50:24+00:00",
     "t:drnikosarechigagonzalez": "2026-10-01T05:50:24+00:00",
     "t:drrowanmcallister": "2026-10-01T05:50:24+00:00",
+    "t:drryaneusticepresentsaiguardingthehumantoyotasguardianapproachtoautomateddrivingatum": "2026-10-13T23:00:01+00:00",
     "t:featuredpublications": "2026-10-01T05:50:24+00:00",
     "t:howaiispoweringaroboticsrevolution": "2026-10-01T05:50:24+00:00",
     "t:latestnewsfeatures": "2026-10-01T05:50:24+00:00",
@@ -4841,6 +4872,8 @@
   },
   "unitree-youtube": {
    "bootstrapped": "2026-09-30T17:30:49+00:00",
+   "fail_streak": 1,
+   "failing_since": "2026-10-13T22:44:13+00:00",
    "seen": {
     "https://www.youtube.com/watch?v=B-a8TB8ttII": "2026-09-30T17:33:00+00:00",
     "https://www.youtube.com/watch?v=GHySQMMrIa4": "2026-09-30T17:33:00+00:00",
