@@ -19,8 +19,8 @@
      0
     ],
     "arxiv-robotics": [
-     344,
-     74
+     245,
+     0
     ],
     "bostondynamics-blog": [
      12,
@@ -47,8 +47,8 @@
      0
     ],
     "gh-deepmind": [
-     75,
-     0
+     74,
+     1
     ],
     "gh-isaac-sim": [
      12,
@@ -56,11 +56,11 @@
     ],
     "gh-meta": [
      70,
-     2
+     1
     ],
     "gh-nvidia": [
-     71,
-     1
+     69,
+     3
     ],
     "gh-nvlabs": [
      64,
@@ -92,15 +92,15 @@
     ],
     "google-research-blog": [
      100,
-     1
+     0
     ],
     "hf-lerobot": [
      40,
-     1
+     0
     ],
     "hf-nvidia": [
      80,
-     3
+     0
     ],
     "meta-ai-blog": [
      100,
@@ -108,11 +108,11 @@
     ],
     "nvidia-blog": [
      18,
-     1
+     0
     ],
     "nvidia-developer-blog": [
      100,
-     3
+     0
     ],
     "nvidia-gear": [
      2,
@@ -124,11 +124,11 @@
     ],
     "nvidia-youtube": [
      15,
-     6
+     1
     ],
     "openai-news": [
      1318,
-     3
+     0
     ],
     "pi-blog": [
      15,
@@ -140,7 +140,7 @@
     ],
     "tesla-optimus-youtube": [
      15,
-     0
+     2
     ],
     "tri-news": [
      100,
@@ -152,14 +152,14 @@
     ]
    },
    "errors": {},
-   "items_posted": 10,
-   "run": "2026-10-23T22:43:26+00:00",
+   "items_posted": 3,
+   "run": "2026-10-24T22:42:42+00:00",
    "warnings": {
     "meta-ai-blog": "primary failed (400 Client Error: Bad Request for url: https://ai.meta.com/blog/); used gnews fallback",
     "tri-news": "primary failed (403 Client Error: Forbidden for url: https://www.tri.global/rss.xml); used gnews fallback"
    }
   },
-  "last_run": "2026-10-23T22:43:26.661743+00:00"
+  "last_run": "2026-10-24T22:42:42.773741+00:00"
  },
  "sources": {
   "1x-discover": {
@@ -2961,6 +2961,7 @@
     "gh:google-deepmind/cryptids": "2026-10-13T23:00:01+00:00",
     "gh:google-deepmind/datadiver": "2026-09-30T17:33:00+00:00",
     "gh:google-deepmind/ddgc": "2026-09-30T17:33:00+00:00",
+    "gh:google-deepmind/detectorscope": "2026-10-24T23:00:01+00:00",
     "gh:google-deepmind/dialog": "2026-09-30T17:33:00+00:00",
     "gh:google-deepmind/diff-knapsack": "2026-09-30T17:33:00+00:00",
     "gh:google-deepmind/disentangled_rnns": "2026-09-30T17:33:00+00:00",
@@ -3063,6 +3064,7 @@
     "gh:facebookresearch/ad_ranking_simulation": "2026-10-15T23:00:01+00:00",
     "gh:facebookresearch/adepts": "2026-09-30T17:33:00+00:00",
     "gh:facebookresearch/ads_model_kernel_library": "2026-09-30T17:33:00+00:00",
+    "gh:facebookresearch/ai4animationpy": "2026-10-24T23:00:01+00:00",
     "gh:facebookresearch/airs-bench": "2026-10-10T23:00:01+00:00",
     "gh:facebookresearch/ambigui": "2026-10-23T23:00:01+00:00",
     "gh:facebookresearch/atlas-lean": "2026-09-30T17:33:00+00:00",
@@ -3242,11 +3244,13 @@
     "gh:nvidia/doca-platform": "2026-10-01T05:51:05+00:00",
     "gh:nvidia/docs-builder": "2026-10-03T23:30:47+00:00",
     "gh:nvidia/dream-team": "2026-09-30T17:33:00+00:00",
+    "gh:nvidia/earth2bufr": "2026-10-24T23:00:01+00:00",
     "gh:nvidia/earth2studio": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/edk2": "2026-10-03T23:30:47+00:00",
     "gh:nvidia/edk2-edkrepo-manifest": "2026-10-15T23:00:01+00:00",
     "gh:nvidia/edk2-platforms": "2026-10-03T23:30:47+00:00",
     "gh:nvidia/egl-wayland2": "2026-10-20T23:00:01+00:00",
+    "gh:nvidia/egl-x11": "2026-10-24T23:00:01+00:00",
     "gh:nvidia/elements": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/enterprise-ras": "2026-10-12T23:00:01+00:00",
     "gh:nvidia/exemplar-performance": "2026-10-02T23:00:01+00:00",
@@ -3381,6 +3385,7 @@
     "gh:nvidia/warp": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/warp-nn": "2026-10-10T23:00:01+00:00",
     "gh:nvidia/warp-simdata": "2026-09-30T17:33:00+00:00",
+    "gh:nvidia/x86-power-control": "2026-10-24T23:00:01+00:00",
     "gh:nvidia/xr-ai": "2026-09-30T17:33:00+00:00"
    }
   },
@@ -4657,6 +4662,7 @@
     "https://www.youtube.com/watch?v=qdUQJArUk30": "2026-10-21T23:00:01+00:00",
     "https://www.youtube.com/watch?v=rBN0PDfJWIc": "2026-10-15T23:00:01+00:00",
     "https://www.youtube.com/watch?v=roUZ7_Rsf5c": "2026-10-23T23:00:01+00:00",
+    "https://www.youtube.com/watch?v=rySnll4sgu4": "2026-10-24T23:00:01+00:00",
     "https://www.youtube.com/watch?v=v-NGxyPjcrE": "2026-10-23T23:00:01+00:00",
     "https://www.youtube.com/watch?v=vJvFta7e76E": "2026-10-15T23:00:01+00:00",
     "https://www.youtube.com/watch?v=vmAIpEHrCok": "2026-09-30T23:00:01+00:00",
@@ -6162,6 +6168,7 @@
     "https://www.youtube.com/shorts/BII3FrsTBlU": "2026-10-19T23:00:01+00:00",
     "https://www.youtube.com/shorts/GI8qKCGxN6I": "2026-09-30T17:33:00+00:00",
     "https://www.youtube.com/shorts/O_Ndcx1LArU": "2026-09-30T17:33:00+00:00",
+    "https://www.youtube.com/shorts/PFVOThWzcAQ": "2026-10-24T23:00:01+00:00",
     "https://www.youtube.com/shorts/Uq_0kEthH3U": "2026-10-16T23:00:01+00:00",
     "https://www.youtube.com/shorts/bZjsD89p5mo": "2026-10-07T23:00:01+00:00",
     "https://www.youtube.com/shorts/bpPJbRjIpxg": "2026-09-30T17:33:00+00:00",
@@ -6177,6 +6184,7 @@
     "https://www.youtube.com/watch?v=Vb-OqxUWPDE": "2026-09-30T17:33:00+00:00",
     "https://www.youtube.com/watch?v=Zg9Q56t7bdo": "2026-10-16T23:00:01+00:00",
     "https://www.youtube.com/watch?v=cvKIR-c1SsU": "2026-10-16T23:00:01+00:00",
+    "https://www.youtube.com/watch?v=fdFyXTdJPLA": "2026-10-24T23:00:01+00:00",
     "https://www.youtube.com/watch?v=grdt05okn3Q": "2026-09-30T17:33:00+00:00",
     "https://www.youtube.com/watch?v=qt5p-_tE8d0": "2026-10-16T23:00:01+00:00",
     "https://www.youtube.com/watch?v=r5vsHHPVhJg": "2026-10-16T23:00:01+00:00",
@@ -6243,6 +6251,7 @@
     "gnews:jimadler": "2026-10-01T05:50:24+00:00",
     "gnews:junyajustinkida": "2026-10-01T05:50:24+00:00",
     "gnews:latestnewsfeatures": "2026-10-01T05:50:24+00:00",
+    "gnews:marybreiter": "2026-10-24T23:00:01+00:00",
     "gnews:materialsdiscovery": "2026-10-01T05:50:24+00:00",
     "gnews:matthewwallach": "2026-10-01T05:50:24+00:00",
     "gnews:maxbajracharya": "2026-10-01T05:50:24+00:00",
