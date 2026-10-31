@@ -19,8 +19,8 @@
      0
     ],
     "arxiv-robotics": [
-     297,
-     139
+     220,
+     0
     ],
     "bostondynamics-blog": [
      12,
@@ -28,7 +28,7 @@
     ],
     "bostondynamics-youtube": [
      15,
-     1
+     0
     ],
     "deepmind-blog": [
      100,
@@ -47,7 +47,7 @@
      0
     ],
     "gh-deepmind": [
-     73,
+     72,
      1
     ],
     "gh-isaac-sim": [
@@ -56,15 +56,15 @@
     ],
     "gh-meta": [
      67,
-     3
+     1
     ],
     "gh-nvidia": [
-     72,
-     3
+     70,
+     1
     ],
     "gh-nvlabs": [
-     64,
-     0
+     65,
+     1
     ],
     "gh-physical-intelligence": [
      7,
@@ -88,7 +88,7 @@
     ],
     "gh-unitree": [
      50,
-     2
+     0
     ],
     "google-research-blog": [
      100,
@@ -100,19 +100,19 @@
     ],
     "hf-nvidia": [
      80,
-     3
+     0
     ],
     "meta-ai-blog": [
-     60,
-     0
+     100,
+     2
     ],
     "nvidia-blog": [
      18,
-     1
+     0
     ],
     "nvidia-developer-blog": [
      100,
-     4
+     0
     ],
     "nvidia-gear": [
      2,
@@ -124,11 +124,11 @@
     ],
     "nvidia-youtube": [
      15,
-     6
+     1
     ],
     "openai-news": [
      1341,
-     4
+     0
     ],
     "pi-blog": [
      15,
@@ -140,11 +140,11 @@
     ],
     "tesla-optimus-youtube": [
      15,
-     0
+     1
     ],
     "tri-news": [
-     100,
-     3
+     58,
+     1
     ],
     "unitree-youtube": [
      15,
@@ -152,14 +152,14 @@
     ]
    },
    "errors": {},
-   "items_posted": 26,
-   "run": "2026-10-30T22:42:03+00:00",
+   "items_posted": 4,
+   "run": "2026-10-31T22:41:40+00:00",
    "warnings": {
     "meta-ai-blog": "primary failed (400 Client Error: Bad Request for url: https://ai.meta.com/blog/); used gnews fallback",
     "tri-news": "primary failed (403 Client Error: Forbidden for url: https://www.tri.global/rss.xml); used gnews fallback"
    }
   },
-  "last_run": "2026-10-30T22:42:03.357938+00:00"
+  "last_run": "2026-10-31T22:41:40.077034+00:00"
  },
  "sources": {
   "1x-discover": {
@@ -3443,6 +3443,7 @@
     "gh:google-deepmind/ferminet": "2026-10-07T23:00:01+00:00",
     "gh:google-deepmind/formal-conjectures": "2026-09-30T17:33:00+00:00",
     "gh:google-deepmind/fusion_surrogates": "2026-10-11T23:00:01+00:00",
+    "gh:google-deepmind/gbench": "2026-10-31T23:00:01+00:00",
     "gh:google-deepmind/gdm_robotics": "2026-10-05T23:00:01+00:00",
     "gh:google-deepmind/geeflow": "2026-10-22T23:00:01+00:00",
     "gh:google-deepmind/gemini-robotics-sdk": "2026-09-30T17:33:00+00:00",
@@ -3566,6 +3567,7 @@
     "gh:facebookresearch/gamut": "2026-09-30T17:33:00+00:00",
     "gh:facebookresearch/gcm": "2026-09-30T17:33:00+00:00",
     "gh:facebookresearch/genia": "2026-10-09T23:00:01+00:00",
+    "gh:facebookresearch/gslm2": "2026-10-31T23:00:01+00:00",
     "gh:facebookresearch/hand_tracking_toolkit": "2026-09-30T17:33:00+00:00",
     "gh:facebookresearch/hear_voice_bias_benchmark": "2026-09-30T17:33:00+00:00",
     "gh:facebookresearch/holistictraceanalysis": "2026-09-30T17:33:00+00:00",
@@ -3814,6 +3816,7 @@
     "gh:nvidia/nvidia-mnccd": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/nvidia-resiliency-ext": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/nvidia-vera-kist": "2026-10-05T23:00:01+00:00",
+    "gh:nvidia/nvnmos": "2026-10-31T23:00:01+00:00",
     "gh:nvidia/nvrc": "2026-10-08T23:00:01+00:00",
     "gh:nvidia/nvsentinel": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/nvshmem": "2026-10-03T23:30:47+00:00",
@@ -3956,6 +3959,7 @@
     "gh:nvlabs/solar": "2026-09-30T17:33:00+00:00",
     "gh:nvlabs/soma-x": "2026-09-30T17:33:00+00:00",
     "gh:nvlabs/sparda": "2026-09-30T17:33:00+00:00",
+    "gh:nvlabs/sparr": "2026-10-31T23:00:01+00:00",
     "gh:nvlabs/spatialclaw": "2026-09-30T17:33:00+00:00",
     "gh:nvlabs/strata": "2026-09-30T17:33:00+00:00",
     "gh:nvlabs/tiny-cuda-nn": "2026-09-30T17:33:00+00:00",
@@ -4638,11 +4642,13 @@
     "gnews:understandingandmitigatingdimensionalcollapseincontrastivelearningmethods": "2026-10-01T05:50:27+00:00",
     "gnews:updateexpandingaccesstometasegmentanything21onamazonsagemakerjumpstart": "2026-10-18T23:00:01+00:00",
     "gnews:usingaitocompressaudiofilesforquickandeasysharing": "2026-10-01T05:50:27+00:00",
+    "gnews:usingaitocreatethinnermoreefficientantireflectivecoatings": "2026-10-31T23:00:01+00:00",
     "gnews:usingaitodecodelanguagefromthebrainandadvanceourunderstandingofhumancommunication": "2026-10-18T23:00:01+00:00",
     "gnews:usingreinforcementlearningtopersonalizeaiacceleratedmriscans": "2026-10-01T05:50:27+00:00",
     "gnews:vjepathenextsteptowardyannlecunsvisionofadvancedmachineintelligenceami": "2026-10-18T23:00:01+00:00",
     "gnews:voxpopulithelargestopenmultilingualspeechcorpusforaitranslationandmore": "2026-10-01T05:50:27+00:00",
     "gnews:wevecreatedanewwhiteboxretrievalsolutionusingtheworldsvastestlibrarytheopenwebasauniversaluncuratedandunstructuredsourceofknowledgetosolvemultiplekinlptasksatonce": "2026-10-18T23:00:01+00:00",
+    "gnews:wikimatrixbitextextractionof135millionwikipediasentencesin1620languagepairs": "2026-10-31T23:00:01+00:00",
     "gnews:with10xgrowthsince2023llamaistheleadingengineofaiinnovation": "2026-10-18T23:00:01+00:00",
     "gnews:yannlecunonavisiontomakeaisystemslearnandreasonlikeanimalsandhumans": "2026-10-18T23:00:01+00:00",
     "t:200languageswithinasingleaimodelabreakthroughinhighqualitymachinetranslation": "2026-10-01T05:50:27+00:00",
@@ -4799,11 +4805,13 @@
     "t:understandingandmitigatingdimensionalcollapseincontrastivelearningmethods": "2026-10-01T05:50:27+00:00",
     "t:updateexpandingaccesstometasegmentanything21onamazonsagemakerjumpstart": "2026-10-18T23:00:01+00:00",
     "t:usingaitocompressaudiofilesforquickandeasysharing": "2026-10-01T05:50:27+00:00",
+    "t:usingaitocreatethinnermoreefficientantireflectivecoatings": "2026-10-31T23:00:01+00:00",
     "t:usingaitodecodelanguagefromthebrainandadvanceourunderstandingofhumancommunication": "2026-10-18T23:00:01+00:00",
     "t:usingreinforcementlearningtopersonalizeaiacceleratedmriscans": "2026-10-01T05:50:27+00:00",
     "t:vjepathenextsteptowardyannlecunsvisionofadvancedmachineintelligenceami": "2026-10-18T23:00:01+00:00",
     "t:voxpopulithelargestopenmultilingualspeechcorpusforaitranslationandmore": "2026-10-01T05:50:27+00:00",
     "t:wevecreatedanewwhiteboxretrievalsolutionusingtheworldsvastestlibrarytheopenwebasauniversaluncuratedandunstructuredsourceofknowledgetosolvemultiplekinlptasksatonce": "2026-10-18T23:00:01+00:00",
+    "t:wikimatrixbitextextractionof135millionwikipediasentencesin1620languagepairs": "2026-10-31T23:00:01+00:00",
     "t:with10xgrowthsince2023llamaistheleadingengineofaiinnovation": "2026-10-18T23:00:01+00:00",
     "t:yannlecunonavisiontomakeaisystemslearnandreasonlikeanimalsandhumans": "2026-10-18T23:00:01+00:00"
    }
@@ -5157,6 +5165,7 @@
     "https://www.youtube.com/shorts/58MTEgSmLB4": "2026-10-10T23:00:01+00:00",
     "https://www.youtube.com/shorts/7cJlIJpKBW4": "2026-10-27T23:00:01+00:00",
     "https://www.youtube.com/shorts/7yjzv6Ize4U": "2026-10-12T23:00:01+00:00",
+    "https://www.youtube.com/shorts/8K08Ywgduno": "2026-10-31T23:00:01+00:00",
     "https://www.youtube.com/shorts/8mYfTR3E3Cw": "2026-10-30T23:00:01+00:00",
     "https://www.youtube.com/shorts/AIH_9dOpAmU": "2026-09-30T17:33:00+00:00",
     "https://www.youtube.com/shorts/CC380G7fyH0": "2026-09-30T17:33:00+00:00",
@@ -6762,6 +6771,7 @@
    "bootstrapped": "2026-09-30T17:30:49+00:00",
    "seen": {
     "https://www.youtube.com/shorts/-yRQsurykGw": "2026-10-16T23:00:01+00:00",
+    "https://www.youtube.com/shorts/0oaW9AydaEo": "2026-10-31T23:00:01+00:00",
     "https://www.youtube.com/shorts/3SsXy3Mp_iM": "2026-10-02T23:00:01+00:00",
     "https://www.youtube.com/shorts/8gvyWy-hCM8": "2026-09-30T17:33:00+00:00",
     "https://www.youtube.com/shorts/9D1FnEJ4_HU": "2026-09-30T17:33:00+00:00",
@@ -6907,6 +6917,7 @@
     "gnews:tricontributestotoyotasnewlqconceptvehicle": "2026-10-01T05:50:24+00:00",
     "gnews:triestablisheseverdeeperrootsinannarbortechcommunitywiththirdusresearchfacility": "2026-10-22T23:00:01+00:00",
     "gnews:trifundscornelluniversitycleanenergymaterialsresearch": "2026-10-10T23:00:01+00:00",
+    "gnews:trihostsgirlgeekdinneratlosaltosheadquarters": "2026-10-31T23:00:01+00:00",
     "gnews:triinternshipprogram": "2026-10-01T05:50:24+00:00",
     "gnews:triintroducesnextgenerationautomateddrivingresearchvehicleatces": "2026-10-01T05:50:24+00:00",
     "gnews:triisdevelopinganewmethodtoteachrobotsovernight": "2026-10-01T05:50:24+00:00",
@@ -6989,6 +7000,7 @@
     "t:tricontributestotoyotasnewlqconceptvehicle": "2026-10-01T05:50:24+00:00",
     "t:triestablisheseverdeeperrootsinannarbortechcommunitywiththirdusresearchfacility": "2026-10-22T23:00:01+00:00",
     "t:trifundscornelluniversitycleanenergymaterialsresearch": "2026-10-10T23:00:01+00:00",
+    "t:trihostsgirlgeekdinneratlosaltosheadquarters": "2026-10-31T23:00:01+00:00",
     "t:triinternshipprogram": "2026-10-01T05:50:24+00:00",
     "t:triintroducesnextgenerationautomateddrivingresearchvehicleatces": "2026-10-01T05:50:24+00:00",
     "t:triisdevelopinganewmethodtoteachrobotsovernight": "2026-10-01T05:50:24+00:00",
