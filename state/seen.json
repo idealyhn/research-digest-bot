@@ -19,7 +19,7 @@
      0
     ],
     "arxiv-robotics": [
-     220,
+     125,
      0
     ],
     "bostondynamics-blog": [
@@ -48,7 +48,7 @@
     ],
     "gh-deepmind": [
      72,
-     1
+     0
     ],
     "gh-isaac-sim": [
      12,
@@ -56,15 +56,15 @@
     ],
     "gh-meta": [
      67,
-     1
+     0
     ],
     "gh-nvidia": [
      70,
-     1
+     0
     ],
     "gh-nvlabs": [
      65,
-     1
+     0
     ],
     "gh-physical-intelligence": [
      7,
@@ -103,8 +103,8 @@
      0
     ],
     "meta-ai-blog": [
-     100,
-     2
+     60,
+     0
     ],
     "nvidia-blog": [
      18,
@@ -124,7 +124,7 @@
     ],
     "nvidia-youtube": [
      15,
-     1
+     0
     ],
     "openai-news": [
      1341,
@@ -140,11 +140,11 @@
     ],
     "tesla-optimus-youtube": [
      15,
-     1
+     0
     ],
     "tri-news": [
-     58,
-     1
+     10,
+     8
     ],
     "unitree-youtube": [
      15,
@@ -152,14 +152,13 @@
     ]
    },
    "errors": {},
-   "items_posted": 4,
-   "run": "2026-10-31T22:41:40+00:00",
+   "items_posted": 0,
+   "run": "2026-11-01T22:42:17+00:00",
    "warnings": {
-    "meta-ai-blog": "primary failed (400 Client Error: Bad Request for url: https://ai.meta.com/blog/); used gnews fallback",
-    "tri-news": "primary failed (403 Client Error: Forbidden for url: https://www.tri.global/rss.xml); used gnews fallback"
+    "meta-ai-blog": "primary failed (400 Client Error: Bad Request for url: https://ai.meta.com/blog/); used gnews fallback"
    }
   },
-  "last_run": "2026-10-31T22:41:40.077034+00:00"
+  "last_run": "2026-11-01T22:42:17.942335+00:00"
  },
  "sources": {
   "1x-discover": {
@@ -6936,14 +6935,25 @@
     "gnews:universityofmichiganannouncesnewtriresearchprojects": "2026-10-01T05:50:24+00:00",
     "gnews:universityresearchprogram": "2026-10-01T05:50:24+00:00",
     "gnews:wendyrosen": "2026-10-01T05:50:24+00:00",
+    "http://www.tri.global/research/3d-lane-detection-odometry-high-speed-vehicle-racing": "2026-11-01T23:00:01+00:00",
+    "http://www.tri.global/research/anchordream-repurposing-video-diffusion-embodiment-aware-robot-data-synthesis": "2026-11-01T23:00:01+00:00",
+    "http://www.tri.global/research/difference-aware-retrieval-policies-imitation-learning": "2026-11-01T23:00:01+00:00",
+    "http://www.tri.global/research/impact-different-failures-robots-perceived-reliability": "2026-11-01T23:00:01+00:00",
+    "http://www.tri.global/research/ogpo-sample-efficient-full-finetuning-generative-control-policies": "2026-11-01T23:00:01+00:00",
+    "http://www.tri.global/research/sire-se3-intrinsic-rigidity-embeddings": "2026-11-01T23:00:01+00:00",
+    "http://www.tri.global/research/using-non-expert-data-robustify-imitation-learning-offline-reinforcement-learning": "2026-11-01T23:00:01+00:00",
+    "http://www.tri.global/research/vision-conditioned-variational-bayesian-last-layer-dynamics-models": "2026-11-01T23:00:01+00:00",
+    "t:3dlanedetectionwithodometryforhighspeedvehicleracing": "2026-11-01T23:00:01+00:00",
     "t:advancingcollaborativeresearchintroducingurp30": "2026-10-01T05:50:24+00:00",
     "t:aipoweredrobotbybostondynamicsandtoyotaresearchinstitutetakesakeysteptowardsgeneralpurposehumanoids": "2026-10-01T05:50:24+00:00",
+    "t:anchordreamrepurposingvideodiffusionforembodimentawarerobotdatasynthesis": "2026-11-01T23:00:01+00:00",
     "t:batteryevaluationandearlypredictionbeep": "2026-10-22T23:00:01+00:00",
     "t:bostondynamicsandtoyotaresearchinstituteannouncepartnershiptoadvanceroboticsresearch": "2026-10-01T05:50:24+00:00",
     "t:carbonneutralstrategy": "2026-10-04T23:00:01+00:00",
     "t:carbonneutralstrategyprojects": "2026-10-01T05:50:24+00:00",
     "t:computationalautonomyformaterialsdiscoverycamd": "2026-10-01T05:50:24+00:00",
     "t:danielschweigert": "2026-10-01T05:50:24+00:00",
+    "t:differenceawareretrievalpoliciesforimitationlearning": "2026-11-01T23:00:01+00:00",
     "t:dravinashbalachandran": "2026-10-01T05:50:24+00:00",
     "t:dreverlynekimani": "2026-10-01T05:50:24+00:00",
     "t:driversbuypluginhybridsandforgetthepluginpart": "2026-10-01T05:50:24+00:00",
@@ -6954,16 +6964,19 @@
     "t:featuredpublications": "2026-10-01T05:50:24+00:00",
     "t:howaiispoweringaroboticsrevolution": "2026-10-01T05:50:24+00:00",
     "t:humaninteractivedriving": "2026-10-29T23:00:01+00:00",
+    "t:impactofdifferentfailuresonarobotsperceivedreliability": "2026-11-01T23:00:01+00:00",
     "t:latestnewsfeatures": "2026-10-01T05:50:24+00:00",
     "t:materialsdiscovery": "2026-10-01T05:50:24+00:00",
     "t:motortrendjournalistalexleansereportsonhisdayatthetrackintrisselfdriftingtoyotasupra": "2026-10-01T05:50:24+00:00",
     "t:nowhiringtriadrecruitingautomateddrivingsoftwareengineersintokyo": "2026-10-01T05:50:24+00:00",
+    "t:ogposampleefficientfullfinetuningofgenerativecontrolpolicies": "2026-11-01T23:00:01+00:00",
     "t:openinginoctobertoyotaresearchinstituteautomatedvehicletestfacility": "2026-10-16T23:00:01+00:00",
     "t:researchersatnorthwesternuniversityandtridiscoveredanewmaterialformorecosteffectivegreenhydrogenproduction": "2026-10-01T05:50:24+00:00",
     "t:roboticsuserexperience": "2026-10-01T05:50:24+00:00",
     "t:robotscanlearnnewactionsfasterthankstoaitechniques": "2026-10-01T05:50:24+00:00",
     "t:ryaneusticedeliverskeynoteatspiefuturesensingtechnologies2020": "2026-10-01T05:50:24+00:00",
     "t:sensingisbelievingmorecapablerobothandswiththesoftbubblegripper": "2026-10-01T05:50:24+00:00",
+    "t:sirese3intrinsicrigidityembeddings": "2026-11-01T23:00:01+00:00",
     "t:synthesisadvancedresearchchallenge": "2026-10-01T05:50:24+00:00",
     "t:thisrobotonlyneedsasingleaimodeltomasterhumanlikemovements": "2026-10-01T05:50:24+00:00",
     "t:toyotaintroducestristtr1avirtualmobilitytelepresencerobot": "2026-10-01T05:50:24+00:00",
@@ -7017,7 +7030,9 @@
     "t:triwelcomestheuniversityoftorontotoouruniversityresearchprogram": "2026-10-01T05:50:24+00:00",
     "t:trustworthylearningunderuncertaintytlu": "2026-10-01T05:50:24+00:00",
     "t:universityofmichiganannouncesnewtriresearchprojects": "2026-10-01T05:50:24+00:00",
-    "t:universityresearchprogram": "2026-10-01T05:50:24+00:00"
+    "t:universityresearchprogram": "2026-10-01T05:50:24+00:00",
+    "t:usingnonexpertdatatorobustifyimitationlearningviaofflinereinforcementlearning": "2026-11-01T23:00:01+00:00",
+    "t:visionconditionedvariationalbayesianlastlayerdynamicsmodels": "2026-11-01T23:00:01+00:00"
    }
   },
   "unitree-youtube": {
