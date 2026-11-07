@@ -19,8 +19,8 @@
      0
     ],
     "arxiv-robotics": [
-     320,
-     86
+     231,
+     0
     ],
     "bostondynamics-blog": [
      12,
@@ -56,11 +56,11 @@
     ],
     "gh-meta": [
      70,
-     1
+     0
     ],
     "gh-nvidia": [
-     76,
-     0
+     75,
+     1
     ],
     "gh-nvlabs": [
      64,
@@ -88,7 +88,7 @@
     ],
     "gh-unitree": [
      50,
-     1
+     0
     ],
     "google-research-blog": [
      100,
@@ -100,7 +100,7 @@
     ],
     "hf-nvidia": [
      80,
-     0
+     1
     ],
     "meta-ai-blog": [
      60,
@@ -108,11 +108,11 @@
     ],
     "nvidia-blog": [
      18,
-     1
+     0
     ],
     "nvidia-developer-blog": [
      100,
-     2
+     0
     ],
     "nvidia-gear": [
      2,
@@ -128,7 +128,7 @@
     ],
     "openai-news": [
      1368,
-     7
+     0
     ],
     "pi-blog": [
      15,
@@ -140,11 +140,11 @@
     ],
     "tesla-optimus-youtube": [
      15,
-     2
+     0
     ],
     "tri-news": [
      58,
-     0
+     1
     ],
     "unitree-youtube": [
      15,
@@ -152,14 +152,14 @@
     ]
    },
    "errors": {},
-   "items_posted": 14,
-   "run": "2026-11-06T22:42:21+00:00",
+   "items_posted": 2,
+   "run": "2026-11-07T22:41:53+00:00",
    "warnings": {
     "meta-ai-blog": "primary failed (400 Client Error: Bad Request for url: https://ai.meta.com/blog/); used gnews fallback",
     "tri-news": "primary failed (403 Client Error: Forbidden for url: https://www.tri.global/rss.xml); used gnews fallback"
    }
   },
-  "last_run": "2026-11-06T22:42:21.810512+00:00"
+  "last_run": "2026-11-07T22:41:53.623983+00:00"
  },
  "sources": {
   "1x-discover": {
@@ -4284,6 +4284,7 @@
     "gh:nvidia/k8s-test-infra": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/knavigator": "2026-10-16T23:00:01+00:00",
     "gh:nvidia/kubectl-nv": "2026-10-10T23:00:01+00:00",
+    "gh:nvidia/kubevirt-gpu-device-plugin": "2026-11-07T23:00:01+00:00",
     "gh:nvidia/kumo-engine": "2026-10-18T23:00:01+00:00",
     "gh:nvidia/kumo-ts": "2026-10-06T23:00:01+00:00",
     "gh:nvidia/kvpress": "2026-10-25T23:00:01+00:00",
@@ -4445,6 +4446,7 @@
     "gh:nvlabs/dexplore": "2026-09-30T17:33:00+00:00",
     "gh:nvlabs/droidplus": "2026-09-30T17:33:00+00:00",
     "gh:nvlabs/dvsm": "2026-09-30T17:33:00+00:00",
+    "gh:nvlabs/eagle": "2026-11-07T23:00:01+00:00",
     "gh:nvlabs/earli": "2026-09-30T17:33:00+00:00",
     "gh:nvlabs/edaflowqa": "2026-09-30T17:33:00+00:00",
     "gh:nvlabs/enpire": "2026-09-30T17:33:00+00:00",
@@ -4922,6 +4924,7 @@
     "hf:datasets:nvidia/strata-scream-sdy1": "2026-09-30T17:33:00+00:00",
     "hf:datasets:nvidia/strata-scream-sdy2": "2026-09-30T17:33:00+00:00",
     "hf:datasets:nvidia/usdcraft-10k": "2026-11-04T23:00:01+00:00",
+    "hf:datasets:nvidia/vesper": "2026-11-07T23:00:01+00:00",
     "hf:datasets:nvidia/video-to-data-object-assets": "2026-09-30T17:33:00+00:00",
     "hf:datasets:nvidia/video-to-data-robot-dexterity-task-library-and-dataset": "2026-09-30T17:33:00+00:00",
     "hf:datasets:nvidia/video_to_data_challenge": "2026-09-30T17:33:00+00:00",
@@ -5794,6 +5797,7 @@
     "https://www.youtube.com/watch?v=4O1Gl4_xk3w": "2026-09-30T17:33:00+00:00",
     "https://www.youtube.com/watch?v=4XZzjY4X13A": "2026-10-06T23:00:01+00:00",
     "https://www.youtube.com/watch?v=4idQxzAyPDo": "2026-10-21T23:00:01+00:00",
+    "https://www.youtube.com/watch?v=784YQBiZArk": "2026-11-07T23:00:01+00:00",
     "https://www.youtube.com/watch?v=IqhDPbRrsh4": "2026-10-21T23:00:01+00:00",
     "https://www.youtube.com/watch?v=JXEMFLQwi4A": "2026-10-30T23:00:01+00:00",
     "https://www.youtube.com/watch?v=JegVE_xMY_w": "2026-10-21T23:00:01+00:00",
@@ -7584,6 +7588,7 @@
     "gnews:trisdrryaneusticeisfeaturedpanelistatautomobilid": "2026-10-26T23:00:01+00:00",
     "gnews:trisguyrosmancontributestomitresearchonautonomouscarnavigation": "2026-10-01T05:50:24+00:00",
     "gnews:trisponsorsmitresearchintohumanresponsetimetoroadhazards": "2026-10-01T05:50:24+00:00",
+    "gnews:trisvpofroboticsmaxbajracharyatalkshumanamplificationwithcnet": "2026-11-07T23:00:01+00:00",
     "gnews:tritakingonthehardproblemsinmanipulationresearchtowardmakinghumanassistrobotsreliableandrobust": "2026-10-01T05:50:24+00:00",
     "gnews:triteachingrobotstohelppeopleintheirhomes": "2026-10-01T05:50:24+00:00",
     "gnews:tritotestautomateddrivingtechnologyatgomentumstation": "2026-10-22T23:00:01+00:00",
@@ -7683,6 +7688,7 @@
     "t:trisdrryaneusticeisfeaturedpanelistatautomobilid": "2026-10-26T23:00:01+00:00",
     "t:trisguyrosmancontributestomitresearchonautonomouscarnavigation": "2026-10-01T05:50:24+00:00",
     "t:trisponsorsmitresearchintohumanresponsetimetoroadhazards": "2026-10-01T05:50:24+00:00",
+    "t:trisvpofroboticsmaxbajracharyatalkshumanamplificationwithcnet": "2026-11-07T23:00:01+00:00",
     "t:tritakingonthehardproblemsinmanipulationresearchtowardmakinghumanassistrobotsreliableandrobust": "2026-10-01T05:50:24+00:00",
     "t:triteachingrobotstohelppeopleintheirhomes": "2026-10-01T05:50:24+00:00",
     "t:tritotestautomateddrivingtechnologyatgomentumstation": "2026-10-22T23:00:01+00:00",
