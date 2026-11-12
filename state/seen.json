@@ -19,8 +19,8 @@
      0
     ],
     "arxiv-robotics": [
-     237,
-     76
+     192,
+     0
     ],
     "bostondynamics-blog": [
      12,
@@ -36,7 +36,7 @@
     ],
     "deepmind-youtube": [
      15,
-     1
+     0
     ],
     "figure-news": [
      21,
@@ -48,19 +48,19 @@
     ],
     "gh-deepmind": [
      69,
-     1
+     0
     ],
     "gh-isaac-sim": [
      12,
      0
     ],
     "gh-meta": [
-     73,
+     72,
      1
     ],
     "gh-nvidia": [
-     74,
-     2
+     77,
+     3
     ],
     "gh-nvlabs": [
      61,
@@ -92,7 +92,7 @@
     ],
     "google-research-blog": [
      100,
-     1
+     0
     ],
     "hf-lerobot": [
      40,
@@ -100,7 +100,7 @@
     ],
     "hf-nvidia": [
      80,
-     1
+     2
     ],
     "meta-ai-blog": [
      60,
@@ -112,7 +112,7 @@
     ],
     "nvidia-developer-blog": [
      100,
-     1
+     0
     ],
     "nvidia-gear": [
      2,
@@ -127,12 +127,12 @@
      0
     ],
     "openai-news": [
-     1381,
-     5
+     1384,
+     3
     ],
     "pi-blog": [
      29,
-     2
+     0
     ],
     "skild-blog": [
      13,
@@ -144,7 +144,7 @@
     ],
     "tri-news": [
      58,
-     0
+     1
     ],
     "unitree-youtube": [
      15,
@@ -152,15 +152,15 @@
     ]
    },
    "errors": {},
-   "items_posted": 12,
-   "run": "2026-11-11T22:41:55+00:00",
+   "items_posted": 5,
+   "run": "2026-11-12T22:41:33+00:00",
    "warnings": {
     "meta-ai-blog": "primary failed (400 Client Error: Bad Request for url: https://ai.meta.com/blog/); used gnews fallback",
     "pi-blog": "primary failed (HTTPSConnectionPool(host='www.pi.website', port=443): Max retries exceeded with url: /blog (Caused by ResponseError('too many 429 error responses'))); used gnews fallback",
     "tri-news": "primary failed (403 Client Error: Forbidden for url: https://www.tri.global/rss.xml); used gnews fallback"
    }
   },
-  "last_run": "2026-11-11T22:41:55.711676+00:00"
+  "last_run": "2026-11-12T22:41:33.246172+00:00"
  },
  "sources": {
   "1x-discover": {
@@ -4098,6 +4098,7 @@
     "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking": "2026-09-30T17:33:00+00:00",
     "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar": "2026-09-30T17:33:00+00:00",
     "https://deepmind.google/blog/introducing-gemini-4-argon": "2026-10-13T23:00:01+00:00",
+    "https://deepmind.google/blog/introducing-gemini-4-hydrogen": "2026-11-12T23:00:01+00:00",
     "https://deepmind.google/blog/introducing-gemini-omni": "2026-09-30T17:33:00+00:00",
     "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model": "2026-09-30T17:33:00+00:00",
     "https://deepmind.google/blog/introducing-google-antigravity": "2026-09-30T17:33:00+00:00",
@@ -4157,6 +4158,7 @@
     "t:genie4anewgenerationofworldsimulation": "2026-10-27T23:00:01+00:00",
     "t:googledeepmindandsingaporegovernmentcollaboratetobuildfinetunedaimodelforscamdetection": "2026-10-14T23:00:01+00:00",
     "t:introducingalphaproofcodeabreakthroughinverifyingcomplexsoftwareatdepth": "2026-11-10T23:00:01+00:00",
+    "t:introducinggemini4hydrogen": "2026-11-12T23:00:01+00:00",
     "t:speedingupplanningdecisionswithai": "2026-11-02T23:00:01+00:00"
    }
   },
@@ -4409,6 +4411,7 @@
     "gh:facebookresearch/fairseq2": "2026-10-21T23:00:01+00:00",
     "gh:facebookresearch/faiss": "2026-09-30T17:33:00+00:00",
     "gh:facebookresearch/flow-world-models": "2026-09-30T17:33:00+00:00",
+    "gh:facebookresearch/forespark": "2026-11-12T23:00:01+00:00",
     "gh:facebookresearch/gamut": "2026-09-30T17:33:00+00:00",
     "gh:facebookresearch/gcm": "2026-09-30T17:33:00+00:00",
     "gh:facebookresearch/genia": "2026-10-09T23:00:01+00:00",
@@ -4538,6 +4541,7 @@
     "gh:nvidia/blossom-action": "2026-10-02T23:00:01+00:00",
     "gh:nvidia/broadcast-skills": "2026-10-02T23:00:01+00:00",
     "gh:nvidia/cccl": "2026-09-30T17:33:00+00:00",
+    "gh:nvidia/ccluster": "2026-11-12T23:00:01+00:00",
     "gh:nvidia/cloud-native-docs": "2026-10-13T23:00:01+00:00",
     "gh:nvidia/cloudai": "2026-09-30T23:00:01+00:00",
     "gh:nvidia/cloudxr-lovr-sample": "2026-11-09T23:00:01+00:00",
@@ -4620,6 +4624,7 @@
     "gh:nvidia/k8s-driver-manager": "2026-10-01T06:04:11+00:00",
     "gh:nvidia/k8s-launch-kit": "2026-10-01T05:51:05+00:00",
     "gh:nvidia/k8s-nim-operator": "2026-10-02T23:00:01+00:00",
+    "gh:nvidia/k8s-operator-libs": "2026-11-12T23:00:01+00:00",
     "gh:nvidia/k8s-test-infra": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/knavigator": "2026-10-16T23:00:01+00:00",
     "gh:nvidia/kubectl-nv": "2026-10-10T23:00:01+00:00",
@@ -4765,7 +4770,8 @@
     "gh:nvidia/x86-power-control": "2026-10-24T23:00:01+00:00",
     "gh:nvidia/xr-ai": "2026-09-30T17:33:00+00:00",
     "gh:nvidia/yaml-sigil-rs": "2026-10-27T23:00:01+00:00",
-    "gh:nvidia/yaml-sigil-spec": "2026-10-27T23:00:01+00:00"
+    "gh:nvidia/yaml-sigil-spec": "2026-10-27T23:00:01+00:00",
+    "gh:nvidia/yaml-sigil-traits": "2026-11-12T23:00:01+00:00"
    }
   },
   "gh-nvlabs": {
@@ -5229,6 +5235,8 @@
     "hf:datasets:nvidia/form-hoi": "2026-09-30T17:33:00+00:00",
     "hf:datasets:nvidia/g1-factory": "2026-11-09T23:00:01+00:00",
     "hf:datasets:nvidia/g1-factory-benchmark": "2026-11-09T23:00:01+00:00",
+    "hf:datasets:nvidia/gr00t-e2e-reference-workflow-sim-g1-n1.7-appletoplate-dataset": "2026-11-12T23:00:01+00:00",
+    "hf:datasets:nvidia/gr00t-e2e-reference-workflow-sim-h2-n1.7-applehandoverplate-dataset": "2026-11-12T23:00:01+00:00",
     "hf:datasets:nvidia/granary-hifi": "2026-10-28T23:00:01+00:00",
     "hf:datasets:nvidia/granary-v2": "2026-10-28T23:00:01+00:00",
     "hf:datasets:nvidia/isaaclab-assets": "2026-11-10T23:00:01+00:00",
@@ -5780,6 +5788,7 @@
     "https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5": "2026-11-05T23:00:01+00:00",
     "https://blogs.nvidia.com/blog/geforce-now-thursday-october-2026-games-list": "2026-10-01T23:00:01+00:00",
     "https://blogs.nvidia.com/blog/geforce-now-thursday-phantom-blade-zero": "2026-10-29T23:00:01+00:00",
+    "https://blogs.nvidia.com/blog/geforce-now-thursday-warhammer-dawn-of-war-iv-coming": "2026-11-12T23:00:01+00:00",
     "https://blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help": "2026-10-19T23:00:01+00:00",
     "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure": "2026-10-21T23:00:01+00:00",
     "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast": "2026-10-02T23:00:01+00:00",
@@ -5823,6 +5832,7 @@
     "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference": "2026-09-30T17:33:00+00:00",
     "t:aiischanginghowsemiconductorfabswork": "2026-11-03T23:00:01+00:00",
     "t:allsystemsgoglobalpcappecosystemreadyfornvidiartxspark": "2026-10-13T23:00:01+00:00",
+    "t:anewdawninthecloudwarhammer40000dawnofwariviscomingtogeforcenow": "2026-11-12T23:00:01+00:00",
     "t:bethereforthebeginningcelebratethelaunchofnvidiartxspark": "2026-10-15T23:00:01+00:00",
     "t:bringingthesparktoeuropelocalintelligencepowersnextwaveofagents": "2026-10-21T23:00:01+00:00",
     "t:citiesworldwidebuildandscaleaiserviceswithnvidiaphysicalandagenticai": "2026-11-03T23:00:01+00:00",
@@ -6268,6 +6278,7 @@
     "https://openai.com/ads/customers/flipsnack": "2026-11-06T23:00:01+00:00",
     "https://openai.com/business/customer-stories/ada": "2026-11-10T23:00:01+00:00",
     "https://openai.com/business/customer-stories/blue-j": "2026-11-10T23:00:01+00:00",
+    "https://openai.com/business/customer-stories/holidays-extras-codex": "2026-11-12T23:00:01+00:00",
     "https://openai.com/business/enabling-a-data-driven-workforce-webinar": "2026-10-09T23:00:01+00:00",
     "https://openai.com/business/fine-tuning-gpt-4o-webinar": "2026-10-09T23:00:01+00:00",
     "https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents": "2026-10-09T23:00:01+00:00",
@@ -6394,6 +6405,7 @@
     "https://openai.com/index/altera": "2026-09-30T17:33:00+00:00",
     "https://openai.com/index/amazon-partnership": "2026-09-30T17:33:00+00:00",
     "https://openai.com/index/amp-beyond-coding": "2026-10-14T23:00:01+00:00",
+    "https://openai.com/index/amplitude": "2026-11-12T23:00:01+00:00",
     "https://openai.com/index/an-alien-mind": "2026-09-30T17:33:00+00:00",
     "https://openai.com/index/anima": "2026-10-27T23:00:01+00:00",
     "https://openai.com/index/announcing-devday-2025": "2026-09-30T17:33:00+00:00",
@@ -6503,6 +6515,7 @@
     "https://openai.com/index/chatham-financial": "2026-10-02T23:00:01+00:00",
     "https://openai.com/index/check-point-daybreak": "2026-10-27T23:00:01+00:00",
     "https://openai.com/index/child-safety-adopting-sbd-principles": "2026-09-30T17:33:00+00:00",
+    "https://openai.com/index/children-first-declaration": "2026-11-12T23:00:01+00:00",
     "https://openai.com/index/chime-vineet-mehra": "2026-09-30T17:33:00+00:00",
     "https://openai.com/index/choco": "2026-09-30T17:33:00+00:00",
     "https://openai.com/index/circles": "2026-09-30T17:33:00+00:00",
@@ -7676,7 +7689,9 @@
     "t:helpingcaregiversuseaiineverydaylife": "2026-11-10T23:00:01+00:00",
     "t:helpingteenslearnplanandshapethefutureofai": "2026-10-07T23:00:01+00:00",
     "t:higgsfieldtakesaivideofrom1minutetoover10": "2026-10-13T23:00:01+00:00",
+    "t:holidayextrasisrethinkingwhatitcanbuildwithcodex": "2026-11-12T23:00:01+00:00",
     "t:howalbertsonscompaniesisreimaginingretailfromtheinsideout": "2026-10-01T23:00:01+00:00",
+    "t:howamplitudeshipsproductimprovementsin12dayswithopenai": "2026-11-12T23:00:01+00:00",
     "t:howattisrethinkinginhouselegalworkwithopenai": "2026-10-21T23:00:01+00:00",
     "t:howblockisbuildingaipoweredsecuritywithopenaitechnology": "2026-10-15T23:00:01+00:00",
     "t:howcheckpointacceleratesvulnerabilityresearchwithdaybreak": "2026-10-27T23:00:01+00:00",
@@ -7743,6 +7758,7 @@
     "t:stackoverflowforagentstriplessignupswithchatgptplugin": "2026-10-16T23:00:01+00:00",
     "t:strategicplanningwithchatgpt": "2026-10-09T23:00:01+00:00",
     "t:sullivancromwellbringslegalexpertiseintoagreementreview": "2026-10-16T23:00:01+00:00",
+    "t:supportingresearchonaiandchildrenssafety": "2026-11-12T23:00:01+00:00",
     "t:teachingstudentstothinkandlearnthroughquestions": "2026-10-15T23:00:01+00:00",
     "t:terminalxmatchesseniorinvestorjudgment886withgpt61": "2026-10-21T23:00:01+00:00",
     "t:thedenfreesup1015hoursaweektogrowwithchatgptwork": "2026-10-01T23:00:01+00:00",
@@ -7870,6 +7886,7 @@
     "https://www.youtube.com/shorts/bpPJbRjIpxg": "2026-09-30T17:33:00+00:00",
     "https://www.youtube.com/shorts/isfJqgyGRFE": "2026-09-30T17:33:00+00:00",
     "https://www.youtube.com/shorts/qFpRyEg2y5k": "2026-10-22T23:00:01+00:00",
+    "https://www.youtube.com/shorts/ri8_DNt5HY0": "2026-11-12T23:00:01+00:00",
     "https://www.youtube.com/shorts/sh7XqNoeUAw": "2026-09-30T17:33:00+00:00",
     "https://www.youtube.com/shorts/xSj6rVtQrpc": "2026-09-30T17:33:00+00:00",
     "https://www.youtube.com/watch?v=32C0_8_296k": "2026-09-30T17:33:00+00:00",
@@ -7997,6 +8014,7 @@
     "gnews:toyotaresearchinstitutepushesvehiclescapabilitiestoadvanceactivesafety": "2026-10-01T05:50:24+00:00",
     "gnews:toyotaresearchinstitutereachesnewtechnicalmilestonesinrobotics": "2026-10-01T05:50:24+00:00",
     "gnews:toyotaresearchinstituterollsoutp4automateddrivingtestvehicleatces": "2026-10-03T23:30:47+00:00",
+    "gnews:toyotaresearchinstituteshowcaseslatestaiassisteddrivingtechnology": "2026-11-12T23:00:01+00:00",
     "gnews:toyotaresearchinstituteshowcaseslatestroboticsresearchaimedatamplifyinghumanabilityinthehome": "2026-10-01T05:50:24+00:00",
     "gnews:toyotaresearchinstitutesmultimilliondollarmaterialssciencechallengemovestothenextstage": "2026-10-30T23:00:01+00:00",
     "gnews:toyotaresearchinstituteunveilsbreakthroughinteachingrobotsnewbehaviors": "2026-10-01T05:50:24+00:00",
@@ -8098,6 +8116,7 @@
     "t:toyotaresearchinstitutepushesvehiclescapabilitiestoadvanceactivesafety": "2026-10-01T05:50:24+00:00",
     "t:toyotaresearchinstitutereachesnewtechnicalmilestonesinrobotics": "2026-10-01T05:50:24+00:00",
     "t:toyotaresearchinstituterollsoutp4automateddrivingtestvehicleatces": "2026-10-03T23:30:47+00:00",
+    "t:toyotaresearchinstituteshowcaseslatestaiassisteddrivingtechnology": "2026-11-12T23:00:01+00:00",
     "t:toyotaresearchinstituteshowcaseslatestroboticsresearchaimedatamplifyinghumanabilityinthehome": "2026-10-01T05:50:24+00:00",
     "t:toyotaresearchinstitutesmultimilliondollarmaterialssciencechallengemovestothenextstage": "2026-10-30T23:00:01+00:00",
     "t:toyotaresearchinstituteunveilsbreakthroughinteachingrobotsnewbehaviors": "2026-10-01T05:50:24+00:00",
