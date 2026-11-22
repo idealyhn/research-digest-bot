@@ -19,7 +19,7 @@
      0
     ],
     "arxiv-robotics": [
-     309,
+     210,
      0
     ],
     "bostondynamics-blog": [
@@ -48,7 +48,7 @@
     ],
     "gh-deepmind": [
      67,
-     1
+     0
     ],
     "gh-isaac-sim": [
      12,
@@ -59,12 +59,12 @@
      0
     ],
     "gh-nvidia": [
-     76,
-     1
+     72,
+     0
     ],
     "gh-nvlabs": [
      62,
-     1
+     0
     ],
     "gh-physical-intelligence": [
      7,
@@ -92,11 +92,11 @@
     ],
     "google-research-blog": [
      100,
-     1
+     0
     ],
     "hf-lerobot": [
      40,
-     0
+     1
     ],
     "hf-nvidia": [
      80,
@@ -127,8 +127,8 @@
      0
     ],
     "openai-news": [
-     1421,
-     0
+     1422,
+     1
     ],
     "pi-blog": [
      29,
@@ -140,7 +140,7 @@
     ],
     "tesla-optimus-youtube": [
      15,
-     0
+     1
     ],
     "tri-news": [
      59,
@@ -153,14 +153,14 @@
    },
    "errors": {},
    "items_posted": 2,
-   "run": "2026-11-21T22:42:11+00:00",
+   "run": "2026-11-22T22:41:52+00:00",
    "warnings": {
     "meta-ai-blog": "primary failed (400 Client Error: Bad Request for url: https://ai.meta.com/blog/); used gnews fallback",
     "pi-blog": "primary failed (HTTPSConnectionPool(host='www.pi.website', port=443): Max retries exceeded with url: /blog (Caused by ResponseError('too many 429 error responses'))); used gnews fallback",
     "tri-news": "primary failed (403 Client Error: Forbidden for url: https://www.tri.global/rss.xml); used gnews fallback"
    }
   },
-  "last_run": "2026-11-21T22:42:11.315129+00:00"
+  "last_run": "2026-11-22T22:41:52.546511+00:00"
  },
  "sources": {
   "1x-discover": {
@@ -5881,6 +5881,7 @@
     "hf:models:lerobot/lingbot_vla_v2_robotwin": "2026-10-09T23:00:01+00:00",
     "hf:models:lerobot/molmoact2-bimanualyam-lerobot": "2026-09-30T17:33:00+00:00",
     "hf:models:lerobot/molmoact2-droid-lerobot": "2026-09-30T17:33:00+00:00",
+    "hf:models:lerobot/molmoact2-lerobot": "2026-11-22T23:00:01+00:00",
     "hf:models:lerobot/molmoact2-libero-lerobot": "2026-09-30T17:33:00+00:00",
     "hf:models:lerobot/molmoact2-so100_101-lerobot": "2026-09-30T17:33:00+00:00",
     "hf:models:lerobot/molmoact2-think-libero-lerobot": "2026-09-30T17:33:00+00:00",
@@ -8143,6 +8144,7 @@
     "https://openai.com/index/paul-christiano-joins-openai-foundation-board": "2026-09-30T17:33:00+00:00",
     "https://openai.com/index/people-first-ai-fund": "2026-09-30T17:33:00+00:00",
     "https://openai.com/index/people-first-ai-fund-grantees": "2026-09-30T17:33:00+00:00",
+    "https://openai.com/index/perplexity-and-intelligence": "2026-11-22T23:00:01+00:00",
     "https://openai.com/index/perplexity-improving-accuracy-with-astra": "2026-09-30T17:33:00+00:00",
     "https://openai.com/index/personal-finance-chatgpt": "2026-09-30T17:33:00+00:00",
     "https://openai.com/index/philips": "2026-09-30T17:33:00+00:00",
@@ -8594,6 +8596,7 @@
     "t:ournewblogforscience": "2026-11-15T23:00:01+00:00",
     "t:partneringwithhacktrontofindvulnerabilitiesinopenaissystems": "2026-11-06T23:00:01+00:00",
     "t:patchtheplanetglobalresponsecoordinationasagentsuncovercriticalvulnerabilities": "2026-10-21T23:00:01+00:00",
+    "t:perplexityandintelligence": "2026-11-22T23:00:01+00:00",
     "t:personalizechatgptwithcustominstructions": "2026-10-09T23:00:01+00:00",
     "t:polloaiturnscreativeideasintocampaignswithopenai": "2026-10-08T23:00:01+00:00",
     "t:preparingournextsecuritysprinttohardenopenai": "2026-11-03T23:00:01+00:00",
@@ -8770,6 +8773,7 @@
     "https://www.youtube.com/watch?v=Vb-OqxUWPDE": "2026-09-30T17:33:00+00:00",
     "https://www.youtube.com/watch?v=Zg9Q56t7bdo": "2026-10-16T23:00:01+00:00",
     "https://www.youtube.com/watch?v=cvKIR-c1SsU": "2026-10-16T23:00:01+00:00",
+    "https://www.youtube.com/watch?v=eNBqkc7V1nU": "2026-11-22T23:00:01+00:00",
     "https://www.youtube.com/watch?v=fdFyXTdJPLA": "2026-10-24T23:00:01+00:00",
     "https://www.youtube.com/watch?v=grdt05okn3Q": "2026-09-30T17:33:00+00:00",
     "https://www.youtube.com/watch?v=qt5p-_tE8d0": "2026-10-16T23:00:01+00:00",
